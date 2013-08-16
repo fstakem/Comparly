@@ -1,0 +1,4536 @@
+[     4.356] 
+X.Org X Server 1.13.3
+Release Date: 2013-03-07
+[     4.356] X Protocol Version 11, Revision 0
+[     4.356] Build Operating System: Linux 3.2.0-37-generic x86_64 Ubuntu
+[     4.356] Current Operating System: Linux ubuntu 3.8.0-26-generic #38-Ubuntu SMP Mon Jun 17 21:43:33 UTC 2013 x86_64
+[     4.356] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-3.8.0-26-generic root=UUID=47191ad3-12f8-4c65-b8b1-40130354198e ro quiet splash vt.handoff=7
+[     4.356] Build Date: 17 April 2013  10:43:13PM
+[     4.356] xorg-server 2:1.13.3-0ubuntu6 (For technical support please see http://www.ubuntu.com/support) 
+[     4.356] Current version of pixman: 0.28.2
+[     4.356] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[     4.356] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[     4.356] (==) Log file: "/var/log/Xorg.0.log", Time: Thu Jul 11 11:37:56 2013
+[     4.358] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[     4.361] (==) No Layout section.  Using the first Screen section.
+[     4.361] (==) No screen section available. Using defaults.
+[     4.361] (**) |-->Screen "Default Screen Section" (0)
+[     4.361] (**) |   |-->Monitor "<default monitor>"
+[     4.361] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[     4.361] (==) Automatically adding devices
+[     4.361] (==) Automatically enabling devices
+[     4.361] (==) Automatically adding GPU devices
+[     4.366] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[     4.366] 	Entry deleted from font path.
+[     4.366] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[     4.366] 	Entry deleted from font path.
+[     4.366] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[     4.366] 	Entry deleted from font path.
+[     4.367] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[     4.367] 	Entry deleted from font path.
+[     4.367] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[     4.367] 	Entry deleted from font path.
+[     4.367] (WW) The directory "/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType" does not exist.
+[     4.367] 	Entry deleted from font path.
+[     4.367] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[     4.367] (==) ModulePath set to "/usr/lib/x86_64-linux-gnu/xorg/extra-modules,/usr/lib/xorg/extra-modules,/usr/lib/xorg/modules"
+[     4.367] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[     4.367] (II) Loader magic: 0x7fd1efad6d20
+[     4.367] (II) Module ABI versions:
+[     4.367] 	X.Org ANSI C Emulation: 0.4
+[     4.367] 	X.Org Video Driver: 13.1
+[     4.367] 	X.Org XInput driver : 18.0
+[     4.367] 	X.Org Server Extension : 7.0
+[     4.369] (--) PCI:*(0:1:0:0) 1ab8:4005:1ab8:0400 rev 0, Mem @ 0xb0000000/33554432, I/O @ 0x00006000/32, BIOS @ 0x????????/65536
+[     4.369] (II) Open ACPI successful (/var/run/acpid.socket)
+[     4.369] Initializing built-in extension Generic Event Extension
+[     4.369] Initializing built-in extension SHAPE
+[     4.369] Initializing built-in extension MIT-SHM
+[     4.369] Initializing built-in extension XInputExtension
+[     4.369] Initializing built-in extension XTEST
+[     4.369] Initializing built-in extension BIG-REQUESTS
+[     4.369] Initializing built-in extension SYNC
+[     4.369] Initializing built-in extension XKEYBOARD
+[     4.369] Initializing built-in extension XC-MISC
+[     4.369] Initializing built-in extension SECURITY
+[     4.369] Initializing built-in extension XINERAMA
+[     4.370] Initializing built-in extension XFIXES
+[     4.370] Initializing built-in extension RENDER
+[     4.370] Initializing built-in extension RANDR
+[     4.370] Initializing built-in extension COMPOSITE
+[     4.370] Initializing built-in extension DAMAGE
+[     4.370] Initializing built-in extension MIT-SCREEN-SAVER
+[     4.370] Initializing built-in extension DOUBLE-BUFFER
+[     4.370] Initializing built-in extension RECORD
+[     4.370] Initializing built-in extension DPMS
+[     4.370] Initializing built-in extension X-Resource
+[     4.370] Initializing built-in extension XVideo
+[     4.370] Initializing built-in extension XVideo-MotionCompensation
+[     4.370] Initializing built-in extension SELinux
+[     4.370] Initializing built-in extension XFree86-VidModeExtension
+[     4.370] Initializing built-in extension XFree86-DGA
+[     4.370] Initializing built-in extension XFree86-DRI
+[     4.370] Initializing built-in extension DRI2
+[     4.370] (II) LoadModule: "glx"
+[     4.373] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[     4.376] (II) Module glx: vendor="X.Org Foundation"
+[     4.376] 	compiled for 1.13.3, module version = 1.0.0
+[     4.376] 	ABI class: X.Org Server Extension, version 7.0
+[     4.376] (==) AIGLX enabled
+[     4.376] Loading extension GLX
+[     4.376] (==) Matched vesa as autoconfigured driver 0
+[     4.376] (==) Matched modesetting as autoconfigured driver 1
+[     4.376] (==) Matched fbdev as autoconfigured driver 2
+[     4.376] (==) Assigned the driver to the xf86ConfigLayout
+[     4.376] (II) LoadModule: "vesa"
+[     4.377] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[     4.378] (II) Module vesa: vendor="X.Org Foundation"
+[     4.378] 	compiled for 1.12.99.902, module version = 2.3.2
+[     4.378] 	Module class: X.Org Video Driver
+[     4.378] 	ABI class: X.Org Video Driver, version 13.0
+[     4.378] (II) LoadModule: "modesetting"
+[     4.378] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[     4.379] (II) Module modesetting: vendor="X.Org Foundation"
+[     4.379] 	compiled for 1.13.3, module version = 0.7.0
+[     4.379] 	Module class: X.Org Video Driver
+[     4.379] 	ABI class: X.Org Video Driver, version 13.1
+[     4.379] (II) LoadModule: "fbdev"
+[     4.379] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[     4.380] (II) Module fbdev: vendor="X.Org Foundation"
+[     4.380] 	compiled for 1.12.99.902, module version = 0.4.3
+[     4.380] 	Module class: X.Org Video Driver
+[     4.380] 	ABI class: X.Org Video Driver, version 13.0
+[     4.380] (II) VESA: driver for VESA chipsets: vesa
+[     4.380] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[     4.380] (II) FBDEV: driver for framebuffer: fbdev
+[     4.380] (++) using VT number 7
+
+[     4.381] (WW) Falling back to old probe method for modesetting
+[     4.381] (EE) open /dev/dri/card0: No such file or directory
+[     4.381] (WW) Falling back to old probe method for fbdev
+[     4.381] (II) Loading sub module "fbdevhw"
+[     4.381] (II) LoadModule: "fbdevhw"
+[     4.381] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[     4.382] (II) Module fbdevhw: vendor="X.Org Foundation"
+[     4.382] 	compiled for 1.13.3, module version = 0.0.2
+[     4.382] 	ABI class: X.Org Video Driver, version 13.1
+[     4.382] (II) Loading sub module "vbe"
+[     4.382] (II) LoadModule: "vbe"
+[     4.382] (II) Loading /usr/lib/xorg/modules/libvbe.so
+[     4.383] (II) Module vbe: vendor="X.Org Foundation"
+[     4.383] 	compiled for 1.13.3, module version = 1.1.0
+[     4.383] 	ABI class: X.Org Video Driver, version 13.1
+[     4.383] (II) Loading sub module "int10"
+[     4.383] (II) LoadModule: "int10"
+[     4.383] (II) Loading /usr/lib/xorg/modules/libint10.so
+[     4.385] (II) Module int10: vendor="X.Org Foundation"
+[     4.385] 	compiled for 1.13.3, module version = 1.0.0
+[     4.385] 	ABI class: X.Org Video Driver, version 13.1
+[     4.385] (II) VESA(0): initializing int10
+[     4.386] (II) VESA(0): Primary V_BIOS segment is: 0xc000
+[     4.387] (II) VESA(0): VESA BIOS detected
+[     4.387] (II) VESA(0): VESA VBE Version 3.0
+[     4.387] (II) VESA(0): VESA VBE Total Mem: 32768 kB
+[     4.387] (II) VESA(0): VESA VBE OEM: Parallels(R) VESA BIOS Version 3.0.2111.89721
+[     4.387] (II) VESA(0): VESA VBE OEM Software Rev: 3.0
+[     4.387] (II) VESA(0): VESA VBE OEM Vendor: Parallels Software International, Inc.
+[     4.387] (II) VESA(0): VESA VBE OEM Product: Parallels Video Adapter
+[     4.387] (II) VESA(0): VESA VBE OEM Product Rev: 3.0.2111.89721
+[     4.395] (II) VESA(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[     4.395] (==) VESA(0): Depth 24, (--) framebuffer bpp 32
+[     4.395] (==) VESA(0): RGB weight 888
+[     4.395] (==) VESA(0): Default visual is TrueColor
+[     4.395] (==) VESA(0): Using gamma correction (1.0, 1.0, 1.0)
+[     4.395] (II) Loading sub module "ddc"
+[     4.395] (II) LoadModule: "ddc"
+[     4.395] (II) Module "ddc" already built-in
+[     4.395] (II) VESA(0): VESA VBE DDC supported
+[     4.395] (II) VESA(0): VESA VBE DDC Level 1 + 2
+[     4.395] (II) VESA(0): VESA VBE DDC transfer in appr. 1 sec.
+[     4.395] (II) VESA(0): VESA VBE DDC read successfully
+[     4.395] (II) VESA(0): Manufacturer: PRL  Model: 4006  Serial#: 10000
+[     4.395] (II) VESA(0): Year: 2007  Week: 51
+[     4.395] (II) VESA(0): EDID Version: 1.3
+[     4.395] (II) VESA(0): Analog Display Input,  Input Voltage Level: 0.700/0.300 V
+[     4.395] (II) VESA(0): Sync:  Separate  Composite  SyncOnGreen
+[     4.395] (II) VESA(0): Indeterminate output size
+[     4.395] (II) VESA(0): Gamma: 2.20
+[     4.395] (II) VESA(0): DPMS capabilities: Suspend Off; RGB/Color Display
+[     4.395] (II) VESA(0): Default color space is primary color space
+[     4.395] (II) VESA(0): First detailed timing is preferred mode
+[     4.395] (II) VESA(0): GTF timings supported
+[     4.395] (II) VESA(0): redX: 0.640 redY: 0.330   greenX: 0.300 greenY: 0.600
+[     4.395] (II) VESA(0): blueX: 0.150 blueY: 0.060   whiteX: 0.312 whiteY: 0.329
+[     4.395] (II) VESA(0): Supported established timings:
+[     4.395] (II) VESA(0): 640x480@60Hz
+[     4.395] (II) VESA(0): 800x600@60Hz
+[     4.395] (II) VESA(0): 1024x768@60Hz
+[     4.395] (II) VESA(0): Manufacturer's mask: 0
+[     4.395] (II) VESA(0): Supported standard timings:
+[     4.395] (II) VESA(0): #0: hsize: 1280  vsize 1024  refresh: 60  vid: 32897
+[     4.395] (II) VESA(0): #1: hsize: 1280  vsize 960  refresh: 60  vid: 16513
+[     4.395] (II) VESA(0): #2: hsize: 1280  vsize 800  refresh: 60  vid: 129
+[     4.395] (II) VESA(0): #3: hsize: 1400  vsize 1050  refresh: 60  vid: 16528
+[     4.395] (II) VESA(0): #4: hsize: 1440  vsize 900  refresh: 60  vid: 149
+[     4.395] (II) VESA(0): #5: hsize: 1600  vsize 1200  refresh: 60  vid: 16553
+[     4.395] (II) VESA(0): #6: hsize: 1680  vsize 1050  refresh: 60  vid: 179
+[     4.395] (II) VESA(0): #7: hsize: 1920  vsize 1200  refresh: 60  vid: 209
+[     4.395] (II) VESA(0): Supported detailed timing:
+[     4.395] (II) VESA(0): clock: 38.0 MHz   Image Size:  0 x 0 mm
+[     4.395] (II) VESA(0): h_active: 800  h_sync: 820  h_sync_end 900 h_blank_end 1000 h_border: 0
+[     4.395] (II) VESA(0): v_active: 600  v_sync: 603  v_sync_end 606 v_blanking: 633 v_border: 0
+[     4.395] (II) VESA(0): Ranges: V min: 56 V max: 64 Hz, H min: 0 H max: 250 kHz, PixClock max 255 MHz
+[     4.395] (II) VESA(0): Monitor name: Parallels Vu
+[     4.395] (II) VESA(0): EDID (in hex):
+[     4.395] (II) VESA(0): 	00ffffffffffff00424c064010270000
+[     4.395] (II) VESA(0): 	331101030e0000786fee91a3544c9926
+[     4.395] (II) VESA(0): 	0f505421080081808140810090409500
+[     4.395] (II) VESA(0): 	a940b300d100d80e20c8305821201450
+[     4.395] (II) VESA(0): 	330000000000001e000000fd00384000
+[     4.395] (II) VESA(0): 	fa19000a202020202020000000fc0050
+[     4.395] (II) VESA(0): 	6172616c6c656c732056750a00000010
+[     4.395] (II) VESA(0): 	00506172616c6c656c730a0a0a0a0045
+[     4.395] (II) VESA(0): EDID vendor "PRL", prod id 16390
+[     4.395] (II) VESA(0): Using EDID range info for horizontal sync
+[     4.395] (II) VESA(0): Using EDID range info for vertical refresh
+[     4.395] (II) VESA(0): Printing DDC gathered Modelines:
+[     4.395] (II) VESA(0): Modeline "800x600"x0.0   38.00  800 820 900 1000  600 603 606 633 +hsync +vsync (38.0 kHz eP)
+[     4.396] (II) VESA(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[     4.396] (II) VESA(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[     4.396] (II) VESA(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[     4.396] (II) VESA(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[     4.396] (II) VESA(0): Modeline "1280x960"x0.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+[     4.396] (II) VESA(0): Modeline "1280x800"x0.0   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[     4.396] (II) VESA(0): Modeline "1400x1050"x0.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz e)
+[     4.396] (II) VESA(0): Modeline "1440x900"x0.0  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz e)
+[     4.396] (II) VESA(0): Modeline "1600x1200"x0.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz e)
+[     4.396] (II) VESA(0): Modeline "1680x1050"x0.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz e)
+[     4.396] (II) VESA(0): Modeline "1920x1200"x0.0  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz e)
+[     4.396] (II) VESA(0): Searching for matching VESA mode(s):
+[     4.396] Mode: 100 (640x400)
+[     4.396] 	ModeAttributes: 0xbb
+[     4.396] 	WinAAttributes: 0x7
+[     4.396] 	WinBAttributes: 0x0
+[     4.396] 	WinGranularity: 64
+[     4.396] 	WinSize: 64
+[     4.396] 	WinASegment: 0xa000
+[     4.396] 	WinBSegment: 0x0
+[     4.396] 	WinFuncPtr: 0x0
+[     4.396] 	BytesPerScanline: 640
+[     4.396] 	XResolution: 640
+[     4.396] 	YResolution: 400
+[     4.396] 	XCharSize: 0
+[     4.396] 	YCharSize: 0
+[     4.396] 	NumberOfPlanes: 1
+[     4.396] 	BitsPerPixel: 8
+[     4.396] 	NumberOfBanks: 1
+[     4.396] 	MemoryModel: 4
+[     4.396] 	BankSize: 0
+[     4.396] 	NumberOfImages: 0
+[     4.396] 	RedMaskSize: 0
+[     4.396] 	RedFieldPosition: 0
+[     4.396] 	GreenMaskSize: 0
+[     4.396] 	GreenFieldPosition: 0
+[     4.396] 	BlueMaskSize: 0
+[     4.396] 	BlueFieldPosition: 0
+[     4.396] 	RsvdMaskSize: 0
+[     4.396] 	RsvdFieldPosition: 0
+[     4.396] 	DirectColorModeInfo: 2
+[     4.396] 	PhysBasePtr: 0xb0000000
+[     4.396] 	LinBytesPerScanLine: 640
+[     4.396] 	BnkNumberOfImagePages: 0
+[     4.396] 	LinNumberOfImagePages: 0
+[     4.396] 	LinRedMaskSize: 0
+[     4.396] 	LinRedFieldPosition: 0
+[     4.396] 	LinGreenMaskSize: 0
+[     4.396] 	LinGreenFieldPosition: 0
+[     4.396] 	LinBlueMaskSize: 0
+[     4.396] 	LinBlueFieldPosition: 0
+[     4.396] 	LinRsvdMaskSize: 0
+[     4.396] 	LinRsvdFieldPosition: 0
+[     4.396] 	MaxPixelClock: 250000000
+[     4.396] Mode: 101 (640x480)
+[     4.396] 	ModeAttributes: 0xbb
+[     4.396] 	WinAAttributes: 0x7
+[     4.396] 	WinBAttributes: 0x0
+[     4.396] 	WinGranularity: 64
+[     4.396] 	WinSize: 64
+[     4.396] 	WinASegment: 0xa000
+[     4.396] 	WinBSegment: 0x0
+[     4.396] 	WinFuncPtr: 0x0
+[     4.396] 	BytesPerScanline: 640
+[     4.396] 	XResolution: 640
+[     4.396] 	YResolution: 480
+[     4.396] 	XCharSize: 0
+[     4.396] 	YCharSize: 0
+[     4.396] 	NumberOfPlanes: 1
+[     4.396] 	BitsPerPixel: 8
+[     4.396] 	NumberOfBanks: 1
+[     4.396] 	MemoryModel: 4
+[     4.396] 	BankSize: 0
+[     4.396] 	NumberOfImages: 0
+[     4.396] 	RedMaskSize: 0
+[     4.396] 	RedFieldPosition: 0
+[     4.396] 	GreenMaskSize: 0
+[     4.396] 	GreenFieldPosition: 0
+[     4.396] 	BlueMaskSize: 0
+[     4.396] 	BlueFieldPosition: 0
+[     4.396] 	RsvdMaskSize: 0
+[     4.396] 	RsvdFieldPosition: 0
+[     4.396] 	DirectColorModeInfo: 2
+[     4.396] 	PhysBasePtr: 0xb0000000
+[     4.396] 	LinBytesPerScanLine: 640
+[     4.396] 	BnkNumberOfImagePages: 0
+[     4.396] 	LinNumberOfImagePages: 0
+[     4.396] 	LinRedMaskSize: 0
+[     4.396] 	LinRedFieldPosition: 0
+[     4.396] 	LinGreenMaskSize: 0
+[     4.396] 	LinGreenFieldPosition: 0
+[     4.396] 	LinBlueMaskSize: 0
+[     4.396] 	LinBlueFieldPosition: 0
+[     4.396] 	LinRsvdMaskSize: 0
+[     4.396] 	LinRsvdFieldPosition: 0
+[     4.396] 	MaxPixelClock: 250000000
+[     4.396] Mode: 103 (800x600)
+[     4.396] 	ModeAttributes: 0xbb
+[     4.396] 	WinAAttributes: 0x7
+[     4.396] 	WinBAttributes: 0x0
+[     4.396] 	WinGranularity: 64
+[     4.396] 	WinSize: 64
+[     4.396] 	WinASegment: 0xa000
+[     4.396] 	WinBSegment: 0x0
+[     4.396] 	WinFuncPtr: 0x0
+[     4.396] 	BytesPerScanline: 800
+[     4.396] 	XResolution: 800
+[     4.396] 	YResolution: 600
+[     4.396] 	XCharSize: 0
+[     4.396] 	YCharSize: 0
+[     4.396] 	NumberOfPlanes: 1
+[     4.396] 	BitsPerPixel: 8
+[     4.396] 	NumberOfBanks: 1
+[     4.396] 	MemoryModel: 4
+[     4.396] 	BankSize: 0
+[     4.396] 	NumberOfImages: 0
+[     4.396] 	RedMaskSize: 0
+[     4.396] 	RedFieldPosition: 0
+[     4.397] 	GreenMaskSize: 0
+[     4.397] 	GreenFieldPosition: 0
+[     4.397] 	BlueMaskSize: 0
+[     4.397] 	BlueFieldPosition: 0
+[     4.397] 	RsvdMaskSize: 0
+[     4.397] 	RsvdFieldPosition: 0
+[     4.397] 	DirectColorModeInfo: 2
+[     4.397] 	PhysBasePtr: 0xb0000000
+[     4.397] 	LinBytesPerScanLine: 800
+[     4.397] 	BnkNumberOfImagePages: 0
+[     4.397] 	LinNumberOfImagePages: 0
+[     4.397] 	LinRedMaskSize: 0
+[     4.397] 	LinRedFieldPosition: 0
+[     4.397] 	LinGreenMaskSize: 0
+[     4.397] 	LinGreenFieldPosition: 0
+[     4.397] 	LinBlueMaskSize: 0
+[     4.397] 	LinBlueFieldPosition: 0
+[     4.397] 	LinRsvdMaskSize: 0
+[     4.397] 	LinRsvdFieldPosition: 0
+[     4.397] 	MaxPixelClock: 250000000
+[     4.397] Mode: 105 (1024x768)
+[     4.397] 	ModeAttributes: 0xbb
+[     4.397] 	WinAAttributes: 0x7
+[     4.397] 	WinBAttributes: 0x0
+[     4.397] 	WinGranularity: 64
+[     4.397] 	WinSize: 64
+[     4.397] 	WinASegment: 0xa000
+[     4.397] 	WinBSegment: 0x0
+[     4.397] 	WinFuncPtr: 0x0
+[     4.397] 	BytesPerScanline: 1024
+[     4.397] 	XResolution: 1024
+[     4.397] 	YResolution: 768
+[     4.397] 	XCharSize: 0
+[     4.397] 	YCharSize: 0
+[     4.397] 	NumberOfPlanes: 1
+[     4.397] 	BitsPerPixel: 8
+[     4.397] 	NumberOfBanks: 1
+[     4.397] 	MemoryModel: 4
+[     4.397] 	BankSize: 0
+[     4.397] 	NumberOfImages: 0
+[     4.397] 	RedMaskSize: 0
+[     4.397] 	RedFieldPosition: 0
+[     4.397] 	GreenMaskSize: 0
+[     4.397] 	GreenFieldPosition: 0
+[     4.397] 	BlueMaskSize: 0
+[     4.397] 	BlueFieldPosition: 0
+[     4.397] 	RsvdMaskSize: 0
+[     4.397] 	RsvdFieldPosition: 0
+[     4.397] 	DirectColorModeInfo: 2
+[     4.397] 	PhysBasePtr: 0xb0000000
+[     4.397] 	LinBytesPerScanLine: 1024
+[     4.397] 	BnkNumberOfImagePages: 0
+[     4.397] 	LinNumberOfImagePages: 0
+[     4.397] 	LinRedMaskSize: 0
+[     4.397] 	LinRedFieldPosition: 0
+[     4.397] 	LinGreenMaskSize: 0
+[     4.397] 	LinGreenFieldPosition: 0
+[     4.397] 	LinBlueMaskSize: 0
+[     4.397] 	LinBlueFieldPosition: 0
+[     4.397] 	LinRsvdMaskSize: 0
+[     4.397] 	LinRsvdFieldPosition: 0
+[     4.397] 	MaxPixelClock: 250000000
+[     4.397] Mode: 107 (1280x1024)
+[     4.397] 	ModeAttributes: 0xbb
+[     4.397] 	WinAAttributes: 0x7
+[     4.397] 	WinBAttributes: 0x0
+[     4.397] 	WinGranularity: 64
+[     4.397] 	WinSize: 64
+[     4.397] 	WinASegment: 0xa000
+[     4.397] 	WinBSegment: 0x0
+[     4.397] 	WinFuncPtr: 0x0
+[     4.397] 	BytesPerScanline: 1280
+[     4.397] 	XResolution: 1280
+[     4.397] 	YResolution: 1024
+[     4.397] 	XCharSize: 0
+[     4.397] 	YCharSize: 0
+[     4.397] 	NumberOfPlanes: 1
+[     4.397] 	BitsPerPixel: 8
+[     4.397] 	NumberOfBanks: 1
+[     4.397] 	MemoryModel: 4
+[     4.397] 	BankSize: 0
+[     4.397] 	NumberOfImages: 0
+[     4.397] 	RedMaskSize: 0
+[     4.397] 	RedFieldPosition: 0
+[     4.397] 	GreenMaskSize: 0
+[     4.397] 	GreenFieldPosition: 0
+[     4.397] 	BlueMaskSize: 0
+[     4.397] 	BlueFieldPosition: 0
+[     4.397] 	RsvdMaskSize: 0
+[     4.397] 	RsvdFieldPosition: 0
+[     4.397] 	DirectColorModeInfo: 2
+[     4.397] 	PhysBasePtr: 0xb0000000
+[     4.397] 	LinBytesPerScanLine: 1280
+[     4.397] 	BnkNumberOfImagePages: 0
+[     4.397] 	LinNumberOfImagePages: 0
+[     4.397] 	LinRedMaskSize: 0
+[     4.397] 	LinRedFieldPosition: 0
+[     4.397] 	LinGreenMaskSize: 0
+[     4.397] 	LinGreenFieldPosition: 0
+[     4.397] 	LinBlueMaskSize: 0
+[     4.397] 	LinBlueFieldPosition: 0
+[     4.397] 	LinRsvdMaskSize: 0
+[     4.397] 	LinRsvdFieldPosition: 0
+[     4.397] 	MaxPixelClock: 250000000
+[     4.397] Mode: 110 (640x480)
+[     4.397] 	ModeAttributes: 0xbb
+[     4.397] 	WinAAttributes: 0x7
+[     4.397] 	WinBAttributes: 0x0
+[     4.397] 	WinGranularity: 64
+[     4.397] 	WinSize: 64
+[     4.397] 	WinASegment: 0xa000
+[     4.397] 	WinBSegment: 0x0
+[     4.397] 	WinFuncPtr: 0x0
+[     4.397] 	BytesPerScanline: 1280
+[     4.397] 	XResolution: 640
+[     4.397] 	YResolution: 480
+[     4.397] 	XCharSize: 0
+[     4.397] 	YCharSize: 0
+[     4.397] 	NumberOfPlanes: 1
+[     4.397] 	BitsPerPixel: 15
+[     4.397] 	NumberOfBanks: 1
+[     4.397] 	MemoryModel: 6
+[     4.397] 	BankSize: 0
+[     4.397] 	NumberOfImages: 0
+[     4.397] 	RedMaskSize: 5
+[     4.397] 	RedFieldPosition: 10
+[     4.397] 	GreenMaskSize: 5
+[     4.397] 	GreenFieldPosition: 5
+[     4.397] 	BlueMaskSize: 5
+[     4.397] 	BlueFieldPosition: 0
+[     4.397] 	RsvdMaskSize: 1
+[     4.397] 	RsvdFieldPosition: 15
+[     4.397] 	DirectColorModeInfo: 2
+[     4.397] 	PhysBasePtr: 0xb0000000
+[     4.397] 	LinBytesPerScanLine: 1280
+[     4.397] 	BnkNumberOfImagePages: 0
+[     4.397] 	LinNumberOfImagePages: 0
+[     4.397] 	LinRedMaskSize: 5
+[     4.397] 	LinRedFieldPosition: 10
+[     4.397] 	LinGreenMaskSize: 5
+[     4.397] 	LinGreenFieldPosition: 5
+[     4.397] 	LinBlueMaskSize: 5
+[     4.397] 	LinBlueFieldPosition: 0
+[     4.397] 	LinRsvdMaskSize: 1
+[     4.398] 	LinRsvdFieldPosition: 15
+[     4.398] 	MaxPixelClock: 250000000
+[     4.398] Mode: 111 (640x480)
+[     4.398] 	ModeAttributes: 0xbb
+[     4.398] 	WinAAttributes: 0x7
+[     4.398] 	WinBAttributes: 0x0
+[     4.398] 	WinGranularity: 64
+[     4.398] 	WinSize: 64
+[     4.398] 	WinASegment: 0xa000
+[     4.398] 	WinBSegment: 0x0
+[     4.398] 	WinFuncPtr: 0x0
+[     4.398] 	BytesPerScanline: 1280
+[     4.398] 	XResolution: 640
+[     4.398] 	YResolution: 480
+[     4.398] 	XCharSize: 0
+[     4.398] 	YCharSize: 0
+[     4.398] 	NumberOfPlanes: 1
+[     4.398] 	BitsPerPixel: 16
+[     4.398] 	NumberOfBanks: 1
+[     4.398] 	MemoryModel: 6
+[     4.398] 	BankSize: 0
+[     4.398] 	NumberOfImages: 0
+[     4.398] 	RedMaskSize: 5
+[     4.398] 	RedFieldPosition: 11
+[     4.398] 	GreenMaskSize: 6
+[     4.398] 	GreenFieldPosition: 5
+[     4.398] 	BlueMaskSize: 5
+[     4.398] 	BlueFieldPosition: 0
+[     4.398] 	RsvdMaskSize: 0
+[     4.398] 	RsvdFieldPosition: 0
+[     4.398] 	DirectColorModeInfo: 2
+[     4.398] 	PhysBasePtr: 0xb0000000
+[     4.398] 	LinBytesPerScanLine: 1280
+[     4.398] 	BnkNumberOfImagePages: 0
+[     4.398] 	LinNumberOfImagePages: 0
+[     4.398] 	LinRedMaskSize: 5
+[     4.398] 	LinRedFieldPosition: 11
+[     4.398] 	LinGreenMaskSize: 6
+[     4.398] 	LinGreenFieldPosition: 5
+[     4.398] 	LinBlueMaskSize: 5
+[     4.398] 	LinBlueFieldPosition: 0
+[     4.398] 	LinRsvdMaskSize: 0
+[     4.398] 	LinRsvdFieldPosition: 0
+[     4.398] 	MaxPixelClock: 250000000
+[     4.398] Mode: 112 (640x480)
+[     4.398] 	ModeAttributes: 0xbb
+[     4.398] 	WinAAttributes: 0x7
+[     4.398] 	WinBAttributes: 0x0
+[     4.398] 	WinGranularity: 64
+[     4.398] 	WinSize: 64
+[     4.398] 	WinASegment: 0xa000
+[     4.398] 	WinBSegment: 0x0
+[     4.398] 	WinFuncPtr: 0x0
+[     4.398] 	BytesPerScanline: 1920
+[     4.398] 	XResolution: 640
+[     4.398] 	YResolution: 480
+[     4.398] 	XCharSize: 0
+[     4.398] 	YCharSize: 0
+[     4.398] 	NumberOfPlanes: 1
+[     4.398] 	BitsPerPixel: 24
+[     4.398] 	NumberOfBanks: 1
+[     4.398] 	MemoryModel: 6
+[     4.398] 	BankSize: 0
+[     4.398] 	NumberOfImages: 0
+[     4.398] 	RedMaskSize: 8
+[     4.398] 	RedFieldPosition: 16
+[     4.398] 	GreenMaskSize: 8
+[     4.398] 	GreenFieldPosition: 8
+[     4.398] 	BlueMaskSize: 8
+[     4.398] 	BlueFieldPosition: 0
+[     4.398] 	RsvdMaskSize: 0
+[     4.398] 	RsvdFieldPosition: 0
+[     4.398] 	DirectColorModeInfo: 2
+[     4.398] 	PhysBasePtr: 0xb0000000
+[     4.398] 	LinBytesPerScanLine: 1920
+[     4.398] 	BnkNumberOfImagePages: 0
+[     4.398] 	LinNumberOfImagePages: 0
+[     4.398] 	LinRedMaskSize: 8
+[     4.398] 	LinRedFieldPosition: 16
+[     4.398] 	LinGreenMaskSize: 8
+[     4.398] 	LinGreenFieldPosition: 8
+[     4.398] 	LinBlueMaskSize: 8
+[     4.398] 	LinBlueFieldPosition: 0
+[     4.398] 	LinRsvdMaskSize: 0
+[     4.398] 	LinRsvdFieldPosition: 0
+[     4.398] 	MaxPixelClock: 250000000
+[     4.398] Mode: 113 (800x600)
+[     4.398] 	ModeAttributes: 0xbb
+[     4.398] 	WinAAttributes: 0x7
+[     4.398] 	WinBAttributes: 0x0
+[     4.398] 	WinGranularity: 64
+[     4.398] 	WinSize: 64
+[     4.398] 	WinASegment: 0xa000
+[     4.398] 	WinBSegment: 0x0
+[     4.398] 	WinFuncPtr: 0x0
+[     4.398] 	BytesPerScanline: 1600
+[     4.398] 	XResolution: 800
+[     4.398] 	YResolution: 600
+[     4.398] 	XCharSize: 0
+[     4.398] 	YCharSize: 0
+[     4.398] 	NumberOfPlanes: 1
+[     4.398] 	BitsPerPixel: 15
+[     4.398] 	NumberOfBanks: 1
+[     4.398] 	MemoryModel: 6
+[     4.398] 	BankSize: 0
+[     4.398] 	NumberOfImages: 0
+[     4.398] 	RedMaskSize: 5
+[     4.398] 	RedFieldPosition: 10
+[     4.398] 	GreenMaskSize: 5
+[     4.398] 	GreenFieldPosition: 5
+[     4.398] 	BlueMaskSize: 5
+[     4.398] 	BlueFieldPosition: 0
+[     4.398] 	RsvdMaskSize: 1
+[     4.398] 	RsvdFieldPosition: 15
+[     4.398] 	DirectColorModeInfo: 2
+[     4.398] 	PhysBasePtr: 0xb0000000
+[     4.398] 	LinBytesPerScanLine: 1600
+[     4.398] 	BnkNumberOfImagePages: 0
+[     4.398] 	LinNumberOfImagePages: 0
+[     4.398] 	LinRedMaskSize: 5
+[     4.398] 	LinRedFieldPosition: 10
+[     4.398] 	LinGreenMaskSize: 5
+[     4.398] 	LinGreenFieldPosition: 5
+[     4.398] 	LinBlueMaskSize: 5
+[     4.398] 	LinBlueFieldPosition: 0
+[     4.398] 	LinRsvdMaskSize: 1
+[     4.398] 	LinRsvdFieldPosition: 15
+[     4.398] 	MaxPixelClock: 250000000
+[     4.398] Mode: 114 (800x600)
+[     4.398] 	ModeAttributes: 0xbb
+[     4.398] 	WinAAttributes: 0x7
+[     4.398] 	WinBAttributes: 0x0
+[     4.398] 	WinGranularity: 64
+[     4.399] 	WinSize: 64
+[     4.399] 	WinASegment: 0xa000
+[     4.399] 	WinBSegment: 0x0
+[     4.399] 	WinFuncPtr: 0x0
+[     4.399] 	BytesPerScanline: 1600
+[     4.399] 	XResolution: 800
+[     4.399] 	YResolution: 600
+[     4.399] 	XCharSize: 0
+[     4.399] 	YCharSize: 0
+[     4.399] 	NumberOfPlanes: 1
+[     4.399] 	BitsPerPixel: 16
+[     4.399] 	NumberOfBanks: 1
+[     4.399] 	MemoryModel: 6
+[     4.399] 	BankSize: 0
+[     4.399] 	NumberOfImages: 0
+[     4.399] 	RedMaskSize: 5
+[     4.399] 	RedFieldPosition: 11
+[     4.399] 	GreenMaskSize: 6
+[     4.399] 	GreenFieldPosition: 5
+[     4.399] 	BlueMaskSize: 5
+[     4.399] 	BlueFieldPosition: 0
+[     4.399] 	RsvdMaskSize: 0
+[     4.399] 	RsvdFieldPosition: 0
+[     4.399] 	DirectColorModeInfo: 2
+[     4.399] 	PhysBasePtr: 0xb0000000
+[     4.399] 	LinBytesPerScanLine: 1600
+[     4.399] 	BnkNumberOfImagePages: 0
+[     4.399] 	LinNumberOfImagePages: 0
+[     4.399] 	LinRedMaskSize: 5
+[     4.399] 	LinRedFieldPosition: 11
+[     4.399] 	LinGreenMaskSize: 6
+[     4.399] 	LinGreenFieldPosition: 5
+[     4.399] 	LinBlueMaskSize: 5
+[     4.399] 	LinBlueFieldPosition: 0
+[     4.399] 	LinRsvdMaskSize: 0
+[     4.399] 	LinRsvdFieldPosition: 0
+[     4.399] 	MaxPixelClock: 250000000
+[     4.399] Mode: 115 (800x600)
+[     4.399] 	ModeAttributes: 0xbb
+[     4.399] 	WinAAttributes: 0x7
+[     4.399] 	WinBAttributes: 0x0
+[     4.399] 	WinGranularity: 64
+[     4.399] 	WinSize: 64
+[     4.399] 	WinASegment: 0xa000
+[     4.399] 	WinBSegment: 0x0
+[     4.399] 	WinFuncPtr: 0x0
+[     4.399] 	BytesPerScanline: 2400
+[     4.399] 	XResolution: 800
+[     4.399] 	YResolution: 600
+[     4.399] 	XCharSize: 0
+[     4.399] 	YCharSize: 0
+[     4.399] 	NumberOfPlanes: 1
+[     4.399] 	BitsPerPixel: 24
+[     4.399] 	NumberOfBanks: 1
+[     4.399] 	MemoryModel: 6
+[     4.399] 	BankSize: 0
+[     4.399] 	NumberOfImages: 0
+[     4.399] 	RedMaskSize: 8
+[     4.399] 	RedFieldPosition: 16
+[     4.399] 	GreenMaskSize: 8
+[     4.399] 	GreenFieldPosition: 8
+[     4.399] 	BlueMaskSize: 8
+[     4.399] 	BlueFieldPosition: 0
+[     4.399] 	RsvdMaskSize: 0
+[     4.399] 	RsvdFieldPosition: 0
+[     4.399] 	DirectColorModeInfo: 2
+[     4.399] 	PhysBasePtr: 0xb0000000
+[     4.399] 	LinBytesPerScanLine: 2400
+[     4.399] 	BnkNumberOfImagePages: 0
+[     4.399] 	LinNumberOfImagePages: 0
+[     4.399] 	LinRedMaskSize: 8
+[     4.399] 	LinRedFieldPosition: 16
+[     4.399] 	LinGreenMaskSize: 8
+[     4.399] 	LinGreenFieldPosition: 8
+[     4.399] 	LinBlueMaskSize: 8
+[     4.399] 	LinBlueFieldPosition: 0
+[     4.399] 	LinRsvdMaskSize: 0
+[     4.399] 	LinRsvdFieldPosition: 0
+[     4.399] 	MaxPixelClock: 250000000
+[     4.399] Mode: 116 (1024x768)
+[     4.399] 	ModeAttributes: 0xbb
+[     4.399] 	WinAAttributes: 0x7
+[     4.399] 	WinBAttributes: 0x0
+[     4.399] 	WinGranularity: 64
+[     4.399] 	WinSize: 64
+[     4.399] 	WinASegment: 0xa000
+[     4.399] 	WinBSegment: 0x0
+[     4.399] 	WinFuncPtr: 0x0
+[     4.399] 	BytesPerScanline: 2048
+[     4.399] 	XResolution: 1024
+[     4.399] 	YResolution: 768
+[     4.399] 	XCharSize: 0
+[     4.399] 	YCharSize: 0
+[     4.399] 	NumberOfPlanes: 1
+[     4.399] 	BitsPerPixel: 15
+[     4.399] 	NumberOfBanks: 1
+[     4.399] 	MemoryModel: 6
+[     4.399] 	BankSize: 0
+[     4.399] 	NumberOfImages: 0
+[     4.399] 	RedMaskSize: 5
+[     4.399] 	RedFieldPosition: 10
+[     4.399] 	GreenMaskSize: 5
+[     4.399] 	GreenFieldPosition: 5
+[     4.399] 	BlueMaskSize: 5
+[     4.399] 	BlueFieldPosition: 0
+[     4.399] 	RsvdMaskSize: 1
+[     4.399] 	RsvdFieldPosition: 15
+[     4.399] 	DirectColorModeInfo: 2
+[     4.399] 	PhysBasePtr: 0xb0000000
+[     4.399] 	LinBytesPerScanLine: 2048
+[     4.399] 	BnkNumberOfImagePages: 0
+[     4.399] 	LinNumberOfImagePages: 0
+[     4.399] 	LinRedMaskSize: 5
+[     4.399] 	LinRedFieldPosition: 10
+[     4.399] 	LinGreenMaskSize: 5
+[     4.399] 	LinGreenFieldPosition: 5
+[     4.399] 	LinBlueMaskSize: 5
+[     4.399] 	LinBlueFieldPosition: 0
+[     4.399] 	LinRsvdMaskSize: 1
+[     4.399] 	LinRsvdFieldPosition: 15
+[     4.399] 	MaxPixelClock: 250000000
+[     4.399] Mode: 117 (1024x768)
+[     4.399] 	ModeAttributes: 0xbb
+[     4.399] 	WinAAttributes: 0x7
+[     4.399] 	WinBAttributes: 0x0
+[     4.399] 	WinGranularity: 64
+[     4.399] 	WinSize: 64
+[     4.399] 	WinASegment: 0xa000
+[     4.399] 	WinBSegment: 0x0
+[     4.399] 	WinFuncPtr: 0x0
+[     4.399] 	BytesPerScanline: 2048
+[     4.399] 	XResolution: 1024
+[     4.399] 	YResolution: 768
+[     4.399] 	XCharSize: 0
+[     4.399] 	YCharSize: 0
+[     4.399] 	NumberOfPlanes: 1
+[     4.399] 	BitsPerPixel: 16
+[     4.399] 	NumberOfBanks: 1
+[     4.399] 	MemoryModel: 6
+[     4.399] 	BankSize: 0
+[     4.399] 	NumberOfImages: 0
+[     4.399] 	RedMaskSize: 5
+[     4.399] 	RedFieldPosition: 11
+[     4.399] 	GreenMaskSize: 6
+[     4.399] 	GreenFieldPosition: 5
+[     4.399] 	BlueMaskSize: 5
+[     4.399] 	BlueFieldPosition: 0
+[     4.399] 	RsvdMaskSize: 0
+[     4.400] 	RsvdFieldPosition: 0
+[     4.400] 	DirectColorModeInfo: 2
+[     4.400] 	PhysBasePtr: 0xb0000000
+[     4.400] 	LinBytesPerScanLine: 2048
+[     4.400] 	BnkNumberOfImagePages: 0
+[     4.400] 	LinNumberOfImagePages: 0
+[     4.400] 	LinRedMaskSize: 5
+[     4.400] 	LinRedFieldPosition: 11
+[     4.400] 	LinGreenMaskSize: 6
+[     4.400] 	LinGreenFieldPosition: 5
+[     4.400] 	LinBlueMaskSize: 5
+[     4.400] 	LinBlueFieldPosition: 0
+[     4.400] 	LinRsvdMaskSize: 0
+[     4.400] 	LinRsvdFieldPosition: 0
+[     4.400] 	MaxPixelClock: 250000000
+[     4.400] Mode: 118 (1024x768)
+[     4.400] 	ModeAttributes: 0xbb
+[     4.400] 	WinAAttributes: 0x7
+[     4.400] 	WinBAttributes: 0x0
+[     4.400] 	WinGranularity: 64
+[     4.400] 	WinSize: 64
+[     4.400] 	WinASegment: 0xa000
+[     4.400] 	WinBSegment: 0x0
+[     4.400] 	WinFuncPtr: 0x0
+[     4.400] 	BytesPerScanline: 3072
+[     4.400] 	XResolution: 1024
+[     4.400] 	YResolution: 768
+[     4.400] 	XCharSize: 0
+[     4.400] 	YCharSize: 0
+[     4.400] 	NumberOfPlanes: 1
+[     4.400] 	BitsPerPixel: 24
+[     4.400] 	NumberOfBanks: 1
+[     4.400] 	MemoryModel: 6
+[     4.400] 	BankSize: 0
+[     4.400] 	NumberOfImages: 0
+[     4.400] 	RedMaskSize: 8
+[     4.400] 	RedFieldPosition: 16
+[     4.400] 	GreenMaskSize: 8
+[     4.400] 	GreenFieldPosition: 8
+[     4.400] 	BlueMaskSize: 8
+[     4.400] 	BlueFieldPosition: 0
+[     4.400] 	RsvdMaskSize: 0
+[     4.400] 	RsvdFieldPosition: 0
+[     4.400] 	DirectColorModeInfo: 2
+[     4.400] 	PhysBasePtr: 0xb0000000
+[     4.400] 	LinBytesPerScanLine: 3072
+[     4.400] 	BnkNumberOfImagePages: 0
+[     4.400] 	LinNumberOfImagePages: 0
+[     4.400] 	LinRedMaskSize: 8
+[     4.400] 	LinRedFieldPosition: 16
+[     4.400] 	LinGreenMaskSize: 8
+[     4.400] 	LinGreenFieldPosition: 8
+[     4.400] 	LinBlueMaskSize: 8
+[     4.400] 	LinBlueFieldPosition: 0
+[     4.400] 	LinRsvdMaskSize: 0
+[     4.400] 	LinRsvdFieldPosition: 0
+[     4.400] 	MaxPixelClock: 250000000
+[     4.400] Mode: 119 (1280x1024)
+[     4.400] 	ModeAttributes: 0xbb
+[     4.400] 	WinAAttributes: 0x7
+[     4.400] 	WinBAttributes: 0x0
+[     4.400] 	WinGranularity: 64
+[     4.400] 	WinSize: 64
+[     4.400] 	WinASegment: 0xa000
+[     4.400] 	WinBSegment: 0x0
+[     4.400] 	WinFuncPtr: 0x0
+[     4.400] 	BytesPerScanline: 2560
+[     4.400] 	XResolution: 1280
+[     4.400] 	YResolution: 1024
+[     4.400] 	XCharSize: 0
+[     4.400] 	YCharSize: 0
+[     4.400] 	NumberOfPlanes: 1
+[     4.400] 	BitsPerPixel: 15
+[     4.400] 	NumberOfBanks: 1
+[     4.400] 	MemoryModel: 6
+[     4.400] 	BankSize: 0
+[     4.400] 	NumberOfImages: 0
+[     4.400] 	RedMaskSize: 5
+[     4.400] 	RedFieldPosition: 10
+[     4.400] 	GreenMaskSize: 5
+[     4.400] 	GreenFieldPosition: 5
+[     4.400] 	BlueMaskSize: 5
+[     4.400] 	BlueFieldPosition: 0
+[     4.400] 	RsvdMaskSize: 1
+[     4.400] 	RsvdFieldPosition: 15
+[     4.400] 	DirectColorModeInfo: 2
+[     4.400] 	PhysBasePtr: 0xb0000000
+[     4.400] 	LinBytesPerScanLine: 2560
+[     4.400] 	BnkNumberOfImagePages: 0
+[     4.400] 	LinNumberOfImagePages: 0
+[     4.400] 	LinRedMaskSize: 5
+[     4.400] 	LinRedFieldPosition: 10
+[     4.400] 	LinGreenMaskSize: 5
+[     4.400] 	LinGreenFieldPosition: 5
+[     4.400] 	LinBlueMaskSize: 5
+[     4.400] 	LinBlueFieldPosition: 0
+[     4.400] 	LinRsvdMaskSize: 1
+[     4.400] 	LinRsvdFieldPosition: 15
+[     4.400] 	MaxPixelClock: 250000000
+[     4.400] Mode: 11a (1280x1024)
+[     4.400] 	ModeAttributes: 0xbb
+[     4.400] 	WinAAttributes: 0x7
+[     4.400] 	WinBAttributes: 0x0
+[     4.400] 	WinGranularity: 64
+[     4.400] 	WinSize: 64
+[     4.400] 	WinASegment: 0xa000
+[     4.400] 	WinBSegment: 0x0
+[     4.400] 	WinFuncPtr: 0x0
+[     4.400] 	BytesPerScanline: 2560
+[     4.400] 	XResolution: 1280
+[     4.400] 	YResolution: 1024
+[     4.400] 	XCharSize: 0
+[     4.400] 	YCharSize: 0
+[     4.400] 	NumberOfPlanes: 1
+[     4.400] 	BitsPerPixel: 16
+[     4.400] 	NumberOfBanks: 1
+[     4.400] 	MemoryModel: 6
+[     4.400] 	BankSize: 0
+[     4.400] 	NumberOfImages: 0
+[     4.401] 	RedMaskSize: 5
+[     4.401] 	RedFieldPosition: 11
+[     4.401] 	GreenMaskSize: 6
+[     4.401] 	GreenFieldPosition: 5
+[     4.401] 	BlueMaskSize: 5
+[     4.401] 	BlueFieldPosition: 0
+[     4.401] 	RsvdMaskSize: 0
+[     4.401] 	RsvdFieldPosition: 0
+[     4.401] 	DirectColorModeInfo: 2
+[     4.401] 	PhysBasePtr: 0xb0000000
+[     4.401] 	LinBytesPerScanLine: 2560
+[     4.401] 	BnkNumberOfImagePages: 0
+[     4.401] 	LinNumberOfImagePages: 0
+[     4.401] 	LinRedMaskSize: 5
+[     4.401] 	LinRedFieldPosition: 11
+[     4.401] 	LinGreenMaskSize: 6
+[     4.401] 	LinGreenFieldPosition: 5
+[     4.401] 	LinBlueMaskSize: 5
+[     4.401] 	LinBlueFieldPosition: 0
+[     4.401] 	LinRsvdMaskSize: 0
+[     4.401] 	LinRsvdFieldPosition: 0
+[     4.401] 	MaxPixelClock: 250000000
+[     4.401] Mode: 11b (1280x1024)
+[     4.401] 	ModeAttributes: 0xbb
+[     4.401] 	WinAAttributes: 0x7
+[     4.401] 	WinBAttributes: 0x0
+[     4.401] 	WinGranularity: 64
+[     4.401] 	WinSize: 64
+[     4.401] 	WinASegment: 0xa000
+[     4.401] 	WinBSegment: 0x0
+[     4.401] 	WinFuncPtr: 0x0
+[     4.401] 	BytesPerScanline: 3840
+[     4.401] 	XResolution: 1280
+[     4.401] 	YResolution: 1024
+[     4.401] 	XCharSize: 0
+[     4.401] 	YCharSize: 0
+[     4.401] 	NumberOfPlanes: 1
+[     4.401] 	BitsPerPixel: 24
+[     4.401] 	NumberOfBanks: 1
+[     4.401] 	MemoryModel: 6
+[     4.401] 	BankSize: 0
+[     4.401] 	NumberOfImages: 0
+[     4.401] 	RedMaskSize: 8
+[     4.401] 	RedFieldPosition: 16
+[     4.401] 	GreenMaskSize: 8
+[     4.401] 	GreenFieldPosition: 8
+[     4.401] 	BlueMaskSize: 8
+[     4.401] 	BlueFieldPosition: 0
+[     4.401] 	RsvdMaskSize: 0
+[     4.401] 	RsvdFieldPosition: 0
+[     4.401] 	DirectColorModeInfo: 2
+[     4.401] 	PhysBasePtr: 0xb0000000
+[     4.401] 	LinBytesPerScanLine: 3840
+[     4.401] 	BnkNumberOfImagePages: 0
+[     4.401] 	LinNumberOfImagePages: 0
+[     4.401] 	LinRedMaskSize: 8
+[     4.401] 	LinRedFieldPosition: 16
+[     4.401] 	LinGreenMaskSize: 8
+[     4.401] 	LinGreenFieldPosition: 8
+[     4.401] 	LinBlueMaskSize: 8
+[     4.401] 	LinBlueFieldPosition: 0
+[     4.401] 	LinRsvdMaskSize: 0
+[     4.401] 	LinRsvdFieldPosition: 0
+[     4.401] 	MaxPixelClock: 250000000
+[     4.401] *Mode: 11c (640x480)
+[     4.401] 	ModeAttributes: 0xbb
+[     4.401] 	WinAAttributes: 0x7
+[     4.401] 	WinBAttributes: 0x0
+[     4.401] 	WinGranularity: 64
+[     4.401] 	WinSize: 64
+[     4.401] 	WinASegment: 0xa000
+[     4.401] 	WinBSegment: 0x0
+[     4.401] 	WinFuncPtr: 0x0
+[     4.401] 	BytesPerScanline: 2560
+[     4.401] 	XResolution: 640
+[     4.401] 	YResolution: 480
+[     4.401] 	XCharSize: 0
+[     4.401] 	YCharSize: 0
+[     4.401] 	NumberOfPlanes: 1
+[     4.401] 	BitsPerPixel: 32
+[     4.401] 	NumberOfBanks: 1
+[     4.401] 	MemoryModel: 6
+[     4.401] 	BankSize: 0
+[     4.401] 	NumberOfImages: 0
+[     4.401] 	RedMaskSize: 8
+[     4.401] 	RedFieldPosition: 16
+[     4.401] 	GreenMaskSize: 8
+[     4.401] 	GreenFieldPosition: 8
+[     4.401] 	BlueMaskSize: 8
+[     4.401] 	BlueFieldPosition: 0
+[     4.401] 	RsvdMaskSize: 8
+[     4.401] 	RsvdFieldPosition: 24
+[     4.401] 	DirectColorModeInfo: 2
+[     4.401] 	PhysBasePtr: 0xb0000000
+[     4.401] 	LinBytesPerScanLine: 2560
+[     4.401] 	BnkNumberOfImagePages: 0
+[     4.401] 	LinNumberOfImagePages: 0
+[     4.401] 	LinRedMaskSize: 8
+[     4.401] 	LinRedFieldPosition: 16
+[     4.401] 	LinGreenMaskSize: 8
+[     4.401] 	LinGreenFieldPosition: 8
+[     4.401] 	LinBlueMaskSize: 8
+[     4.401] 	LinBlueFieldPosition: 0
+[     4.401] 	LinRsvdMaskSize: 8
+[     4.401] 	LinRsvdFieldPosition: 24
+[     4.401] 	MaxPixelClock: 250000000
+[     4.401] *Mode: 11d (800x600)
+[     4.401] 	ModeAttributes: 0xbb
+[     4.401] 	WinAAttributes: 0x7
+[     4.401] 	WinBAttributes: 0x0
+[     4.401] 	WinGranularity: 64
+[     4.401] 	WinSize: 64
+[     4.401] 	WinASegment: 0xa000
+[     4.401] 	WinBSegment: 0x0
+[     4.401] 	WinFuncPtr: 0x0
+[     4.401] 	BytesPerScanline: 3200
+[     4.401] 	XResolution: 800
+[     4.401] 	YResolution: 600
+[     4.401] 	XCharSize: 0
+[     4.401] 	YCharSize: 0
+[     4.401] 	NumberOfPlanes: 1
+[     4.401] 	BitsPerPixel: 32
+[     4.401] 	NumberOfBanks: 1
+[     4.401] 	MemoryModel: 6
+[     4.401] 	BankSize: 0
+[     4.401] 	NumberOfImages: 0
+[     4.401] 	RedMaskSize: 8
+[     4.401] 	RedFieldPosition: 16
+[     4.401] 	GreenMaskSize: 8
+[     4.401] 	GreenFieldPosition: 8
+[     4.401] 	BlueMaskSize: 8
+[     4.401] 	BlueFieldPosition: 0
+[     4.401] 	RsvdMaskSize: 8
+[     4.401] 	RsvdFieldPosition: 24
+[     4.401] 	DirectColorModeInfo: 2
+[     4.401] 	PhysBasePtr: 0xb0000000
+[     4.401] 	LinBytesPerScanLine: 3200
+[     4.401] 	BnkNumberOfImagePages: 0
+[     4.401] 	LinNumberOfImagePages: 0
+[     4.401] 	LinRedMaskSize: 8
+[     4.401] 	LinRedFieldPosition: 16
+[     4.401] 	LinGreenMaskSize: 8
+[     4.401] 	LinGreenFieldPosition: 8
+[     4.401] 	LinBlueMaskSize: 8
+[     4.401] 	LinBlueFieldPosition: 0
+[     4.401] 	LinRsvdMaskSize: 8
+[     4.401] 	LinRsvdFieldPosition: 24
+[     4.401] 	MaxPixelClock: 250000000
+[     4.402] *Mode: 11e (1024x768)
+[     4.402] 	ModeAttributes: 0xbb
+[     4.402] 	WinAAttributes: 0x7
+[     4.402] 	WinBAttributes: 0x0
+[     4.402] 	WinGranularity: 64
+[     4.402] 	WinSize: 64
+[     4.402] 	WinASegment: 0xa000
+[     4.402] 	WinBSegment: 0x0
+[     4.402] 	WinFuncPtr: 0x0
+[     4.402] 	BytesPerScanline: 4096
+[     4.402] 	XResolution: 1024
+[     4.402] 	YResolution: 768
+[     4.402] 	XCharSize: 0
+[     4.402] 	YCharSize: 0
+[     4.402] 	NumberOfPlanes: 1
+[     4.402] 	BitsPerPixel: 32
+[     4.402] 	NumberOfBanks: 1
+[     4.402] 	MemoryModel: 6
+[     4.402] 	BankSize: 0
+[     4.402] 	NumberOfImages: 0
+[     4.402] 	RedMaskSize: 8
+[     4.402] 	RedFieldPosition: 16
+[     4.402] 	GreenMaskSize: 8
+[     4.402] 	GreenFieldPosition: 8
+[     4.402] 	BlueMaskSize: 8
+[     4.402] 	BlueFieldPosition: 0
+[     4.402] 	RsvdMaskSize: 8
+[     4.402] 	RsvdFieldPosition: 24
+[     4.402] 	DirectColorModeInfo: 2
+[     4.402] 	PhysBasePtr: 0xb0000000
+[     4.402] 	LinBytesPerScanLine: 4096
+[     4.402] 	BnkNumberOfImagePages: 0
+[     4.402] 	LinNumberOfImagePages: 0
+[     4.402] 	LinRedMaskSize: 8
+[     4.402] 	LinRedFieldPosition: 16
+[     4.402] 	LinGreenMaskSize: 8
+[     4.402] 	LinGreenFieldPosition: 8
+[     4.402] 	LinBlueMaskSize: 8
+[     4.402] 	LinBlueFieldPosition: 0
+[     4.402] 	LinRsvdMaskSize: 8
+[     4.402] 	LinRsvdFieldPosition: 24
+[     4.402] 	MaxPixelClock: 250000000
+[     4.402] *Mode: 11f (1280x1024)
+[     4.402] 	ModeAttributes: 0xbb
+[     4.402] 	WinAAttributes: 0x7
+[     4.402] 	WinBAttributes: 0x0
+[     4.402] 	WinGranularity: 64
+[     4.402] 	WinSize: 64
+[     4.402] 	WinASegment: 0xa000
+[     4.402] 	WinBSegment: 0x0
+[     4.402] 	WinFuncPtr: 0x0
+[     4.402] 	BytesPerScanline: 5120
+[     4.402] 	XResolution: 1280
+[     4.402] 	YResolution: 1024
+[     4.402] 	XCharSize: 0
+[     4.402] 	YCharSize: 0
+[     4.402] 	NumberOfPlanes: 1
+[     4.402] 	BitsPerPixel: 32
+[     4.402] 	NumberOfBanks: 1
+[     4.402] 	MemoryModel: 6
+[     4.402] 	BankSize: 0
+[     4.402] 	NumberOfImages: 0
+[     4.402] 	RedMaskSize: 8
+[     4.402] 	RedFieldPosition: 16
+[     4.402] 	GreenMaskSize: 8
+[     4.402] 	GreenFieldPosition: 8
+[     4.402] 	BlueMaskSize: 8
+[     4.402] 	BlueFieldPosition: 0
+[     4.402] 	RsvdMaskSize: 8
+[     4.402] 	RsvdFieldPosition: 24
+[     4.402] 	DirectColorModeInfo: 2
+[     4.402] 	PhysBasePtr: 0xb0000000
+[     4.402] 	LinBytesPerScanLine: 5120
+[     4.402] 	BnkNumberOfImagePages: 0
+[     4.402] 	LinNumberOfImagePages: 0
+[     4.402] 	LinRedMaskSize: 8
+[     4.402] 	LinRedFieldPosition: 16
+[     4.402] 	LinGreenMaskSize: 8
+[     4.402] 	LinGreenFieldPosition: 8
+[     4.402] 	LinBlueMaskSize: 8
+[     4.402] 	LinBlueFieldPosition: 0
+[     4.402] 	LinRsvdMaskSize: 8
+[     4.402] 	LinRsvdFieldPosition: 24
+[     4.402] 	MaxPixelClock: 250000000
+[     4.402] Mode: 121 (640x400)
+[     4.402] 	ModeAttributes: 0xbb
+[     4.402] 	WinAAttributes: 0x7
+[     4.402] 	WinBAttributes: 0x0
+[     4.402] 	WinGranularity: 64
+[     4.402] 	WinSize: 64
+[     4.402] 	WinASegment: 0xa000
+[     4.402] 	WinBSegment: 0x0
+[     4.402] 	WinFuncPtr: 0x0
+[     4.402] 	BytesPerScanline: 1280
+[     4.402] 	XResolution: 640
+[     4.402] 	YResolution: 400
+[     4.402] 	XCharSize: 0
+[     4.402] 	YCharSize: 0
+[     4.402] 	NumberOfPlanes: 1
+[     4.402] 	BitsPerPixel: 15
+[     4.402] 	NumberOfBanks: 1
+[     4.402] 	MemoryModel: 6
+[     4.402] 	BankSize: 0
+[     4.402] 	NumberOfImages: 0
+[     4.402] 	RedMaskSize: 5
+[     4.402] 	RedFieldPosition: 10
+[     4.402] 	GreenMaskSize: 5
+[     4.402] 	GreenFieldPosition: 5
+[     4.402] 	BlueMaskSize: 5
+[     4.402] 	BlueFieldPosition: 0
+[     4.402] 	RsvdMaskSize: 1
+[     4.402] 	RsvdFieldPosition: 15
+[     4.402] 	DirectColorModeInfo: 2
+[     4.402] 	PhysBasePtr: 0xb0000000
+[     4.402] 	LinBytesPerScanLine: 1280
+[     4.402] 	BnkNumberOfImagePages: 0
+[     4.402] 	LinNumberOfImagePages: 0
+[     4.402] 	LinRedMaskSize: 5
+[     4.402] 	LinRedFieldPosition: 10
+[     4.402] 	LinGreenMaskSize: 5
+[     4.402] 	LinGreenFieldPosition: 5
+[     4.402] 	LinBlueMaskSize: 5
+[     4.402] 	LinBlueFieldPosition: 0
+[     4.402] 	LinRsvdMaskSize: 1
+[     4.402] 	LinRsvdFieldPosition: 15
+[     4.402] 	MaxPixelClock: 250000000
+[     4.402] Mode: 122 (640x400)
+[     4.402] 	ModeAttributes: 0xbb
+[     4.402] 	WinAAttributes: 0x7
+[     4.402] 	WinBAttributes: 0x0
+[     4.402] 	WinGranularity: 64
+[     4.402] 	WinSize: 64
+[     4.402] 	WinASegment: 0xa000
+[     4.402] 	WinBSegment: 0x0
+[     4.402] 	WinFuncPtr: 0x0
+[     4.402] 	BytesPerScanline: 1280
+[     4.402] 	XResolution: 640
+[     4.402] 	YResolution: 400
+[     4.402] 	XCharSize: 0
+[     4.402] 	YCharSize: 0
+[     4.402] 	NumberOfPlanes: 1
+[     4.402] 	BitsPerPixel: 16
+[     4.402] 	NumberOfBanks: 1
+[     4.402] 	MemoryModel: 6
+[     4.402] 	BankSize: 0
+[     4.402] 	NumberOfImages: 0
+[     4.402] 	RedMaskSize: 5
+[     4.402] 	RedFieldPosition: 11
+[     4.402] 	GreenMaskSize: 6
+[     4.403] 	GreenFieldPosition: 5
+[     4.403] 	BlueMaskSize: 5
+[     4.403] 	BlueFieldPosition: 0
+[     4.403] 	RsvdMaskSize: 0
+[     4.403] 	RsvdFieldPosition: 0
+[     4.403] 	DirectColorModeInfo: 2
+[     4.403] 	PhysBasePtr: 0xb0000000
+[     4.403] 	LinBytesPerScanLine: 1280
+[     4.403] 	BnkNumberOfImagePages: 0
+[     4.403] 	LinNumberOfImagePages: 0
+[     4.403] 	LinRedMaskSize: 5
+[     4.403] 	LinRedFieldPosition: 11
+[     4.403] 	LinGreenMaskSize: 6
+[     4.403] 	LinGreenFieldPosition: 5
+[     4.403] 	LinBlueMaskSize: 5
+[     4.403] 	LinBlueFieldPosition: 0
+[     4.403] 	LinRsvdMaskSize: 0
+[     4.403] 	LinRsvdFieldPosition: 0
+[     4.403] 	MaxPixelClock: 250000000
+[     4.403] Mode: 123 (640x400)
+[     4.403] 	ModeAttributes: 0xbb
+[     4.403] 	WinAAttributes: 0x7
+[     4.403] 	WinBAttributes: 0x0
+[     4.403] 	WinGranularity: 64
+[     4.403] 	WinSize: 64
+[     4.403] 	WinASegment: 0xa000
+[     4.403] 	WinBSegment: 0x0
+[     4.403] 	WinFuncPtr: 0x0
+[     4.403] 	BytesPerScanline: 1920
+[     4.403] 	XResolution: 640
+[     4.403] 	YResolution: 400
+[     4.403] 	XCharSize: 0
+[     4.403] 	YCharSize: 0
+[     4.403] 	NumberOfPlanes: 1
+[     4.403] 	BitsPerPixel: 24
+[     4.403] 	NumberOfBanks: 1
+[     4.403] 	MemoryModel: 6
+[     4.403] 	BankSize: 0
+[     4.403] 	NumberOfImages: 0
+[     4.403] 	RedMaskSize: 8
+[     4.403] 	RedFieldPosition: 16
+[     4.403] 	GreenMaskSize: 8
+[     4.403] 	GreenFieldPosition: 8
+[     4.403] 	BlueMaskSize: 8
+[     4.403] 	BlueFieldPosition: 0
+[     4.403] 	RsvdMaskSize: 0
+[     4.403] 	RsvdFieldPosition: 0
+[     4.403] 	DirectColorModeInfo: 2
+[     4.403] 	PhysBasePtr: 0xb0000000
+[     4.403] 	LinBytesPerScanLine: 1920
+[     4.403] 	BnkNumberOfImagePages: 0
+[     4.403] 	LinNumberOfImagePages: 0
+[     4.403] 	LinRedMaskSize: 8
+[     4.403] 	LinRedFieldPosition: 16
+[     4.403] 	LinGreenMaskSize: 8
+[     4.403] 	LinGreenFieldPosition: 8
+[     4.403] 	LinBlueMaskSize: 8
+[     4.403] 	LinBlueFieldPosition: 0
+[     4.403] 	LinRsvdMaskSize: 0
+[     4.403] 	LinRsvdFieldPosition: 0
+[     4.403] 	MaxPixelClock: 250000000
+[     4.403] *Mode: 124 (640x400)
+[     4.403] 	ModeAttributes: 0xbb
+[     4.403] 	WinAAttributes: 0x7
+[     4.403] 	WinBAttributes: 0x0
+[     4.403] 	WinGranularity: 64
+[     4.403] 	WinSize: 64
+[     4.403] 	WinASegment: 0xa000
+[     4.403] 	WinBSegment: 0x0
+[     4.403] 	WinFuncPtr: 0x0
+[     4.403] 	BytesPerScanline: 2560
+[     4.403] 	XResolution: 640
+[     4.403] 	YResolution: 400
+[     4.403] 	XCharSize: 0
+[     4.403] 	YCharSize: 0
+[     4.403] 	NumberOfPlanes: 1
+[     4.403] 	BitsPerPixel: 32
+[     4.403] 	NumberOfBanks: 1
+[     4.403] 	MemoryModel: 6
+[     4.403] 	BankSize: 0
+[     4.403] 	NumberOfImages: 0
+[     4.403] 	RedMaskSize: 8
+[     4.403] 	RedFieldPosition: 16
+[     4.403] 	GreenMaskSize: 8
+[     4.403] 	GreenFieldPosition: 8
+[     4.403] 	BlueMaskSize: 8
+[     4.403] 	BlueFieldPosition: 0
+[     4.403] 	RsvdMaskSize: 8
+[     4.403] 	RsvdFieldPosition: 24
+[     4.403] 	DirectColorModeInfo: 2
+[     4.403] 	PhysBasePtr: 0xb0000000
+[     4.403] 	LinBytesPerScanLine: 2560
+[     4.403] 	BnkNumberOfImagePages: 0
+[     4.403] 	LinNumberOfImagePages: 0
+[     4.403] 	LinRedMaskSize: 8
+[     4.403] 	LinRedFieldPosition: 16
+[     4.403] 	LinGreenMaskSize: 8
+[     4.403] 	LinGreenFieldPosition: 8
+[     4.403] 	LinBlueMaskSize: 8
+[     4.403] 	LinBlueFieldPosition: 0
+[     4.403] 	LinRsvdMaskSize: 8
+[     4.403] 	LinRsvdFieldPosition: 24
+[     4.403] 	MaxPixelClock: 250000000
+[     4.403] Mode: 130 (1280x800)
+[     4.403] 	ModeAttributes: 0xbb
+[     4.403] 	WinAAttributes: 0x7
+[     4.403] 	WinBAttributes: 0x0
+[     4.403] 	WinGranularity: 64
+[     4.403] 	WinSize: 64
+[     4.403] 	WinASegment: 0xa000
+[     4.403] 	WinBSegment: 0x0
+[     4.403] 	WinFuncPtr: 0x0
+[     4.403] 	BytesPerScanline: 1280
+[     4.403] 	XResolution: 1280
+[     4.403] 	YResolution: 800
+[     4.403] 	XCharSize: 0
+[     4.403] 	YCharSize: 0
+[     4.403] 	NumberOfPlanes: 1
+[     4.403] 	BitsPerPixel: 8
+[     4.403] 	NumberOfBanks: 1
+[     4.403] 	MemoryModel: 4
+[     4.403] 	BankSize: 0
+[     4.403] 	NumberOfImages: 0
+[     4.403] 	RedMaskSize: 0
+[     4.403] 	RedFieldPosition: 0
+[     4.403] 	GreenMaskSize: 0
+[     4.403] 	GreenFieldPosition: 0
+[     4.403] 	BlueMaskSize: 0
+[     4.403] 	BlueFieldPosition: 0
+[     4.403] 	RsvdMaskSize: 0
+[     4.403] 	RsvdFieldPosition: 0
+[     4.403] 	DirectColorModeInfo: 2
+[     4.403] 	PhysBasePtr: 0xb0000000
+[     4.403] 	LinBytesPerScanLine: 1280
+[     4.403] 	BnkNumberOfImagePages: 0
+[     4.403] 	LinNumberOfImagePages: 0
+[     4.403] 	LinRedMaskSize: 0
+[     4.403] 	LinRedFieldPosition: 0
+[     4.403] 	LinGreenMaskSize: 0
+[     4.403] 	LinGreenFieldPosition: 0
+[     4.403] 	LinBlueMaskSize: 0
+[     4.403] 	LinBlueFieldPosition: 0
+[     4.403] 	LinRsvdMaskSize: 0
+[     4.403] 	LinRsvdFieldPosition: 0
+[     4.403] 	MaxPixelClock: 250000000
+[     4.404] Mode: 131 (1280x800)
+[     4.404] 	ModeAttributes: 0xbb
+[     4.404] 	WinAAttributes: 0x7
+[     4.404] 	WinBAttributes: 0x0
+[     4.404] 	WinGranularity: 64
+[     4.404] 	WinSize: 64
+[     4.404] 	WinASegment: 0xa000
+[     4.404] 	WinBSegment: 0x0
+[     4.404] 	WinFuncPtr: 0x0
+[     4.404] 	BytesPerScanline: 2560
+[     4.404] 	XResolution: 1280
+[     4.404] 	YResolution: 800
+[     4.404] 	XCharSize: 0
+[     4.404] 	YCharSize: 0
+[     4.404] 	NumberOfPlanes: 1
+[     4.404] 	BitsPerPixel: 16
+[     4.404] 	NumberOfBanks: 1
+[     4.404] 	MemoryModel: 6
+[     4.404] 	BankSize: 0
+[     4.404] 	NumberOfImages: 0
+[     4.404] 	RedMaskSize: 5
+[     4.404] 	RedFieldPosition: 11
+[     4.404] 	GreenMaskSize: 6
+[     4.404] 	GreenFieldPosition: 5
+[     4.404] 	BlueMaskSize: 5
+[     4.404] 	BlueFieldPosition: 0
+[     4.404] 	RsvdMaskSize: 0
+[     4.404] 	RsvdFieldPosition: 0
+[     4.404] 	DirectColorModeInfo: 2
+[     4.404] 	PhysBasePtr: 0xb0000000
+[     4.404] 	LinBytesPerScanLine: 2560
+[     4.404] 	BnkNumberOfImagePages: 0
+[     4.404] 	LinNumberOfImagePages: 0
+[     4.404] 	LinRedMaskSize: 5
+[     4.404] 	LinRedFieldPosition: 11
+[     4.404] 	LinGreenMaskSize: 6
+[     4.404] 	LinGreenFieldPosition: 5
+[     4.404] 	LinBlueMaskSize: 5
+[     4.404] 	LinBlueFieldPosition: 0
+[     4.404] 	LinRsvdMaskSize: 0
+[     4.404] 	LinRsvdFieldPosition: 0
+[     4.404] 	MaxPixelClock: 250000000
+[     4.404] Mode: 132 (1280x800)
+[     4.404] 	ModeAttributes: 0xbb
+[     4.404] 	WinAAttributes: 0x7
+[     4.404] 	WinBAttributes: 0x0
+[     4.404] 	WinGranularity: 64
+[     4.404] 	WinSize: 64
+[     4.404] 	WinASegment: 0xa000
+[     4.404] 	WinBSegment: 0x0
+[     4.404] 	WinFuncPtr: 0x0
+[     4.404] 	BytesPerScanline: 3840
+[     4.404] 	XResolution: 1280
+[     4.404] 	YResolution: 800
+[     4.404] 	XCharSize: 0
+[     4.404] 	YCharSize: 0
+[     4.404] 	NumberOfPlanes: 1
+[     4.404] 	BitsPerPixel: 24
+[     4.404] 	NumberOfBanks: 1
+[     4.404] 	MemoryModel: 6
+[     4.404] 	BankSize: 0
+[     4.404] 	NumberOfImages: 0
+[     4.404] 	RedMaskSize: 8
+[     4.404] 	RedFieldPosition: 16
+[     4.404] 	GreenMaskSize: 8
+[     4.404] 	GreenFieldPosition: 8
+[     4.404] 	BlueMaskSize: 8
+[     4.404] 	BlueFieldPosition: 0
+[     4.404] 	RsvdMaskSize: 0
+[     4.404] 	RsvdFieldPosition: 0
+[     4.404] 	DirectColorModeInfo: 2
+[     4.404] 	PhysBasePtr: 0xb0000000
+[     4.404] 	LinBytesPerScanLine: 3840
+[     4.404] 	BnkNumberOfImagePages: 0
+[     4.404] 	LinNumberOfImagePages: 0
+[     4.404] 	LinRedMaskSize: 8
+[     4.404] 	LinRedFieldPosition: 16
+[     4.404] 	LinGreenMaskSize: 8
+[     4.404] 	LinGreenFieldPosition: 8
+[     4.404] 	LinBlueMaskSize: 8
+[     4.404] 	LinBlueFieldPosition: 0
+[     4.404] 	LinRsvdMaskSize: 0
+[     4.404] 	LinRsvdFieldPosition: 0
+[     4.404] 	MaxPixelClock: 250000000
+[     4.404] *Mode: 133 (1280x800)
+[     4.404] 	ModeAttributes: 0xbb
+[     4.404] 	WinAAttributes: 0x7
+[     4.404] 	WinBAttributes: 0x0
+[     4.404] 	WinGranularity: 64
+[     4.404] 	WinSize: 64
+[     4.404] 	WinASegment: 0xa000
+[     4.404] 	WinBSegment: 0x0
+[     4.404] 	WinFuncPtr: 0x0
+[     4.404] 	BytesPerScanline: 5120
+[     4.404] 	XResolution: 1280
+[     4.404] 	YResolution: 800
+[     4.404] 	XCharSize: 0
+[     4.404] 	YCharSize: 0
+[     4.404] 	NumberOfPlanes: 1
+[     4.404] 	BitsPerPixel: 32
+[     4.404] 	NumberOfBanks: 1
+[     4.404] 	MemoryModel: 6
+[     4.404] 	BankSize: 0
+[     4.404] 	NumberOfImages: 0
+[     4.404] 	RedMaskSize: 8
+[     4.404] 	RedFieldPosition: 16
+[     4.404] 	GreenMaskSize: 8
+[     4.404] 	GreenFieldPosition: 8
+[     4.404] 	BlueMaskSize: 8
+[     4.404] 	BlueFieldPosition: 0
+[     4.404] 	RsvdMaskSize: 8
+[     4.404] 	RsvdFieldPosition: 24
+[     4.404] 	DirectColorModeInfo: 2
+[     4.404] 	PhysBasePtr: 0xb0000000
+[     4.404] 	LinBytesPerScanLine: 5120
+[     4.404] 	BnkNumberOfImagePages: 0
+[     4.404] 	LinNumberOfImagePages: 0
+[     4.404] 	LinRedMaskSize: 8
+[     4.404] 	LinRedFieldPosition: 16
+[     4.404] 	LinGreenMaskSize: 8
+[     4.404] 	LinGreenFieldPosition: 8
+[     4.404] 	LinBlueMaskSize: 8
+[     4.404] 	LinBlueFieldPosition: 0
+[     4.404] 	LinRsvdMaskSize: 8
+[     4.404] 	LinRsvdFieldPosition: 24
+[     4.404] 	MaxPixelClock: 250000000
+[     4.404] Mode: 134 (1280x960)
+[     4.404] 	ModeAttributes: 0xbb
+[     4.404] 	WinAAttributes: 0x7
+[     4.404] 	WinBAttributes: 0x0
+[     4.404] 	WinGranularity: 64
+[     4.404] 	WinSize: 64
+[     4.404] 	WinASegment: 0xa000
+[     4.404] 	WinBSegment: 0x0
+[     4.404] 	WinFuncPtr: 0x0
+[     4.404] 	BytesPerScanline: 1280
+[     4.404] 	XResolution: 1280
+[     4.405] 	YResolution: 960
+[     4.405] 	XCharSize: 0
+[     4.405] 	YCharSize: 0
+[     4.405] 	NumberOfPlanes: 1
+[     4.405] 	BitsPerPixel: 8
+[     4.405] 	NumberOfBanks: 1
+[     4.405] 	MemoryModel: 4
+[     4.405] 	BankSize: 0
+[     4.405] 	NumberOfImages: 0
+[     4.405] 	RedMaskSize: 0
+[     4.405] 	RedFieldPosition: 0
+[     4.405] 	GreenMaskSize: 0
+[     4.405] 	GreenFieldPosition: 0
+[     4.405] 	BlueMaskSize: 0
+[     4.405] 	BlueFieldPosition: 0
+[     4.405] 	RsvdMaskSize: 0
+[     4.405] 	RsvdFieldPosition: 0
+[     4.405] 	DirectColorModeInfo: 2
+[     4.405] 	PhysBasePtr: 0xb0000000
+[     4.405] 	LinBytesPerScanLine: 1280
+[     4.405] 	BnkNumberOfImagePages: 0
+[     4.405] 	LinNumberOfImagePages: 0
+[     4.405] 	LinRedMaskSize: 0
+[     4.405] 	LinRedFieldPosition: 0
+[     4.405] 	LinGreenMaskSize: 0
+[     4.405] 	LinGreenFieldPosition: 0
+[     4.405] 	LinBlueMaskSize: 0
+[     4.405] 	LinBlueFieldPosition: 0
+[     4.405] 	LinRsvdMaskSize: 0
+[     4.405] 	LinRsvdFieldPosition: 0
+[     4.405] 	MaxPixelClock: 250000000
+[     4.405] Mode: 135 (1280x960)
+[     4.405] 	ModeAttributes: 0xbb
+[     4.405] 	WinAAttributes: 0x7
+[     4.405] 	WinBAttributes: 0x0
+[     4.405] 	WinGranularity: 64
+[     4.405] 	WinSize: 64
+[     4.405] 	WinASegment: 0xa000
+[     4.405] 	WinBSegment: 0x0
+[     4.405] 	WinFuncPtr: 0x0
+[     4.405] 	BytesPerScanline: 2560
+[     4.405] 	XResolution: 1280
+[     4.405] 	YResolution: 960
+[     4.405] 	XCharSize: 0
+[     4.405] 	YCharSize: 0
+[     4.405] 	NumberOfPlanes: 1
+[     4.405] 	BitsPerPixel: 16
+[     4.405] 	NumberOfBanks: 1
+[     4.405] 	MemoryModel: 6
+[     4.405] 	BankSize: 0
+[     4.405] 	NumberOfImages: 0
+[     4.405] 	RedMaskSize: 5
+[     4.405] 	RedFieldPosition: 11
+[     4.405] 	GreenMaskSize: 6
+[     4.405] 	GreenFieldPosition: 5
+[     4.405] 	BlueMaskSize: 5
+[     4.405] 	BlueFieldPosition: 0
+[     4.405] 	RsvdMaskSize: 0
+[     4.405] 	RsvdFieldPosition: 0
+[     4.405] 	DirectColorModeInfo: 2
+[     4.405] 	PhysBasePtr: 0xb0000000
+[     4.405] 	LinBytesPerScanLine: 2560
+[     4.405] 	BnkNumberOfImagePages: 0
+[     4.405] 	LinNumberOfImagePages: 0
+[     4.405] 	LinRedMaskSize: 5
+[     4.405] 	LinRedFieldPosition: 11
+[     4.405] 	LinGreenMaskSize: 6
+[     4.405] 	LinGreenFieldPosition: 5
+[     4.405] 	LinBlueMaskSize: 5
+[     4.405] 	LinBlueFieldPosition: 0
+[     4.405] 	LinRsvdMaskSize: 0
+[     4.405] 	LinRsvdFieldPosition: 0
+[     4.405] 	MaxPixelClock: 250000000
+[     4.405] Mode: 136 (1280x960)
+[     4.405] 	ModeAttributes: 0xbb
+[     4.405] 	WinAAttributes: 0x7
+[     4.405] 	WinBAttributes: 0x0
+[     4.405] 	WinGranularity: 64
+[     4.405] 	WinSize: 64
+[     4.405] 	WinASegment: 0xa000
+[     4.405] 	WinBSegment: 0x0
+[     4.405] 	WinFuncPtr: 0x0
+[     4.405] 	BytesPerScanline: 3840
+[     4.405] 	XResolution: 1280
+[     4.405] 	YResolution: 960
+[     4.405] 	XCharSize: 0
+[     4.405] 	YCharSize: 0
+[     4.405] 	NumberOfPlanes: 1
+[     4.405] 	BitsPerPixel: 24
+[     4.405] 	NumberOfBanks: 1
+[     4.405] 	MemoryModel: 6
+[     4.405] 	BankSize: 0
+[     4.405] 	NumberOfImages: 0
+[     4.405] 	RedMaskSize: 8
+[     4.405] 	RedFieldPosition: 16
+[     4.405] 	GreenMaskSize: 8
+[     4.405] 	GreenFieldPosition: 8
+[     4.405] 	BlueMaskSize: 8
+[     4.405] 	BlueFieldPosition: 0
+[     4.405] 	RsvdMaskSize: 0
+[     4.405] 	RsvdFieldPosition: 0
+[     4.405] 	DirectColorModeInfo: 2
+[     4.405] 	PhysBasePtr: 0xb0000000
+[     4.405] 	LinBytesPerScanLine: 3840
+[     4.405] 	BnkNumberOfImagePages: 0
+[     4.405] 	LinNumberOfImagePages: 0
+[     4.405] 	LinRedMaskSize: 8
+[     4.405] 	LinRedFieldPosition: 16
+[     4.405] 	LinGreenMaskSize: 8
+[     4.405] 	LinGreenFieldPosition: 8
+[     4.405] 	LinBlueMaskSize: 8
+[     4.405] 	LinBlueFieldPosition: 0
+[     4.405] 	LinRsvdMaskSize: 0
+[     4.405] 	LinRsvdFieldPosition: 0
+[     4.405] 	MaxPixelClock: 250000000
+[     4.405] *Mode: 137 (1280x960)
+[     4.405] 	ModeAttributes: 0xbb
+[     4.405] 	WinAAttributes: 0x7
+[     4.405] 	WinBAttributes: 0x0
+[     4.405] 	WinGranularity: 64
+[     4.405] 	WinSize: 64
+[     4.405] 	WinASegment: 0xa000
+[     4.405] 	WinBSegment: 0x0
+[     4.405] 	WinFuncPtr: 0x0
+[     4.405] 	BytesPerScanline: 5120
+[     4.405] 	XResolution: 1280
+[     4.405] 	YResolution: 960
+[     4.405] 	XCharSize: 0
+[     4.405] 	YCharSize: 0
+[     4.405] 	NumberOfPlanes: 1
+[     4.405] 	BitsPerPixel: 32
+[     4.405] 	NumberOfBanks: 1
+[     4.405] 	MemoryModel: 6
+[     4.405] 	BankSize: 0
+[     4.405] 	NumberOfImages: 0
+[     4.405] 	RedMaskSize: 8
+[     4.405] 	RedFieldPosition: 16
+[     4.405] 	GreenMaskSize: 8
+[     4.405] 	GreenFieldPosition: 8
+[     4.405] 	BlueMaskSize: 8
+[     4.405] 	BlueFieldPosition: 0
+[     4.405] 	RsvdMaskSize: 8
+[     4.406] 	RsvdFieldPosition: 24
+[     4.406] 	DirectColorModeInfo: 2
+[     4.406] 	PhysBasePtr: 0xb0000000
+[     4.406] 	LinBytesPerScanLine: 5120
+[     4.406] 	BnkNumberOfImagePages: 0
+[     4.406] 	LinNumberOfImagePages: 0
+[     4.406] 	LinRedMaskSize: 8
+[     4.406] 	LinRedFieldPosition: 16
+[     4.406] 	LinGreenMaskSize: 8
+[     4.406] 	LinGreenFieldPosition: 8
+[     4.406] 	LinBlueMaskSize: 8
+[     4.406] 	LinBlueFieldPosition: 0
+[     4.406] 	LinRsvdMaskSize: 8
+[     4.406] 	LinRsvdFieldPosition: 24
+[     4.406] 	MaxPixelClock: 250000000
+[     4.406] Mode: 138 (1400x1050)
+[     4.406] 	ModeAttributes: 0xbb
+[     4.406] 	WinAAttributes: 0x7
+[     4.406] 	WinBAttributes: 0x0
+[     4.406] 	WinGranularity: 64
+[     4.406] 	WinSize: 64
+[     4.406] 	WinASegment: 0xa000
+[     4.406] 	WinBSegment: 0x0
+[     4.406] 	WinFuncPtr: 0x0
+[     4.406] 	BytesPerScanline: 1400
+[     4.406] 	XResolution: 1400
+[     4.406] 	YResolution: 1050
+[     4.406] 	XCharSize: 0
+[     4.406] 	YCharSize: 0
+[     4.406] 	NumberOfPlanes: 1
+[     4.406] 	BitsPerPixel: 8
+[     4.406] 	NumberOfBanks: 1
+[     4.406] 	MemoryModel: 4
+[     4.406] 	BankSize: 0
+[     4.406] 	NumberOfImages: 0
+[     4.406] 	RedMaskSize: 0
+[     4.406] 	RedFieldPosition: 0
+[     4.406] 	GreenMaskSize: 0
+[     4.406] 	GreenFieldPosition: 0
+[     4.406] 	BlueMaskSize: 0
+[     4.406] 	BlueFieldPosition: 0
+[     4.406] 	RsvdMaskSize: 0
+[     4.406] 	RsvdFieldPosition: 0
+[     4.406] 	DirectColorModeInfo: 2
+[     4.406] 	PhysBasePtr: 0xb0000000
+[     4.406] 	LinBytesPerScanLine: 1400
+[     4.406] 	BnkNumberOfImagePages: 0
+[     4.406] 	LinNumberOfImagePages: 0
+[     4.406] 	LinRedMaskSize: 0
+[     4.406] 	LinRedFieldPosition: 0
+[     4.406] 	LinGreenMaskSize: 0
+[     4.406] 	LinGreenFieldPosition: 0
+[     4.406] 	LinBlueMaskSize: 0
+[     4.406] 	LinBlueFieldPosition: 0
+[     4.406] 	LinRsvdMaskSize: 0
+[     4.406] 	LinRsvdFieldPosition: 0
+[     4.406] 	MaxPixelClock: 250000000
+[     4.406] Mode: 139 (1400x1050)
+[     4.406] 	ModeAttributes: 0xbb
+[     4.406] 	WinAAttributes: 0x7
+[     4.406] 	WinBAttributes: 0x0
+[     4.406] 	WinGranularity: 64
+[     4.406] 	WinSize: 64
+[     4.406] 	WinASegment: 0xa000
+[     4.406] 	WinBSegment: 0x0
+[     4.406] 	WinFuncPtr: 0x0
+[     4.406] 	BytesPerScanline: 2800
+[     4.406] 	XResolution: 1400
+[     4.406] 	YResolution: 1050
+[     4.406] 	XCharSize: 0
+[     4.406] 	YCharSize: 0
+[     4.406] 	NumberOfPlanes: 1
+[     4.406] 	BitsPerPixel: 16
+[     4.406] 	NumberOfBanks: 1
+[     4.406] 	MemoryModel: 6
+[     4.406] 	BankSize: 0
+[     4.406] 	NumberOfImages: 0
+[     4.406] 	RedMaskSize: 5
+[     4.406] 	RedFieldPosition: 11
+[     4.406] 	GreenMaskSize: 6
+[     4.406] 	GreenFieldPosition: 5
+[     4.406] 	BlueMaskSize: 5
+[     4.406] 	BlueFieldPosition: 0
+[     4.406] 	RsvdMaskSize: 0
+[     4.406] 	RsvdFieldPosition: 0
+[     4.406] 	DirectColorModeInfo: 2
+[     4.406] 	PhysBasePtr: 0xb0000000
+[     4.406] 	LinBytesPerScanLine: 2800
+[     4.406] 	BnkNumberOfImagePages: 0
+[     4.406] 	LinNumberOfImagePages: 0
+[     4.406] 	LinRedMaskSize: 5
+[     4.406] 	LinRedFieldPosition: 11
+[     4.406] 	LinGreenMaskSize: 6
+[     4.406] 	LinGreenFieldPosition: 5
+[     4.406] 	LinBlueMaskSize: 5
+[     4.406] 	LinBlueFieldPosition: 0
+[     4.406] 	LinRsvdMaskSize: 0
+[     4.406] 	LinRsvdFieldPosition: 0
+[     4.406] 	MaxPixelClock: 250000000
+[     4.406] Mode: 13a (1400x1050)
+[     4.406] 	ModeAttributes: 0xbb
+[     4.406] 	WinAAttributes: 0x7
+[     4.406] 	WinBAttributes: 0x0
+[     4.406] 	WinGranularity: 64
+[     4.406] 	WinSize: 64
+[     4.406] 	WinASegment: 0xa000
+[     4.406] 	WinBSegment: 0x0
+[     4.406] 	WinFuncPtr: 0x0
+[     4.406] 	BytesPerScanline: 4200
+[     4.406] 	XResolution: 1400
+[     4.406] 	YResolution: 1050
+[     4.406] 	XCharSize: 0
+[     4.406] 	YCharSize: 0
+[     4.406] 	NumberOfPlanes: 1
+[     4.406] 	BitsPerPixel: 24
+[     4.406] 	NumberOfBanks: 1
+[     4.406] 	MemoryModel: 6
+[     4.406] 	BankSize: 0
+[     4.406] 	NumberOfImages: 0
+[     4.406] 	RedMaskSize: 8
+[     4.406] 	RedFieldPosition: 16
+[     4.406] 	GreenMaskSize: 8
+[     4.406] 	GreenFieldPosition: 8
+[     4.406] 	BlueMaskSize: 8
+[     4.406] 	BlueFieldPosition: 0
+[     4.406] 	RsvdMaskSize: 0
+[     4.406] 	RsvdFieldPosition: 0
+[     4.406] 	DirectColorModeInfo: 2
+[     4.406] 	PhysBasePtr: 0xb0000000
+[     4.406] 	LinBytesPerScanLine: 4200
+[     4.406] 	BnkNumberOfImagePages: 0
+[     4.406] 	LinNumberOfImagePages: 0
+[     4.406] 	LinRedMaskSize: 8
+[     4.406] 	LinRedFieldPosition: 16
+[     4.406] 	LinGreenMaskSize: 8
+[     4.406] 	LinGreenFieldPosition: 8
+[     4.406] 	LinBlueMaskSize: 8
+[     4.406] 	LinBlueFieldPosition: 0
+[     4.406] 	LinRsvdMaskSize: 0
+[     4.406] 	LinRsvdFieldPosition: 0
+[     4.406] 	MaxPixelClock: 250000000
+[     4.407] *Mode: 13b (1400x1050)
+[     4.407] 	ModeAttributes: 0xbb
+[     4.407] 	WinAAttributes: 0x7
+[     4.407] 	WinBAttributes: 0x0
+[     4.407] 	WinGranularity: 64
+[     4.407] 	WinSize: 64
+[     4.407] 	WinASegment: 0xa000
+[     4.407] 	WinBSegment: 0x0
+[     4.407] 	WinFuncPtr: 0x0
+[     4.407] 	BytesPerScanline: 5600
+[     4.407] 	XResolution: 1400
+[     4.407] 	YResolution: 1050
+[     4.407] 	XCharSize: 0
+[     4.407] 	YCharSize: 0
+[     4.407] 	NumberOfPlanes: 1
+[     4.407] 	BitsPerPixel: 32
+[     4.407] 	NumberOfBanks: 1
+[     4.407] 	MemoryModel: 6
+[     4.407] 	BankSize: 0
+[     4.407] 	NumberOfImages: 0
+[     4.407] 	RedMaskSize: 8
+[     4.407] 	RedFieldPosition: 16
+[     4.407] 	GreenMaskSize: 8
+[     4.407] 	GreenFieldPosition: 8
+[     4.407] 	BlueMaskSize: 8
+[     4.407] 	BlueFieldPosition: 0
+[     4.407] 	RsvdMaskSize: 8
+[     4.407] 	RsvdFieldPosition: 24
+[     4.407] 	DirectColorModeInfo: 2
+[     4.407] 	PhysBasePtr: 0xb0000000
+[     4.407] 	LinBytesPerScanLine: 5600
+[     4.407] 	BnkNumberOfImagePages: 0
+[     4.407] 	LinNumberOfImagePages: 0
+[     4.407] 	LinRedMaskSize: 8
+[     4.407] 	LinRedFieldPosition: 16
+[     4.407] 	LinGreenMaskSize: 8
+[     4.407] 	LinGreenFieldPosition: 8
+[     4.407] 	LinBlueMaskSize: 8
+[     4.407] 	LinBlueFieldPosition: 0
+[     4.407] 	LinRsvdMaskSize: 8
+[     4.407] 	LinRsvdFieldPosition: 24
+[     4.407] 	MaxPixelClock: 250000000
+[     4.407] Mode: 13c (1440x900)
+[     4.407] 	ModeAttributes: 0xbb
+[     4.407] 	WinAAttributes: 0x7
+[     4.407] 	WinBAttributes: 0x0
+[     4.407] 	WinGranularity: 64
+[     4.407] 	WinSize: 64
+[     4.407] 	WinASegment: 0xa000
+[     4.407] 	WinBSegment: 0x0
+[     4.407] 	WinFuncPtr: 0x0
+[     4.407] 	BytesPerScanline: 1440
+[     4.407] 	XResolution: 1440
+[     4.407] 	YResolution: 900
+[     4.407] 	XCharSize: 0
+[     4.407] 	YCharSize: 0
+[     4.407] 	NumberOfPlanes: 1
+[     4.407] 	BitsPerPixel: 8
+[     4.407] 	NumberOfBanks: 1
+[     4.407] 	MemoryModel: 4
+[     4.407] 	BankSize: 0
+[     4.407] 	NumberOfImages: 0
+[     4.407] 	RedMaskSize: 0
+[     4.407] 	RedFieldPosition: 0
+[     4.407] 	GreenMaskSize: 0
+[     4.407] 	GreenFieldPosition: 0
+[     4.407] 	BlueMaskSize: 0
+[     4.407] 	BlueFieldPosition: 0
+[     4.407] 	RsvdMaskSize: 0
+[     4.407] 	RsvdFieldPosition: 0
+[     4.407] 	DirectColorModeInfo: 2
+[     4.407] 	PhysBasePtr: 0xb0000000
+[     4.407] 	LinBytesPerScanLine: 1440
+[     4.407] 	BnkNumberOfImagePages: 0
+[     4.407] 	LinNumberOfImagePages: 0
+[     4.407] 	LinRedMaskSize: 0
+[     4.407] 	LinRedFieldPosition: 0
+[     4.407] 	LinGreenMaskSize: 0
+[     4.407] 	LinGreenFieldPosition: 0
+[     4.407] 	LinBlueMaskSize: 0
+[     4.407] 	LinBlueFieldPosition: 0
+[     4.407] 	LinRsvdMaskSize: 0
+[     4.407] 	LinRsvdFieldPosition: 0
+[     4.407] 	MaxPixelClock: 250000000
+[     4.407] Mode: 13d (1440x900)
+[     4.407] 	ModeAttributes: 0xbb
+[     4.407] 	WinAAttributes: 0x7
+[     4.407] 	WinBAttributes: 0x0
+[     4.407] 	WinGranularity: 64
+[     4.407] 	WinSize: 64
+[     4.407] 	WinASegment: 0xa000
+[     4.407] 	WinBSegment: 0x0
+[     4.407] 	WinFuncPtr: 0x0
+[     4.407] 	BytesPerScanline: 2880
+[     4.407] 	XResolution: 1440
+[     4.407] 	YResolution: 900
+[     4.407] 	XCharSize: 0
+[     4.407] 	YCharSize: 0
+[     4.407] 	NumberOfPlanes: 1
+[     4.407] 	BitsPerPixel: 16
+[     4.407] 	NumberOfBanks: 1
+[     4.407] 	MemoryModel: 6
+[     4.407] 	BankSize: 0
+[     4.407] 	NumberOfImages: 0
+[     4.407] 	RedMaskSize: 5
+[     4.407] 	RedFieldPosition: 11
+[     4.407] 	GreenMaskSize: 6
+[     4.407] 	GreenFieldPosition: 5
+[     4.407] 	BlueMaskSize: 5
+[     4.407] 	BlueFieldPosition: 0
+[     4.407] 	RsvdMaskSize: 0
+[     4.407] 	RsvdFieldPosition: 0
+[     4.407] 	DirectColorModeInfo: 2
+[     4.407] 	PhysBasePtr: 0xb0000000
+[     4.407] 	LinBytesPerScanLine: 2880
+[     4.407] 	BnkNumberOfImagePages: 0
+[     4.407] 	LinNumberOfImagePages: 0
+[     4.407] 	LinRedMaskSize: 5
+[     4.407] 	LinRedFieldPosition: 11
+[     4.407] 	LinGreenMaskSize: 6
+[     4.407] 	LinGreenFieldPosition: 5
+[     4.407] 	LinBlueMaskSize: 5
+[     4.407] 	LinBlueFieldPosition: 0
+[     4.407] 	LinRsvdMaskSize: 0
+[     4.407] 	LinRsvdFieldPosition: 0
+[     4.407] 	MaxPixelClock: 250000000
+[     4.407] Mode: 13e (1440x900)
+[     4.407] 	ModeAttributes: 0xbb
+[     4.407] 	WinAAttributes: 0x7
+[     4.407] 	WinBAttributes: 0x0
+[     4.407] 	WinGranularity: 64
+[     4.407] 	WinSize: 64
+[     4.407] 	WinASegment: 0xa000
+[     4.407] 	WinBSegment: 0x0
+[     4.407] 	WinFuncPtr: 0x0
+[     4.407] 	BytesPerScanline: 4320
+[     4.407] 	XResolution: 1440
+[     4.407] 	YResolution: 900
+[     4.407] 	XCharSize: 0
+[     4.407] 	YCharSize: 0
+[     4.407] 	NumberOfPlanes: 1
+[     4.407] 	BitsPerPixel: 24
+[     4.407] 	NumberOfBanks: 1
+[     4.407] 	MemoryModel: 6
+[     4.407] 	BankSize: 0
+[     4.407] 	NumberOfImages: 0
+[     4.407] 	RedMaskSize: 8
+[     4.407] 	RedFieldPosition: 16
+[     4.407] 	GreenMaskSize: 8
+[     4.407] 	GreenFieldPosition: 8
+[     4.407] 	BlueMaskSize: 8
+[     4.407] 	BlueFieldPosition: 0
+[     4.408] 	RsvdMaskSize: 0
+[     4.408] 	RsvdFieldPosition: 0
+[     4.408] 	DirectColorModeInfo: 2
+[     4.408] 	PhysBasePtr: 0xb0000000
+[     4.408] 	LinBytesPerScanLine: 4320
+[     4.408] 	BnkNumberOfImagePages: 0
+[     4.408] 	LinNumberOfImagePages: 0
+[     4.408] 	LinRedMaskSize: 8
+[     4.408] 	LinRedFieldPosition: 16
+[     4.408] 	LinGreenMaskSize: 8
+[     4.408] 	LinGreenFieldPosition: 8
+[     4.408] 	LinBlueMaskSize: 8
+[     4.408] 	LinBlueFieldPosition: 0
+[     4.408] 	LinRsvdMaskSize: 0
+[     4.408] 	LinRsvdFieldPosition: 0
+[     4.408] 	MaxPixelClock: 250000000
+[     4.408] *Mode: 13f (1440x900)
+[     4.408] 	ModeAttributes: 0xbb
+[     4.408] 	WinAAttributes: 0x7
+[     4.408] 	WinBAttributes: 0x0
+[     4.408] 	WinGranularity: 64
+[     4.408] 	WinSize: 64
+[     4.408] 	WinASegment: 0xa000
+[     4.408] 	WinBSegment: 0x0
+[     4.408] 	WinFuncPtr: 0x0
+[     4.408] 	BytesPerScanline: 5760
+[     4.408] 	XResolution: 1440
+[     4.408] 	YResolution: 900
+[     4.408] 	XCharSize: 0
+[     4.408] 	YCharSize: 0
+[     4.408] 	NumberOfPlanes: 1
+[     4.408] 	BitsPerPixel: 32
+[     4.408] 	NumberOfBanks: 1
+[     4.408] 	MemoryModel: 6
+[     4.408] 	BankSize: 0
+[     4.408] 	NumberOfImages: 0
+[     4.408] 	RedMaskSize: 8
+[     4.408] 	RedFieldPosition: 16
+[     4.408] 	GreenMaskSize: 8
+[     4.408] 	GreenFieldPosition: 8
+[     4.408] 	BlueMaskSize: 8
+[     4.408] 	BlueFieldPosition: 0
+[     4.408] 	RsvdMaskSize: 8
+[     4.408] 	RsvdFieldPosition: 24
+[     4.408] 	DirectColorModeInfo: 2
+[     4.408] 	PhysBasePtr: 0xb0000000
+[     4.408] 	LinBytesPerScanLine: 5760
+[     4.408] 	BnkNumberOfImagePages: 0
+[     4.408] 	LinNumberOfImagePages: 0
+[     4.408] 	LinRedMaskSize: 8
+[     4.408] 	LinRedFieldPosition: 16
+[     4.408] 	LinGreenMaskSize: 8
+[     4.408] 	LinGreenFieldPosition: 8
+[     4.408] 	LinBlueMaskSize: 8
+[     4.408] 	LinBlueFieldPosition: 0
+[     4.408] 	LinRsvdMaskSize: 8
+[     4.408] 	LinRsvdFieldPosition: 24
+[     4.408] 	MaxPixelClock: 250000000
+[     4.408] Mode: 140 (1600x1200)
+[     4.408] 	ModeAttributes: 0xbb
+[     4.408] 	WinAAttributes: 0x7
+[     4.408] 	WinBAttributes: 0x0
+[     4.408] 	WinGranularity: 64
+[     4.408] 	WinSize: 64
+[     4.408] 	WinASegment: 0xa000
+[     4.408] 	WinBSegment: 0x0
+[     4.408] 	WinFuncPtr: 0x0
+[     4.408] 	BytesPerScanline: 1600
+[     4.408] 	XResolution: 1600
+[     4.408] 	YResolution: 1200
+[     4.408] 	XCharSize: 0
+[     4.408] 	YCharSize: 0
+[     4.408] 	NumberOfPlanes: 1
+[     4.408] 	BitsPerPixel: 8
+[     4.408] 	NumberOfBanks: 1
+[     4.408] 	MemoryModel: 4
+[     4.408] 	BankSize: 0
+[     4.408] 	NumberOfImages: 0
+[     4.408] 	RedMaskSize: 0
+[     4.408] 	RedFieldPosition: 0
+[     4.408] 	GreenMaskSize: 0
+[     4.408] 	GreenFieldPosition: 0
+[     4.408] 	BlueMaskSize: 0
+[     4.408] 	BlueFieldPosition: 0
+[     4.408] 	RsvdMaskSize: 0
+[     4.408] 	RsvdFieldPosition: 0
+[     4.408] 	DirectColorModeInfo: 2
+[     4.408] 	PhysBasePtr: 0xb0000000
+[     4.408] 	LinBytesPerScanLine: 1600
+[     4.408] 	BnkNumberOfImagePages: 0
+[     4.408] 	LinNumberOfImagePages: 0
+[     4.408] 	LinRedMaskSize: 0
+[     4.408] 	LinRedFieldPosition: 0
+[     4.408] 	LinGreenMaskSize: 0
+[     4.408] 	LinGreenFieldPosition: 0
+[     4.408] 	LinBlueMaskSize: 0
+[     4.408] 	LinBlueFieldPosition: 0
+[     4.408] 	LinRsvdMaskSize: 0
+[     4.408] 	LinRsvdFieldPosition: 0
+[     4.408] 	MaxPixelClock: 250000000
+[     4.408] Mode: 141 (1600x1200)
+[     4.408] 	ModeAttributes: 0xbb
+[     4.408] 	WinAAttributes: 0x7
+[     4.408] 	WinBAttributes: 0x0
+[     4.408] 	WinGranularity: 64
+[     4.408] 	WinSize: 64
+[     4.408] 	WinASegment: 0xa000
+[     4.408] 	WinBSegment: 0x0
+[     4.408] 	WinFuncPtr: 0x0
+[     4.408] 	BytesPerScanline: 3200
+[     4.408] 	XResolution: 1600
+[     4.408] 	YResolution: 1200
+[     4.408] 	XCharSize: 0
+[     4.408] 	YCharSize: 0
+[     4.408] 	NumberOfPlanes: 1
+[     4.408] 	BitsPerPixel: 16
+[     4.408] 	NumberOfBanks: 1
+[     4.408] 	MemoryModel: 6
+[     4.408] 	BankSize: 0
+[     4.408] 	NumberOfImages: 0
+[     4.408] 	RedMaskSize: 5
+[     4.408] 	RedFieldPosition: 11
+[     4.408] 	GreenMaskSize: 6
+[     4.408] 	GreenFieldPosition: 5
+[     4.408] 	BlueMaskSize: 5
+[     4.408] 	BlueFieldPosition: 0
+[     4.408] 	RsvdMaskSize: 0
+[     4.408] 	RsvdFieldPosition: 0
+[     4.408] 	DirectColorModeInfo: 2
+[     4.408] 	PhysBasePtr: 0xb0000000
+[     4.408] 	LinBytesPerScanLine: 3200
+[     4.408] 	BnkNumberOfImagePages: 0
+[     4.408] 	LinNumberOfImagePages: 0
+[     4.408] 	LinRedMaskSize: 5
+[     4.408] 	LinRedFieldPosition: 11
+[     4.408] 	LinGreenMaskSize: 6
+[     4.408] 	LinGreenFieldPosition: 5
+[     4.408] 	LinBlueMaskSize: 5
+[     4.408] 	LinBlueFieldPosition: 0
+[     4.408] 	LinRsvdMaskSize: 0
+[     4.408] 	LinRsvdFieldPosition: 0
+[     4.408] 	MaxPixelClock: 250000000
+[     4.409] Mode: 142 (1600x1200)
+[     4.409] 	ModeAttributes: 0xbb
+[     4.409] 	WinAAttributes: 0x7
+[     4.409] 	WinBAttributes: 0x0
+[     4.409] 	WinGranularity: 64
+[     4.409] 	WinSize: 64
+[     4.409] 	WinASegment: 0xa000
+[     4.409] 	WinBSegment: 0x0
+[     4.409] 	WinFuncPtr: 0x0
+[     4.409] 	BytesPerScanline: 4800
+[     4.409] 	XResolution: 1600
+[     4.409] 	YResolution: 1200
+[     4.409] 	XCharSize: 0
+[     4.409] 	YCharSize: 0
+[     4.409] 	NumberOfPlanes: 1
+[     4.409] 	BitsPerPixel: 24
+[     4.409] 	NumberOfBanks: 1
+[     4.409] 	MemoryModel: 6
+[     4.409] 	BankSize: 0
+[     4.409] 	NumberOfImages: 0
+[     4.409] 	RedMaskSize: 8
+[     4.409] 	RedFieldPosition: 16
+[     4.409] 	GreenMaskSize: 8
+[     4.409] 	GreenFieldPosition: 8
+[     4.409] 	BlueMaskSize: 8
+[     4.409] 	BlueFieldPosition: 0
+[     4.409] 	RsvdMaskSize: 0
+[     4.409] 	RsvdFieldPosition: 0
+[     4.409] 	DirectColorModeInfo: 2
+[     4.409] 	PhysBasePtr: 0xb0000000
+[     4.409] 	LinBytesPerScanLine: 4800
+[     4.409] 	BnkNumberOfImagePages: 0
+[     4.409] 	LinNumberOfImagePages: 0
+[     4.409] 	LinRedMaskSize: 8
+[     4.409] 	LinRedFieldPosition: 16
+[     4.409] 	LinGreenMaskSize: 8
+[     4.409] 	LinGreenFieldPosition: 8
+[     4.409] 	LinBlueMaskSize: 8
+[     4.409] 	LinBlueFieldPosition: 0
+[     4.409] 	LinRsvdMaskSize: 0
+[     4.409] 	LinRsvdFieldPosition: 0
+[     4.409] 	MaxPixelClock: 250000000
+[     4.409] *Mode: 143 (1600x1200)
+[     4.409] 	ModeAttributes: 0xbb
+[     4.409] 	WinAAttributes: 0x7
+[     4.409] 	WinBAttributes: 0x0
+[     4.409] 	WinGranularity: 64
+[     4.409] 	WinSize: 64
+[     4.409] 	WinASegment: 0xa000
+[     4.409] 	WinBSegment: 0x0
+[     4.409] 	WinFuncPtr: 0x0
+[     4.409] 	BytesPerScanline: 6400
+[     4.409] 	XResolution: 1600
+[     4.409] 	YResolution: 1200
+[     4.409] 	XCharSize: 0
+[     4.409] 	YCharSize: 0
+[     4.409] 	NumberOfPlanes: 1
+[     4.409] 	BitsPerPixel: 32
+[     4.409] 	NumberOfBanks: 1
+[     4.409] 	MemoryModel: 6
+[     4.409] 	BankSize: 0
+[     4.409] 	NumberOfImages: 0
+[     4.409] 	RedMaskSize: 8
+[     4.409] 	RedFieldPosition: 16
+[     4.409] 	GreenMaskSize: 8
+[     4.409] 	GreenFieldPosition: 8
+[     4.409] 	BlueMaskSize: 8
+[     4.409] 	BlueFieldPosition: 0
+[     4.409] 	RsvdMaskSize: 8
+[     4.409] 	RsvdFieldPosition: 24
+[     4.409] 	DirectColorModeInfo: 2
+[     4.409] 	PhysBasePtr: 0xb0000000
+[     4.409] 	LinBytesPerScanLine: 6400
+[     4.409] 	BnkNumberOfImagePages: 0
+[     4.409] 	LinNumberOfImagePages: 0
+[     4.409] 	LinRedMaskSize: 8
+[     4.409] 	LinRedFieldPosition: 16
+[     4.409] 	LinGreenMaskSize: 8
+[     4.409] 	LinGreenFieldPosition: 8
+[     4.409] 	LinBlueMaskSize: 8
+[     4.409] 	LinBlueFieldPosition: 0
+[     4.409] 	LinRsvdMaskSize: 8
+[     4.409] 	LinRsvdFieldPosition: 24
+[     4.409] 	MaxPixelClock: 250000000
+[     4.409] Mode: 144 (1680x1050)
+[     4.409] 	ModeAttributes: 0xbb
+[     4.409] 	WinAAttributes: 0x7
+[     4.409] 	WinBAttributes: 0x0
+[     4.409] 	WinGranularity: 64
+[     4.409] 	WinSize: 64
+[     4.409] 	WinASegment: 0xa000
+[     4.409] 	WinBSegment: 0x0
+[     4.409] 	WinFuncPtr: 0x0
+[     4.409] 	BytesPerScanline: 1680
+[     4.409] 	XResolution: 1680
+[     4.409] 	YResolution: 1050
+[     4.409] 	XCharSize: 0
+[     4.409] 	YCharSize: 0
+[     4.409] 	NumberOfPlanes: 1
+[     4.409] 	BitsPerPixel: 8
+[     4.409] 	NumberOfBanks: 1
+[     4.409] 	MemoryModel: 4
+[     4.409] 	BankSize: 0
+[     4.409] 	NumberOfImages: 0
+[     4.409] 	RedMaskSize: 0
+[     4.409] 	RedFieldPosition: 0
+[     4.409] 	GreenMaskSize: 0
+[     4.409] 	GreenFieldPosition: 0
+[     4.409] 	BlueMaskSize: 0
+[     4.409] 	BlueFieldPosition: 0
+[     4.409] 	RsvdMaskSize: 0
+[     4.409] 	RsvdFieldPosition: 0
+[     4.409] 	DirectColorModeInfo: 2
+[     4.409] 	PhysBasePtr: 0xb0000000
+[     4.409] 	LinBytesPerScanLine: 1680
+[     4.409] 	BnkNumberOfImagePages: 0
+[     4.409] 	LinNumberOfImagePages: 0
+[     4.409] 	LinRedMaskSize: 0
+[     4.409] 	LinRedFieldPosition: 0
+[     4.409] 	LinGreenMaskSize: 0
+[     4.409] 	LinGreenFieldPosition: 0
+[     4.409] 	LinBlueMaskSize: 0
+[     4.409] 	LinBlueFieldPosition: 0
+[     4.409] 	LinRsvdMaskSize: 0
+[     4.409] 	LinRsvdFieldPosition: 0
+[     4.409] 	MaxPixelClock: 250000000
+[     4.409] Mode: 145 (1680x1050)
+[     4.409] 	ModeAttributes: 0xbb
+[     4.409] 	WinAAttributes: 0x7
+[     4.409] 	WinBAttributes: 0x0
+[     4.409] 	WinGranularity: 64
+[     4.409] 	WinSize: 64
+[     4.409] 	WinASegment: 0xa000
+[     4.409] 	WinBSegment: 0x0
+[     4.409] 	WinFuncPtr: 0x0
+[     4.409] 	BytesPerScanline: 3360
+[     4.409] 	XResolution: 1680
+[     4.409] 	YResolution: 1050
+[     4.409] 	XCharSize: 0
+[     4.409] 	YCharSize: 0
+[     4.409] 	NumberOfPlanes: 1
+[     4.409] 	BitsPerPixel: 16
+[     4.409] 	NumberOfBanks: 1
+[     4.410] 	MemoryModel: 6
+[     4.410] 	BankSize: 0
+[     4.410] 	NumberOfImages: 0
+[     4.410] 	RedMaskSize: 5
+[     4.410] 	RedFieldPosition: 11
+[     4.410] 	GreenMaskSize: 6
+[     4.410] 	GreenFieldPosition: 5
+[     4.410] 	BlueMaskSize: 5
+[     4.410] 	BlueFieldPosition: 0
+[     4.410] 	RsvdMaskSize: 0
+[     4.410] 	RsvdFieldPosition: 0
+[     4.410] 	DirectColorModeInfo: 2
+[     4.410] 	PhysBasePtr: 0xb0000000
+[     4.410] 	LinBytesPerScanLine: 3360
+[     4.410] 	BnkNumberOfImagePages: 0
+[     4.410] 	LinNumberOfImagePages: 0
+[     4.410] 	LinRedMaskSize: 5
+[     4.410] 	LinRedFieldPosition: 11
+[     4.410] 	LinGreenMaskSize: 6
+[     4.410] 	LinGreenFieldPosition: 5
+[     4.410] 	LinBlueMaskSize: 5
+[     4.410] 	LinBlueFieldPosition: 0
+[     4.410] 	LinRsvdMaskSize: 0
+[     4.410] 	LinRsvdFieldPosition: 0
+[     4.410] 	MaxPixelClock: 250000000
+[     4.410] Mode: 146 (1680x1050)
+[     4.410] 	ModeAttributes: 0xbb
+[     4.410] 	WinAAttributes: 0x7
+[     4.410] 	WinBAttributes: 0x0
+[     4.410] 	WinGranularity: 64
+[     4.410] 	WinSize: 64
+[     4.410] 	WinASegment: 0xa000
+[     4.410] 	WinBSegment: 0x0
+[     4.410] 	WinFuncPtr: 0x0
+[     4.410] 	BytesPerScanline: 5040
+[     4.410] 	XResolution: 1680
+[     4.410] 	YResolution: 1050
+[     4.410] 	XCharSize: 0
+[     4.410] 	YCharSize: 0
+[     4.410] 	NumberOfPlanes: 1
+[     4.410] 	BitsPerPixel: 24
+[     4.410] 	NumberOfBanks: 1
+[     4.410] 	MemoryModel: 6
+[     4.410] 	BankSize: 0
+[     4.410] 	NumberOfImages: 0
+[     4.410] 	RedMaskSize: 8
+[     4.410] 	RedFieldPosition: 16
+[     4.410] 	GreenMaskSize: 8
+[     4.410] 	GreenFieldPosition: 8
+[     4.410] 	BlueMaskSize: 8
+[     4.410] 	BlueFieldPosition: 0
+[     4.410] 	RsvdMaskSize: 0
+[     4.410] 	RsvdFieldPosition: 0
+[     4.410] 	DirectColorModeInfo: 2
+[     4.410] 	PhysBasePtr: 0xb0000000
+[     4.410] 	LinBytesPerScanLine: 5040
+[     4.410] 	BnkNumberOfImagePages: 0
+[     4.410] 	LinNumberOfImagePages: 0
+[     4.410] 	LinRedMaskSize: 8
+[     4.410] 	LinRedFieldPosition: 16
+[     4.410] 	LinGreenMaskSize: 8
+[     4.410] 	LinGreenFieldPosition: 8
+[     4.410] 	LinBlueMaskSize: 8
+[     4.410] 	LinBlueFieldPosition: 0
+[     4.410] 	LinRsvdMaskSize: 0
+[     4.410] 	LinRsvdFieldPosition: 0
+[     4.410] 	MaxPixelClock: 250000000
+[     4.410] *Mode: 147 (1680x1050)
+[     4.410] 	ModeAttributes: 0xbb
+[     4.410] 	WinAAttributes: 0x7
+[     4.410] 	WinBAttributes: 0x0
+[     4.410] 	WinGranularity: 64
+[     4.410] 	WinSize: 64
+[     4.410] 	WinASegment: 0xa000
+[     4.410] 	WinBSegment: 0x0
+[     4.410] 	WinFuncPtr: 0x0
+[     4.410] 	BytesPerScanline: 6720
+[     4.410] 	XResolution: 1680
+[     4.410] 	YResolution: 1050
+[     4.410] 	XCharSize: 0
+[     4.410] 	YCharSize: 0
+[     4.410] 	NumberOfPlanes: 1
+[     4.410] 	BitsPerPixel: 32
+[     4.410] 	NumberOfBanks: 1
+[     4.410] 	MemoryModel: 6
+[     4.410] 	BankSize: 0
+[     4.410] 	NumberOfImages: 0
+[     4.410] 	RedMaskSize: 8
+[     4.410] 	RedFieldPosition: 16
+[     4.410] 	GreenMaskSize: 8
+[     4.410] 	GreenFieldPosition: 8
+[     4.410] 	BlueMaskSize: 8
+[     4.410] 	BlueFieldPosition: 0
+[     4.410] 	RsvdMaskSize: 8
+[     4.410] 	RsvdFieldPosition: 24
+[     4.410] 	DirectColorModeInfo: 2
+[     4.410] 	PhysBasePtr: 0xb0000000
+[     4.410] 	LinBytesPerScanLine: 6720
+[     4.410] 	BnkNumberOfImagePages: 0
+[     4.410] 	LinNumberOfImagePages: 0
+[     4.410] 	LinRedMaskSize: 8
+[     4.410] 	LinRedFieldPosition: 16
+[     4.410] 	LinGreenMaskSize: 8
+[     4.410] 	LinGreenFieldPosition: 8
+[     4.410] 	LinBlueMaskSize: 8
+[     4.410] 	LinBlueFieldPosition: 0
+[     4.410] 	LinRsvdMaskSize: 8
+[     4.410] 	LinRsvdFieldPosition: 24
+[     4.410] 	MaxPixelClock: 250000000
+[     4.410] Mode: 148 (1920x1200)
+[     4.410] 	ModeAttributes: 0xbb
+[     4.410] 	WinAAttributes: 0x7
+[     4.410] 	WinBAttributes: 0x0
+[     4.410] 	WinGranularity: 64
+[     4.410] 	WinSize: 64
+[     4.410] 	WinASegment: 0xa000
+[     4.410] 	WinBSegment: 0x0
+[     4.410] 	WinFuncPtr: 0x0
+[     4.410] 	BytesPerScanline: 1920
+[     4.410] 	XResolution: 1920
+[     4.410] 	YResolution: 1200
+[     4.410] 	XCharSize: 0
+[     4.410] 	YCharSize: 0
+[     4.410] 	NumberOfPlanes: 1
+[     4.410] 	BitsPerPixel: 8
+[     4.410] 	NumberOfBanks: 1
+[     4.410] 	MemoryModel: 4
+[     4.410] 	BankSize: 0
+[     4.410] 	NumberOfImages: 0
+[     4.410] 	RedMaskSize: 0
+[     4.410] 	RedFieldPosition: 0
+[     4.410] 	GreenMaskSize: 0
+[     4.410] 	GreenFieldPosition: 0
+[     4.410] 	BlueMaskSize: 0
+[     4.410] 	BlueFieldPosition: 0
+[     4.410] 	RsvdMaskSize: 0
+[     4.410] 	RsvdFieldPosition: 0
+[     4.410] 	DirectColorModeInfo: 2
+[     4.410] 	PhysBasePtr: 0xb0000000
+[     4.410] 	LinBytesPerScanLine: 1920
+[     4.410] 	BnkNumberOfImagePages: 0
+[     4.410] 	LinNumberOfImagePages: 0
+[     4.410] 	LinRedMaskSize: 0
+[     4.410] 	LinRedFieldPosition: 0
+[     4.410] 	LinGreenMaskSize: 0
+[     4.410] 	LinGreenFieldPosition: 0
+[     4.410] 	LinBlueMaskSize: 0
+[     4.410] 	LinBlueFieldPosition: 0
+[     4.410] 	LinRsvdMaskSize: 0
+[     4.410] 	LinRsvdFieldPosition: 0
+[     4.410] 	MaxPixelClock: 250000000
+[     4.410] Mode: 149 (1920x1200)
+[     4.410] 	ModeAttributes: 0xbb
+[     4.411] 	WinAAttributes: 0x7
+[     4.411] 	WinBAttributes: 0x0
+[     4.411] 	WinGranularity: 64
+[     4.411] 	WinSize: 64
+[     4.411] 	WinASegment: 0xa000
+[     4.411] 	WinBSegment: 0x0
+[     4.411] 	WinFuncPtr: 0x0
+[     4.411] 	BytesPerScanline: 3840
+[     4.411] 	XResolution: 1920
+[     4.411] 	YResolution: 1200
+[     4.411] 	XCharSize: 0
+[     4.411] 	YCharSize: 0
+[     4.411] 	NumberOfPlanes: 1
+[     4.411] 	BitsPerPixel: 16
+[     4.411] 	NumberOfBanks: 1
+[     4.411] 	MemoryModel: 6
+[     4.411] 	BankSize: 0
+[     4.411] 	NumberOfImages: 0
+[     4.411] 	RedMaskSize: 5
+[     4.411] 	RedFieldPosition: 11
+[     4.411] 	GreenMaskSize: 6
+[     4.411] 	GreenFieldPosition: 5
+[     4.411] 	BlueMaskSize: 5
+[     4.411] 	BlueFieldPosition: 0
+[     4.411] 	RsvdMaskSize: 0
+[     4.411] 	RsvdFieldPosition: 0
+[     4.411] 	DirectColorModeInfo: 2
+[     4.411] 	PhysBasePtr: 0xb0000000
+[     4.411] 	LinBytesPerScanLine: 3840
+[     4.411] 	BnkNumberOfImagePages: 0
+[     4.411] 	LinNumberOfImagePages: 0
+[     4.411] 	LinRedMaskSize: 5
+[     4.411] 	LinRedFieldPosition: 11
+[     4.411] 	LinGreenMaskSize: 6
+[     4.411] 	LinGreenFieldPosition: 5
+[     4.411] 	LinBlueMaskSize: 5
+[     4.411] 	LinBlueFieldPosition: 0
+[     4.411] 	LinRsvdMaskSize: 0
+[     4.411] 	LinRsvdFieldPosition: 0
+[     4.411] 	MaxPixelClock: 250000000
+[     4.411] Mode: 14a (1920x1200)
+[     4.411] 	ModeAttributes: 0xbb
+[     4.411] 	WinAAttributes: 0x7
+[     4.411] 	WinBAttributes: 0x0
+[     4.411] 	WinGranularity: 64
+[     4.411] 	WinSize: 64
+[     4.411] 	WinASegment: 0xa000
+[     4.411] 	WinBSegment: 0x0
+[     4.411] 	WinFuncPtr: 0x0
+[     4.411] 	BytesPerScanline: 5760
+[     4.411] 	XResolution: 1920
+[     4.411] 	YResolution: 1200
+[     4.411] 	XCharSize: 0
+[     4.411] 	YCharSize: 0
+[     4.411] 	NumberOfPlanes: 1
+[     4.411] 	BitsPerPixel: 24
+[     4.411] 	NumberOfBanks: 1
+[     4.411] 	MemoryModel: 6
+[     4.411] 	BankSize: 0
+[     4.411] 	NumberOfImages: 0
+[     4.411] 	RedMaskSize: 8
+[     4.411] 	RedFieldPosition: 16
+[     4.411] 	GreenMaskSize: 8
+[     4.411] 	GreenFieldPosition: 8
+[     4.411] 	BlueMaskSize: 8
+[     4.411] 	BlueFieldPosition: 0
+[     4.411] 	RsvdMaskSize: 0
+[     4.411] 	RsvdFieldPosition: 0
+[     4.411] 	DirectColorModeInfo: 2
+[     4.411] 	PhysBasePtr: 0xb0000000
+[     4.411] 	LinBytesPerScanLine: 5760
+[     4.411] 	BnkNumberOfImagePages: 0
+[     4.411] 	LinNumberOfImagePages: 0
+[     4.411] 	LinRedMaskSize: 8
+[     4.411] 	LinRedFieldPosition: 16
+[     4.411] 	LinGreenMaskSize: 8
+[     4.411] 	LinGreenFieldPosition: 8
+[     4.411] 	LinBlueMaskSize: 8
+[     4.411] 	LinBlueFieldPosition: 0
+[     4.411] 	LinRsvdMaskSize: 0
+[     4.411] 	LinRsvdFieldPosition: 0
+[     4.411] 	MaxPixelClock: 250000000
+[     4.411] *Mode: 14b (1920x1200)
+[     4.411] 	ModeAttributes: 0xbb
+[     4.411] 	WinAAttributes: 0x7
+[     4.411] 	WinBAttributes: 0x0
+[     4.411] 	WinGranularity: 64
+[     4.411] 	WinSize: 64
+[     4.411] 	WinASegment: 0xa000
+[     4.411] 	WinBSegment: 0x0
+[     4.411] 	WinFuncPtr: 0x0
+[     4.411] 	BytesPerScanline: 7680
+[     4.411] 	XResolution: 1920
+[     4.411] 	YResolution: 1200
+[     4.411] 	XCharSize: 0
+[     4.411] 	YCharSize: 0
+[     4.411] 	NumberOfPlanes: 1
+[     4.411] 	BitsPerPixel: 32
+[     4.411] 	NumberOfBanks: 1
+[     4.411] 	MemoryModel: 6
+[     4.411] 	BankSize: 0
+[     4.411] 	NumberOfImages: 0
+[     4.411] 	RedMaskSize: 8
+[     4.411] 	RedFieldPosition: 16
+[     4.411] 	GreenMaskSize: 8
+[     4.411] 	GreenFieldPosition: 8
+[     4.411] 	BlueMaskSize: 8
+[     4.411] 	BlueFieldPosition: 0
+[     4.411] 	RsvdMaskSize: 8
+[     4.411] 	RsvdFieldPosition: 24
+[     4.411] 	DirectColorModeInfo: 2
+[     4.411] 	PhysBasePtr: 0xb0000000
+[     4.411] 	LinBytesPerScanLine: 7680
+[     4.411] 	BnkNumberOfImagePages: 0
+[     4.411] 	LinNumberOfImagePages: 0
+[     4.411] 	LinRedMaskSize: 8
+[     4.411] 	LinRedFieldPosition: 16
+[     4.411] 	LinGreenMaskSize: 8
+[     4.411] 	LinGreenFieldPosition: 8
+[     4.411] 	LinBlueMaskSize: 8
+[     4.411] 	LinBlueFieldPosition: 0
+[     4.411] 	LinRsvdMaskSize: 8
+[     4.411] 	LinRsvdFieldPosition: 24
+[     4.411] 	MaxPixelClock: 250000000
+[     4.411] Mode: 14c (2048x1536)
+[     4.411] 	ModeAttributes: 0xbb
+[     4.411] 	WinAAttributes: 0x7
+[     4.411] 	WinBAttributes: 0x0
+[     4.411] 	WinGranularity: 64
+[     4.411] 	WinSize: 64
+[     4.411] 	WinASegment: 0xa000
+[     4.411] 	WinBSegment: 0x0
+[     4.411] 	WinFuncPtr: 0x0
+[     4.411] 	BytesPerScanline: 2048
+[     4.412] 	XResolution: 2048
+[     4.412] 	YResolution: 1536
+[     4.412] 	XCharSize: 0
+[     4.412] 	YCharSize: 0
+[     4.412] 	NumberOfPlanes: 1
+[     4.412] 	BitsPerPixel: 8
+[     4.412] 	NumberOfBanks: 1
+[     4.412] 	MemoryModel: 4
+[     4.412] 	BankSize: 0
+[     4.412] 	NumberOfImages: 0
+[     4.412] 	RedMaskSize: 0
+[     4.412] 	RedFieldPosition: 0
+[     4.412] 	GreenMaskSize: 0
+[     4.412] 	GreenFieldPosition: 0
+[     4.412] 	BlueMaskSize: 0
+[     4.412] 	BlueFieldPosition: 0
+[     4.412] 	RsvdMaskSize: 0
+[     4.412] 	RsvdFieldPosition: 0
+[     4.412] 	DirectColorModeInfo: 2
+[     4.412] 	PhysBasePtr: 0xb0000000
+[     4.412] 	LinBytesPerScanLine: 2048
+[     4.412] 	BnkNumberOfImagePages: 0
+[     4.412] 	LinNumberOfImagePages: 0
+[     4.412] 	LinRedMaskSize: 0
+[     4.412] 	LinRedFieldPosition: 0
+[     4.412] 	LinGreenMaskSize: 0
+[     4.412] 	LinGreenFieldPosition: 0
+[     4.412] 	LinBlueMaskSize: 0
+[     4.412] 	LinBlueFieldPosition: 0
+[     4.412] 	LinRsvdMaskSize: 0
+[     4.412] 	LinRsvdFieldPosition: 0
+[     4.412] 	MaxPixelClock: 250000000
+[     4.412] Mode: 14d (2048x1536)
+[     4.412] 	ModeAttributes: 0xbb
+[     4.412] 	WinAAttributes: 0x7
+[     4.412] 	WinBAttributes: 0x0
+[     4.412] 	WinGranularity: 64
+[     4.412] 	WinSize: 64
+[     4.412] 	WinASegment: 0xa000
+[     4.412] 	WinBSegment: 0x0
+[     4.412] 	WinFuncPtr: 0x0
+[     4.412] 	BytesPerScanline: 4096
+[     4.412] 	XResolution: 2048
+[     4.412] 	YResolution: 1536
+[     4.412] 	XCharSize: 0
+[     4.412] 	YCharSize: 0
+[     4.412] 	NumberOfPlanes: 1
+[     4.412] 	BitsPerPixel: 16
+[     4.412] 	NumberOfBanks: 1
+[     4.412] 	MemoryModel: 6
+[     4.412] 	BankSize: 0
+[     4.412] 	NumberOfImages: 0
+[     4.412] 	RedMaskSize: 5
+[     4.412] 	RedFieldPosition: 11
+[     4.412] 	GreenMaskSize: 6
+[     4.412] 	GreenFieldPosition: 5
+[     4.412] 	BlueMaskSize: 5
+[     4.412] 	BlueFieldPosition: 0
+[     4.412] 	RsvdMaskSize: 0
+[     4.412] 	RsvdFieldPosition: 0
+[     4.412] 	DirectColorModeInfo: 2
+[     4.412] 	PhysBasePtr: 0xb0000000
+[     4.412] 	LinBytesPerScanLine: 4096
+[     4.412] 	BnkNumberOfImagePages: 0
+[     4.412] 	LinNumberOfImagePages: 0
+[     4.412] 	LinRedMaskSize: 5
+[     4.412] 	LinRedFieldPosition: 11
+[     4.412] 	LinGreenMaskSize: 6
+[     4.412] 	LinGreenFieldPosition: 5
+[     4.412] 	LinBlueMaskSize: 5
+[     4.412] 	LinBlueFieldPosition: 0
+[     4.412] 	LinRsvdMaskSize: 0
+[     4.412] 	LinRsvdFieldPosition: 0
+[     4.412] 	MaxPixelClock: 250000000
+[     4.412] Mode: 14e (2048x1536)
+[     4.412] 	ModeAttributes: 0xbb
+[     4.412] 	WinAAttributes: 0x7
+[     4.412] 	WinBAttributes: 0x0
+[     4.412] 	WinGranularity: 64
+[     4.412] 	WinSize: 64
+[     4.412] 	WinASegment: 0xa000
+[     4.412] 	WinBSegment: 0x0
+[     4.412] 	WinFuncPtr: 0x0
+[     4.412] 	BytesPerScanline: 6144
+[     4.412] 	XResolution: 2048
+[     4.412] 	YResolution: 1536
+[     4.412] 	XCharSize: 0
+[     4.412] 	YCharSize: 0
+[     4.412] 	NumberOfPlanes: 1
+[     4.412] 	BitsPerPixel: 24
+[     4.412] 	NumberOfBanks: 1
+[     4.412] 	MemoryModel: 6
+[     4.412] 	BankSize: 0
+[     4.412] 	NumberOfImages: 0
+[     4.412] 	RedMaskSize: 8
+[     4.412] 	RedFieldPosition: 16
+[     4.412] 	GreenMaskSize: 8
+[     4.412] 	GreenFieldPosition: 8
+[     4.412] 	BlueMaskSize: 8
+[     4.412] 	BlueFieldPosition: 0
+[     4.412] 	RsvdMaskSize: 0
+[     4.412] 	RsvdFieldPosition: 0
+[     4.412] 	DirectColorModeInfo: 2
+[     4.412] 	PhysBasePtr: 0xb0000000
+[     4.412] 	LinBytesPerScanLine: 6144
+[     4.412] 	BnkNumberOfImagePages: 0
+[     4.412] 	LinNumberOfImagePages: 0
+[     4.412] 	LinRedMaskSize: 8
+[     4.412] 	LinRedFieldPosition: 16
+[     4.412] 	LinGreenMaskSize: 8
+[     4.412] 	LinGreenFieldPosition: 8
+[     4.412] 	LinBlueMaskSize: 8
+[     4.412] 	LinBlueFieldPosition: 0
+[     4.412] 	LinRsvdMaskSize: 0
+[     4.412] 	LinRsvdFieldPosition: 0
+[     4.412] 	MaxPixelClock: 250000000
+[     4.412] *Mode: 14f (2048x1536)
+[     4.412] 	ModeAttributes: 0xbb
+[     4.412] 	WinAAttributes: 0x7
+[     4.412] 	WinBAttributes: 0x0
+[     4.412] 	WinGranularity: 64
+[     4.412] 	WinSize: 64
+[     4.412] 	WinASegment: 0xa000
+[     4.412] 	WinBSegment: 0x0
+[     4.412] 	WinFuncPtr: 0x0
+[     4.412] 	BytesPerScanline: 8192
+[     4.412] 	XResolution: 2048
+[     4.412] 	YResolution: 1536
+[     4.412] 	XCharSize: 0
+[     4.412] 	YCharSize: 0
+[     4.412] 	NumberOfPlanes: 1
+[     4.412] 	BitsPerPixel: 32
+[     4.412] 	NumberOfBanks: 1
+[     4.412] 	MemoryModel: 6
+[     4.412] 	BankSize: 0
+[     4.412] 	NumberOfImages: 0
+[     4.412] 	RedMaskSize: 8
+[     4.412] 	RedFieldPosition: 16
+[     4.412] 	GreenMaskSize: 8
+[     4.412] 	GreenFieldPosition: 8
+[     4.412] 	BlueMaskSize: 8
+[     4.412] 	BlueFieldPosition: 0
+[     4.412] 	RsvdMaskSize: 8
+[     4.412] 	RsvdFieldPosition: 24
+[     4.412] 	DirectColorModeInfo: 2
+[     4.412] 	PhysBasePtr: 0xb0000000
+[     4.412] 	LinBytesPerScanLine: 8192
+[     4.412] 	BnkNumberOfImagePages: 0
+[     4.412] 	LinNumberOfImagePages: 0
+[     4.412] 	LinRedMaskSize: 8
+[     4.412] 	LinRedFieldPosition: 16
+[     4.412] 	LinGreenMaskSize: 8
+[     4.413] 	LinGreenFieldPosition: 8
+[     4.413] 	LinBlueMaskSize: 8
+[     4.413] 	LinBlueFieldPosition: 0
+[     4.413] 	LinRsvdMaskSize: 8
+[     4.413] 	LinRsvdFieldPosition: 24
+[     4.413] 	MaxPixelClock: 250000000
+[     4.413] Mode: 150 (2560x1600)
+[     4.413] 	ModeAttributes: 0xbb
+[     4.413] 	WinAAttributes: 0x7
+[     4.413] 	WinBAttributes: 0x0
+[     4.413] 	WinGranularity: 64
+[     4.413] 	WinSize: 64
+[     4.413] 	WinASegment: 0xa000
+[     4.413] 	WinBSegment: 0x0
+[     4.413] 	WinFuncPtr: 0x0
+[     4.413] 	BytesPerScanline: 2560
+[     4.413] 	XResolution: 2560
+[     4.413] 	YResolution: 1600
+[     4.413] 	XCharSize: 0
+[     4.413] 	YCharSize: 0
+[     4.413] 	NumberOfPlanes: 1
+[     4.413] 	BitsPerPixel: 8
+[     4.413] 	NumberOfBanks: 1
+[     4.413] 	MemoryModel: 4
+[     4.413] 	BankSize: 0
+[     4.413] 	NumberOfImages: 0
+[     4.413] 	RedMaskSize: 0
+[     4.413] 	RedFieldPosition: 0
+[     4.413] 	GreenMaskSize: 0
+[     4.413] 	GreenFieldPosition: 0
+[     4.413] 	BlueMaskSize: 0
+[     4.413] 	BlueFieldPosition: 0
+[     4.413] 	RsvdMaskSize: 0
+[     4.413] 	RsvdFieldPosition: 0
+[     4.413] 	DirectColorModeInfo: 2
+[     4.413] 	PhysBasePtr: 0xb0000000
+[     4.413] 	LinBytesPerScanLine: 2560
+[     4.413] 	BnkNumberOfImagePages: 0
+[     4.413] 	LinNumberOfImagePages: 0
+[     4.413] 	LinRedMaskSize: 0
+[     4.413] 	LinRedFieldPosition: 0
+[     4.413] 	LinGreenMaskSize: 0
+[     4.413] 	LinGreenFieldPosition: 0
+[     4.413] 	LinBlueMaskSize: 0
+[     4.413] 	LinBlueFieldPosition: 0
+[     4.413] 	LinRsvdMaskSize: 0
+[     4.413] 	LinRsvdFieldPosition: 0
+[     4.413] 	MaxPixelClock: 250000000
+[     4.413] Mode: 151 (2560x1600)
+[     4.413] 	ModeAttributes: 0xbb
+[     4.413] 	WinAAttributes: 0x7
+[     4.413] 	WinBAttributes: 0x0
+[     4.413] 	WinGranularity: 64
+[     4.413] 	WinSize: 64
+[     4.413] 	WinASegment: 0xa000
+[     4.413] 	WinBSegment: 0x0
+[     4.413] 	WinFuncPtr: 0x0
+[     4.413] 	BytesPerScanline: 5120
+[     4.413] 	XResolution: 2560
+[     4.413] 	YResolution: 1600
+[     4.413] 	XCharSize: 0
+[     4.413] 	YCharSize: 0
+[     4.413] 	NumberOfPlanes: 1
+[     4.413] 	BitsPerPixel: 16
+[     4.413] 	NumberOfBanks: 1
+[     4.413] 	MemoryModel: 6
+[     4.413] 	BankSize: 0
+[     4.413] 	NumberOfImages: 0
+[     4.413] 	RedMaskSize: 5
+[     4.413] 	RedFieldPosition: 11
+[     4.413] 	GreenMaskSize: 6
+[     4.413] 	GreenFieldPosition: 5
+[     4.413] 	BlueMaskSize: 5
+[     4.413] 	BlueFieldPosition: 0
+[     4.413] 	RsvdMaskSize: 0
+[     4.413] 	RsvdFieldPosition: 0
+[     4.413] 	DirectColorModeInfo: 2
+[     4.413] 	PhysBasePtr: 0xb0000000
+[     4.413] 	LinBytesPerScanLine: 5120
+[     4.413] 	BnkNumberOfImagePages: 0
+[     4.413] 	LinNumberOfImagePages: 0
+[     4.413] 	LinRedMaskSize: 5
+[     4.413] 	LinRedFieldPosition: 11
+[     4.413] 	LinGreenMaskSize: 6
+[     4.413] 	LinGreenFieldPosition: 5
+[     4.413] 	LinBlueMaskSize: 5
+[     4.413] 	LinBlueFieldPosition: 0
+[     4.413] 	LinRsvdMaskSize: 0
+[     4.413] 	LinRsvdFieldPosition: 0
+[     4.413] 	MaxPixelClock: 250000000
+[     4.413] Mode: 152 (2560x1600)
+[     4.413] 	ModeAttributes: 0xbb
+[     4.413] 	WinAAttributes: 0x7
+[     4.413] 	WinBAttributes: 0x0
+[     4.413] 	WinGranularity: 64
+[     4.413] 	WinSize: 64
+[     4.413] 	WinASegment: 0xa000
+[     4.413] 	WinBSegment: 0x0
+[     4.413] 	WinFuncPtr: 0x0
+[     4.413] 	BytesPerScanline: 7680
+[     4.413] 	XResolution: 2560
+[     4.413] 	YResolution: 1600
+[     4.413] 	XCharSize: 0
+[     4.413] 	YCharSize: 0
+[     4.413] 	NumberOfPlanes: 1
+[     4.413] 	BitsPerPixel: 24
+[     4.413] 	NumberOfBanks: 1
+[     4.413] 	MemoryModel: 6
+[     4.413] 	BankSize: 0
+[     4.413] 	NumberOfImages: 0
+[     4.413] 	RedMaskSize: 8
+[     4.413] 	RedFieldPosition: 16
+[     4.413] 	GreenMaskSize: 8
+[     4.413] 	GreenFieldPosition: 8
+[     4.413] 	BlueMaskSize: 8
+[     4.413] 	BlueFieldPosition: 0
+[     4.413] 	RsvdMaskSize: 0
+[     4.413] 	RsvdFieldPosition: 0
+[     4.413] 	DirectColorModeInfo: 2
+[     4.413] 	PhysBasePtr: 0xb0000000
+[     4.413] 	LinBytesPerScanLine: 7680
+[     4.413] 	BnkNumberOfImagePages: 0
+[     4.413] 	LinNumberOfImagePages: 0
+[     4.413] 	LinRedMaskSize: 8
+[     4.413] 	LinRedFieldPosition: 16
+[     4.413] 	LinGreenMaskSize: 8
+[     4.413] 	LinGreenFieldPosition: 8
+[     4.413] 	LinBlueMaskSize: 8
+[     4.413] 	LinBlueFieldPosition: 0
+[     4.413] 	LinRsvdMaskSize: 0
+[     4.413] 	LinRsvdFieldPosition: 0
+[     4.413] 	MaxPixelClock: 250000000
+[     4.414] *Mode: 153 (2560x1600)
+[     4.414] 	ModeAttributes: 0xbb
+[     4.414] 	WinAAttributes: 0x7
+[     4.414] 	WinBAttributes: 0x0
+[     4.414] 	WinGranularity: 64
+[     4.414] 	WinSize: 64
+[     4.414] 	WinASegment: 0xa000
+[     4.414] 	WinBSegment: 0x0
+[     4.414] 	WinFuncPtr: 0x0
+[     4.414] 	BytesPerScanline: 10240
+[     4.414] 	XResolution: 2560
+[     4.414] 	YResolution: 1600
+[     4.414] 	XCharSize: 0
+[     4.414] 	YCharSize: 0
+[     4.414] 	NumberOfPlanes: 1
+[     4.414] 	BitsPerPixel: 32
+[     4.414] 	NumberOfBanks: 1
+[     4.414] 	MemoryModel: 6
+[     4.414] 	BankSize: 0
+[     4.414] 	NumberOfImages: 0
+[     4.414] 	RedMaskSize: 8
+[     4.414] 	RedFieldPosition: 16
+[     4.414] 	GreenMaskSize: 8
+[     4.414] 	GreenFieldPosition: 8
+[     4.414] 	BlueMaskSize: 8
+[     4.414] 	BlueFieldPosition: 0
+[     4.414] 	RsvdMaskSize: 8
+[     4.414] 	RsvdFieldPosition: 24
+[     4.414] 	DirectColorModeInfo: 2
+[     4.414] 	PhysBasePtr: 0xb0000000
+[     4.414] 	LinBytesPerScanLine: 10240
+[     4.414] 	BnkNumberOfImagePages: 0
+[     4.414] 	LinNumberOfImagePages: 0
+[     4.414] 	LinRedMaskSize: 8
+[     4.414] 	LinRedFieldPosition: 16
+[     4.414] 	LinGreenMaskSize: 8
+[     4.414] 	LinGreenFieldPosition: 8
+[     4.414] 	LinBlueMaskSize: 8
+[     4.414] 	LinBlueFieldPosition: 0
+[     4.414] 	LinRsvdMaskSize: 8
+[     4.414] 	LinRsvdFieldPosition: 24
+[     4.414] 	MaxPixelClock: 250000000
+[     4.414] Mode: 154 (2560x1440)
+[     4.414] 	ModeAttributes: 0xbb
+[     4.414] 	WinAAttributes: 0x7
+[     4.414] 	WinBAttributes: 0x0
+[     4.414] 	WinGranularity: 64
+[     4.414] 	WinSize: 64
+[     4.414] 	WinASegment: 0xa000
+[     4.414] 	WinBSegment: 0x0
+[     4.414] 	WinFuncPtr: 0x0
+[     4.414] 	BytesPerScanline: 5120
+[     4.414] 	XResolution: 2560
+[     4.414] 	YResolution: 1440
+[     4.414] 	XCharSize: 0
+[     4.414] 	YCharSize: 0
+[     4.414] 	NumberOfPlanes: 1
+[     4.414] 	BitsPerPixel: 16
+[     4.414] 	NumberOfBanks: 1
+[     4.414] 	MemoryModel: 6
+[     4.414] 	BankSize: 0
+[     4.414] 	NumberOfImages: 0
+[     4.414] 	RedMaskSize: 5
+[     4.414] 	RedFieldPosition: 11
+[     4.414] 	GreenMaskSize: 6
+[     4.414] 	GreenFieldPosition: 5
+[     4.414] 	BlueMaskSize: 5
+[     4.414] 	BlueFieldPosition: 0
+[     4.414] 	RsvdMaskSize: 0
+[     4.414] 	RsvdFieldPosition: 0
+[     4.414] 	DirectColorModeInfo: 2
+[     4.414] 	PhysBasePtr: 0xb0000000
+[     4.414] 	LinBytesPerScanLine: 5120
+[     4.414] 	BnkNumberOfImagePages: 0
+[     4.414] 	LinNumberOfImagePages: 0
+[     4.414] 	LinRedMaskSize: 5
+[     4.414] 	LinRedFieldPosition: 11
+[     4.414] 	LinGreenMaskSize: 6
+[     4.414] 	LinGreenFieldPosition: 5
+[     4.414] 	LinBlueMaskSize: 5
+[     4.414] 	LinBlueFieldPosition: 0
+[     4.414] 	LinRsvdMaskSize: 0
+[     4.414] 	LinRsvdFieldPosition: 0
+[     4.414] 	MaxPixelClock: 250000000
+[     4.414] *Mode: 155 (2560x1440)
+[     4.414] 	ModeAttributes: 0xbb
+[     4.414] 	WinAAttributes: 0x7
+[     4.414] 	WinBAttributes: 0x0
+[     4.414] 	WinGranularity: 64
+[     4.414] 	WinSize: 64
+[     4.414] 	WinASegment: 0xa000
+[     4.414] 	WinBSegment: 0x0
+[     4.414] 	WinFuncPtr: 0x0
+[     4.414] 	BytesPerScanline: 10240
+[     4.414] 	XResolution: 2560
+[     4.414] 	YResolution: 1440
+[     4.414] 	XCharSize: 0
+[     4.414] 	YCharSize: 0
+[     4.414] 	NumberOfPlanes: 1
+[     4.414] 	BitsPerPixel: 32
+[     4.414] 	NumberOfBanks: 1
+[     4.414] 	MemoryModel: 6
+[     4.414] 	BankSize: 0
+[     4.414] 	NumberOfImages: 0
+[     4.414] 	RedMaskSize: 8
+[     4.414] 	RedFieldPosition: 16
+[     4.414] 	GreenMaskSize: 8
+[     4.414] 	GreenFieldPosition: 8
+[     4.414] 	BlueMaskSize: 8
+[     4.414] 	BlueFieldPosition: 0
+[     4.414] 	RsvdMaskSize: 8
+[     4.414] 	RsvdFieldPosition: 24
+[     4.414] 	DirectColorModeInfo: 2
+[     4.414] 	PhysBasePtr: 0xb0000000
+[     4.414] 	LinBytesPerScanLine: 10240
+[     4.414] 	BnkNumberOfImagePages: 0
+[     4.414] 	LinNumberOfImagePages: 0
+[     4.414] 	LinRedMaskSize: 8
+[     4.414] 	LinRedFieldPosition: 16
+[     4.414] 	LinGreenMaskSize: 8
+[     4.414] 	LinGreenFieldPosition: 8
+[     4.414] 	LinBlueMaskSize: 8
+[     4.414] 	LinBlueFieldPosition: 0
+[     4.414] 	LinRsvdMaskSize: 8
+[     4.414] 	LinRsvdFieldPosition: 24
+[     4.414] 	MaxPixelClock: 250000000
+[     4.414] Mode: 156 (1280x720)
+[     4.414] 	ModeAttributes: 0xbb
+[     4.414] 	WinAAttributes: 0x7
+[     4.414] 	WinBAttributes: 0x0
+[     4.414] 	WinGranularity: 64
+[     4.414] 	WinSize: 64
+[     4.414] 	WinASegment: 0xa000
+[     4.414] 	WinBSegment: 0x0
+[     4.414] 	WinFuncPtr: 0x0
+[     4.414] 	BytesPerScanline: 2560
+[     4.414] 	XResolution: 1280
+[     4.414] 	YResolution: 720
+[     4.414] 	XCharSize: 0
+[     4.414] 	YCharSize: 0
+[     4.414] 	NumberOfPlanes: 1
+[     4.414] 	BitsPerPixel: 16
+[     4.414] 	NumberOfBanks: 1
+[     4.414] 	MemoryModel: 6
+[     4.414] 	BankSize: 0
+[     4.414] 	NumberOfImages: 0
+[     4.414] 	RedMaskSize: 5
+[     4.415] 	RedFieldPosition: 11
+[     4.415] 	GreenMaskSize: 6
+[     4.415] 	GreenFieldPosition: 5
+[     4.415] 	BlueMaskSize: 5
+[     4.415] 	BlueFieldPosition: 0
+[     4.415] 	RsvdMaskSize: 0
+[     4.415] 	RsvdFieldPosition: 0
+[     4.415] 	DirectColorModeInfo: 2
+[     4.415] 	PhysBasePtr: 0xb0000000
+[     4.415] 	LinBytesPerScanLine: 2560
+[     4.415] 	BnkNumberOfImagePages: 0
+[     4.415] 	LinNumberOfImagePages: 0
+[     4.415] 	LinRedMaskSize: 5
+[     4.415] 	LinRedFieldPosition: 11
+[     4.415] 	LinGreenMaskSize: 6
+[     4.415] 	LinGreenFieldPosition: 5
+[     4.415] 	LinBlueMaskSize: 5
+[     4.415] 	LinBlueFieldPosition: 0
+[     4.415] 	LinRsvdMaskSize: 0
+[     4.415] 	LinRsvdFieldPosition: 0
+[     4.415] 	MaxPixelClock: 250000000
+[     4.415] *Mode: 157 (1280x720)
+[     4.415] 	ModeAttributes: 0xbb
+[     4.415] 	WinAAttributes: 0x7
+[     4.415] 	WinBAttributes: 0x0
+[     4.415] 	WinGranularity: 64
+[     4.415] 	WinSize: 64
+[     4.415] 	WinASegment: 0xa000
+[     4.415] 	WinBSegment: 0x0
+[     4.415] 	WinFuncPtr: 0x0
+[     4.415] 	BytesPerScanline: 5120
+[     4.415] 	XResolution: 1280
+[     4.415] 	YResolution: 720
+[     4.415] 	XCharSize: 0
+[     4.415] 	YCharSize: 0
+[     4.415] 	NumberOfPlanes: 1
+[     4.415] 	BitsPerPixel: 32
+[     4.415] 	NumberOfBanks: 1
+[     4.415] 	MemoryModel: 6
+[     4.415] 	BankSize: 0
+[     4.415] 	NumberOfImages: 0
+[     4.415] 	RedMaskSize: 8
+[     4.415] 	RedFieldPosition: 16
+[     4.415] 	GreenMaskSize: 8
+[     4.415] 	GreenFieldPosition: 8
+[     4.415] 	BlueMaskSize: 8
+[     4.415] 	BlueFieldPosition: 0
+[     4.415] 	RsvdMaskSize: 8
+[     4.415] 	RsvdFieldPosition: 24
+[     4.415] 	DirectColorModeInfo: 2
+[     4.415] 	PhysBasePtr: 0xb0000000
+[     4.415] 	LinBytesPerScanLine: 5120
+[     4.415] 	BnkNumberOfImagePages: 0
+[     4.415] 	LinNumberOfImagePages: 0
+[     4.415] 	LinRedMaskSize: 8
+[     4.415] 	LinRedFieldPosition: 16
+[     4.415] 	LinGreenMaskSize: 8
+[     4.415] 	LinGreenFieldPosition: 8
+[     4.415] 	LinBlueMaskSize: 8
+[     4.415] 	LinBlueFieldPosition: 0
+[     4.415] 	LinRsvdMaskSize: 8
+[     4.415] 	LinRsvdFieldPosition: 24
+[     4.415] 	MaxPixelClock: 250000000
+[     4.415] Mode: 158 (1024x576)
+[     4.415] 	ModeAttributes: 0xbb
+[     4.415] 	WinAAttributes: 0x7
+[     4.415] 	WinBAttributes: 0x0
+[     4.415] 	WinGranularity: 64
+[     4.415] 	WinSize: 64
+[     4.415] 	WinASegment: 0xa000
+[     4.415] 	WinBSegment: 0x0
+[     4.415] 	WinFuncPtr: 0x0
+[     4.415] 	BytesPerScanline: 2048
+[     4.415] 	XResolution: 1024
+[     4.415] 	YResolution: 576
+[     4.415] 	XCharSize: 0
+[     4.415] 	YCharSize: 0
+[     4.415] 	NumberOfPlanes: 1
+[     4.415] 	BitsPerPixel: 16
+[     4.415] 	NumberOfBanks: 1
+[     4.415] 	MemoryModel: 6
+[     4.415] 	BankSize: 0
+[     4.415] 	NumberOfImages: 0
+[     4.415] 	RedMaskSize: 5
+[     4.415] 	RedFieldPosition: 11
+[     4.415] 	GreenMaskSize: 6
+[     4.415] 	GreenFieldPosition: 5
+[     4.415] 	BlueMaskSize: 5
+[     4.415] 	BlueFieldPosition: 0
+[     4.415] 	RsvdMaskSize: 0
+[     4.415] 	RsvdFieldPosition: 0
+[     4.415] 	DirectColorModeInfo: 2
+[     4.415] 	PhysBasePtr: 0xb0000000
+[     4.415] 	LinBytesPerScanLine: 2048
+[     4.415] 	BnkNumberOfImagePages: 0
+[     4.415] 	LinNumberOfImagePages: 0
+[     4.415] 	LinRedMaskSize: 5
+[     4.415] 	LinRedFieldPosition: 11
+[     4.415] 	LinGreenMaskSize: 6
+[     4.415] 	LinGreenFieldPosition: 5
+[     4.415] 	LinBlueMaskSize: 5
+[     4.415] 	LinBlueFieldPosition: 0
+[     4.415] 	LinRsvdMaskSize: 0
+[     4.415] 	LinRsvdFieldPosition: 0
+[     4.415] 	MaxPixelClock: 250000000
+[     4.415] *Mode: 159 (1024x576)
+[     4.415] 	ModeAttributes: 0xbb
+[     4.415] 	WinAAttributes: 0x7
+[     4.415] 	WinBAttributes: 0x0
+[     4.415] 	WinGranularity: 64
+[     4.415] 	WinSize: 64
+[     4.415] 	WinASegment: 0xa000
+[     4.415] 	WinBSegment: 0x0
+[     4.415] 	WinFuncPtr: 0x0
+[     4.415] 	BytesPerScanline: 4096
+[     4.415] 	XResolution: 1024
+[     4.415] 	YResolution: 576
+[     4.415] 	XCharSize: 0
+[     4.415] 	YCharSize: 0
+[     4.415] 	NumberOfPlanes: 1
+[     4.415] 	BitsPerPixel: 32
+[     4.415] 	NumberOfBanks: 1
+[     4.415] 	MemoryModel: 6
+[     4.415] 	BankSize: 0
+[     4.415] 	NumberOfImages: 0
+[     4.415] 	RedMaskSize: 8
+[     4.415] 	RedFieldPosition: 16
+[     4.415] 	GreenMaskSize: 8
+[     4.415] 	GreenFieldPosition: 8
+[     4.415] 	BlueMaskSize: 8
+[     4.415] 	BlueFieldPosition: 0
+[     4.415] 	RsvdMaskSize: 8
+[     4.415] 	RsvdFieldPosition: 24
+[     4.415] 	DirectColorModeInfo: 2
+[     4.415] 	PhysBasePtr: 0xb0000000
+[     4.415] 	LinBytesPerScanLine: 4096
+[     4.415] 	BnkNumberOfImagePages: 0
+[     4.415] 	LinNumberOfImagePages: 0
+[     4.415] 	LinRedMaskSize: 8
+[     4.415] 	LinRedFieldPosition: 16
+[     4.415] 	LinGreenMaskSize: 8
+[     4.415] 	LinGreenFieldPosition: 8
+[     4.415] 	LinBlueMaskSize: 8
+[     4.415] 	LinBlueFieldPosition: 0
+[     4.415] 	LinRsvdMaskSize: 8
+[     4.415] 	LinRsvdFieldPosition: 24
+[     4.416] 	MaxPixelClock: 250000000
+[     4.416] Mode: 15a (1344x1008)
+[     4.416] 	ModeAttributes: 0xbb
+[     4.416] 	WinAAttributes: 0x7
+[     4.416] 	WinBAttributes: 0x0
+[     4.416] 	WinGranularity: 64
+[     4.416] 	WinSize: 64
+[     4.416] 	WinASegment: 0xa000
+[     4.416] 	WinBSegment: 0x0
+[     4.416] 	WinFuncPtr: 0x0
+[     4.416] 	BytesPerScanline: 2688
+[     4.416] 	XResolution: 1344
+[     4.416] 	YResolution: 1008
+[     4.416] 	XCharSize: 0
+[     4.416] 	YCharSize: 0
+[     4.416] 	NumberOfPlanes: 1
+[     4.416] 	BitsPerPixel: 16
+[     4.416] 	NumberOfBanks: 1
+[     4.416] 	MemoryModel: 6
+[     4.416] 	BankSize: 0
+[     4.416] 	NumberOfImages: 0
+[     4.416] 	RedMaskSize: 5
+[     4.416] 	RedFieldPosition: 11
+[     4.416] 	GreenMaskSize: 6
+[     4.416] 	GreenFieldPosition: 5
+[     4.416] 	BlueMaskSize: 5
+[     4.416] 	BlueFieldPosition: 0
+[     4.416] 	RsvdMaskSize: 0
+[     4.416] 	RsvdFieldPosition: 0
+[     4.416] 	DirectColorModeInfo: 2
+[     4.416] 	PhysBasePtr: 0xb0000000
+[     4.416] 	LinBytesPerScanLine: 2688
+[     4.416] 	BnkNumberOfImagePages: 0
+[     4.416] 	LinNumberOfImagePages: 0
+[     4.416] 	LinRedMaskSize: 5
+[     4.416] 	LinRedFieldPosition: 11
+[     4.416] 	LinGreenMaskSize: 6
+[     4.416] 	LinGreenFieldPosition: 5
+[     4.416] 	LinBlueMaskSize: 5
+[     4.416] 	LinBlueFieldPosition: 0
+[     4.416] 	LinRsvdMaskSize: 0
+[     4.416] 	LinRsvdFieldPosition: 0
+[     4.416] 	MaxPixelClock: 250000000
+[     4.416] *Mode: 15b (1344x1008)
+[     4.416] 	ModeAttributes: 0xbb
+[     4.416] 	WinAAttributes: 0x7
+[     4.416] 	WinBAttributes: 0x0
+[     4.416] 	WinGranularity: 64
+[     4.416] 	WinSize: 64
+[     4.416] 	WinASegment: 0xa000
+[     4.416] 	WinBSegment: 0x0
+[     4.416] 	WinFuncPtr: 0x0
+[     4.416] 	BytesPerScanline: 5376
+[     4.416] 	XResolution: 1344
+[     4.416] 	YResolution: 1008
+[     4.416] 	XCharSize: 0
+[     4.416] 	YCharSize: 0
+[     4.416] 	NumberOfPlanes: 1
+[     4.416] 	BitsPerPixel: 32
+[     4.416] 	NumberOfBanks: 1
+[     4.416] 	MemoryModel: 6
+[     4.416] 	BankSize: 0
+[     4.416] 	NumberOfImages: 0
+[     4.416] 	RedMaskSize: 8
+[     4.416] 	RedFieldPosition: 16
+[     4.416] 	GreenMaskSize: 8
+[     4.416] 	GreenFieldPosition: 8
+[     4.416] 	BlueMaskSize: 8
+[     4.416] 	BlueFieldPosition: 0
+[     4.416] 	RsvdMaskSize: 8
+[     4.416] 	RsvdFieldPosition: 24
+[     4.416] 	DirectColorModeInfo: 2
+[     4.416] 	PhysBasePtr: 0xb0000000
+[     4.416] 	LinBytesPerScanLine: 5376
+[     4.416] 	BnkNumberOfImagePages: 0
+[     4.416] 	LinNumberOfImagePages: 0
+[     4.416] 	LinRedMaskSize: 8
+[     4.416] 	LinRedFieldPosition: 16
+[     4.416] 	LinGreenMaskSize: 8
+[     4.416] 	LinGreenFieldPosition: 8
+[     4.416] 	LinBlueMaskSize: 8
+[     4.416] 	LinBlueFieldPosition: 0
+[     4.416] 	LinRsvdMaskSize: 8
+[     4.416] 	LinRsvdFieldPosition: 24
+[     4.416] 	MaxPixelClock: 250000000
+[     4.416] Mode: 15c (1344x756)
+[     4.416] 	ModeAttributes: 0xbb
+[     4.416] 	WinAAttributes: 0x7
+[     4.416] 	WinBAttributes: 0x0
+[     4.416] 	WinGranularity: 64
+[     4.416] 	WinSize: 64
+[     4.416] 	WinASegment: 0xa000
+[     4.416] 	WinBSegment: 0x0
+[     4.416] 	WinFuncPtr: 0x0
+[     4.416] 	BytesPerScanline: 2688
+[     4.416] 	XResolution: 1344
+[     4.416] 	YResolution: 756
+[     4.416] 	XCharSize: 0
+[     4.416] 	YCharSize: 0
+[     4.416] 	NumberOfPlanes: 1
+[     4.416] 	BitsPerPixel: 16
+[     4.416] 	NumberOfBanks: 1
+[     4.416] 	MemoryModel: 6
+[     4.416] 	BankSize: 0
+[     4.416] 	NumberOfImages: 0
+[     4.416] 	RedMaskSize: 5
+[     4.416] 	RedFieldPosition: 11
+[     4.416] 	GreenMaskSize: 6
+[     4.416] 	GreenFieldPosition: 5
+[     4.416] 	BlueMaskSize: 5
+[     4.416] 	BlueFieldPosition: 0
+[     4.416] 	RsvdMaskSize: 0
+[     4.416] 	RsvdFieldPosition: 0
+[     4.416] 	DirectColorModeInfo: 2
+[     4.416] 	PhysBasePtr: 0xb0000000
+[     4.416] 	LinBytesPerScanLine: 2688
+[     4.416] 	BnkNumberOfImagePages: 0
+[     4.416] 	LinNumberOfImagePages: 0
+[     4.416] 	LinRedMaskSize: 5
+[     4.416] 	LinRedFieldPosition: 11
+[     4.416] 	LinGreenMaskSize: 6
+[     4.416] 	LinGreenFieldPosition: 5
+[     4.416] 	LinBlueMaskSize: 5
+[     4.416] 	LinBlueFieldPosition: 0
+[     4.416] 	LinRsvdMaskSize: 0
+[     4.416] 	LinRsvdFieldPosition: 0
+[     4.416] 	MaxPixelClock: 250000000
+[     4.417] *Mode: 15d (1344x756)
+[     4.417] 	ModeAttributes: 0xbb
+[     4.417] 	WinAAttributes: 0x7
+[     4.417] 	WinBAttributes: 0x0
+[     4.417] 	WinGranularity: 64
+[     4.417] 	WinSize: 64
+[     4.417] 	WinASegment: 0xa000
+[     4.417] 	WinBSegment: 0x0
+[     4.417] 	WinFuncPtr: 0x0
+[     4.417] 	BytesPerScanline: 5376
+[     4.417] 	XResolution: 1344
+[     4.417] 	YResolution: 756
+[     4.417] 	XCharSize: 0
+[     4.417] 	YCharSize: 0
+[     4.417] 	NumberOfPlanes: 1
+[     4.417] 	BitsPerPixel: 32
+[     4.417] 	NumberOfBanks: 1
+[     4.417] 	MemoryModel: 6
+[     4.417] 	BankSize: 0
+[     4.417] 	NumberOfImages: 0
+[     4.417] 	RedMaskSize: 8
+[     4.417] 	RedFieldPosition: 16
+[     4.417] 	GreenMaskSize: 8
+[     4.417] 	GreenFieldPosition: 8
+[     4.417] 	BlueMaskSize: 8
+[     4.417] 	BlueFieldPosition: 0
+[     4.417] 	RsvdMaskSize: 8
+[     4.417] 	RsvdFieldPosition: 24
+[     4.417] 	DirectColorModeInfo: 2
+[     4.417] 	PhysBasePtr: 0xb0000000
+[     4.417] 	LinBytesPerScanLine: 5376
+[     4.417] 	BnkNumberOfImagePages: 0
+[     4.417] 	LinNumberOfImagePages: 0
+[     4.417] 	LinRedMaskSize: 8
+[     4.417] 	LinRedFieldPosition: 16
+[     4.417] 	LinGreenMaskSize: 8
+[     4.417] 	LinGreenFieldPosition: 8
+[     4.417] 	LinBlueMaskSize: 8
+[     4.417] 	LinBlueFieldPosition: 0
+[     4.417] 	LinRsvdMaskSize: 8
+[     4.417] 	LinRsvdFieldPosition: 24
+[     4.417] 	MaxPixelClock: 250000000
+[     4.417] Mode: 15e (1600x900)
+[     4.417] 	ModeAttributes: 0xbb
+[     4.417] 	WinAAttributes: 0x7
+[     4.417] 	WinBAttributes: 0x0
+[     4.417] 	WinGranularity: 64
+[     4.417] 	WinSize: 64
+[     4.417] 	WinASegment: 0xa000
+[     4.417] 	WinBSegment: 0x0
+[     4.417] 	WinFuncPtr: 0x0
+[     4.417] 	BytesPerScanline: 3200
+[     4.417] 	XResolution: 1600
+[     4.417] 	YResolution: 900
+[     4.417] 	XCharSize: 0
+[     4.417] 	YCharSize: 0
+[     4.417] 	NumberOfPlanes: 1
+[     4.417] 	BitsPerPixel: 16
+[     4.417] 	NumberOfBanks: 1
+[     4.417] 	MemoryModel: 6
+[     4.417] 	BankSize: 0
+[     4.417] 	NumberOfImages: 0
+[     4.417] 	RedMaskSize: 5
+[     4.417] 	RedFieldPosition: 11
+[     4.417] 	GreenMaskSize: 6
+[     4.417] 	GreenFieldPosition: 5
+[     4.417] 	BlueMaskSize: 5
+[     4.417] 	BlueFieldPosition: 0
+[     4.417] 	RsvdMaskSize: 0
+[     4.417] 	RsvdFieldPosition: 0
+[     4.417] 	DirectColorModeInfo: 2
+[     4.417] 	PhysBasePtr: 0xb0000000
+[     4.417] 	LinBytesPerScanLine: 3200
+[     4.417] 	BnkNumberOfImagePages: 0
+[     4.417] 	LinNumberOfImagePages: 0
+[     4.417] 	LinRedMaskSize: 5
+[     4.417] 	LinRedFieldPosition: 11
+[     4.417] 	LinGreenMaskSize: 6
+[     4.417] 	LinGreenFieldPosition: 5
+[     4.417] 	LinBlueMaskSize: 5
+[     4.417] 	LinBlueFieldPosition: 0
+[     4.417] 	LinRsvdMaskSize: 0
+[     4.417] 	LinRsvdFieldPosition: 0
+[     4.417] 	MaxPixelClock: 250000000
+[     4.417] *Mode: 15f (1600x900)
+[     4.417] 	ModeAttributes: 0xbb
+[     4.417] 	WinAAttributes: 0x7
+[     4.417] 	WinBAttributes: 0x0
+[     4.417] 	WinGranularity: 64
+[     4.417] 	WinSize: 64
+[     4.417] 	WinASegment: 0xa000
+[     4.417] 	WinBSegment: 0x0
+[     4.417] 	WinFuncPtr: 0x0
+[     4.417] 	BytesPerScanline: 6400
+[     4.417] 	XResolution: 1600
+[     4.417] 	YResolution: 900
+[     4.417] 	XCharSize: 0
+[     4.417] 	YCharSize: 0
+[     4.417] 	NumberOfPlanes: 1
+[     4.417] 	BitsPerPixel: 32
+[     4.417] 	NumberOfBanks: 1
+[     4.417] 	MemoryModel: 6
+[     4.417] 	BankSize: 0
+[     4.417] 	NumberOfImages: 0
+[     4.417] 	RedMaskSize: 8
+[     4.417] 	RedFieldPosition: 16
+[     4.417] 	GreenMaskSize: 8
+[     4.417] 	GreenFieldPosition: 8
+[     4.417] 	BlueMaskSize: 8
+[     4.417] 	BlueFieldPosition: 0
+[     4.417] 	RsvdMaskSize: 8
+[     4.417] 	RsvdFieldPosition: 24
+[     4.417] 	DirectColorModeInfo: 2
+[     4.417] 	PhysBasePtr: 0xb0000000
+[     4.417] 	LinBytesPerScanLine: 6400
+[     4.417] 	BnkNumberOfImagePages: 0
+[     4.417] 	LinNumberOfImagePages: 0
+[     4.417] 	LinRedMaskSize: 8
+[     4.417] 	LinRedFieldPosition: 16
+[     4.417] 	LinGreenMaskSize: 8
+[     4.417] 	LinGreenFieldPosition: 8
+[     4.417] 	LinBlueMaskSize: 8
+[     4.417] 	LinBlueFieldPosition: 0
+[     4.417] 	LinRsvdMaskSize: 8
+[     4.417] 	LinRsvdFieldPosition: 24
+[     4.417] 	MaxPixelClock: 250000000
+[     4.417] Mode: 160 (1920x1440)
+[     4.417] 	ModeAttributes: 0xbb
+[     4.417] 	WinAAttributes: 0x7
+[     4.417] 	WinBAttributes: 0x0
+[     4.417] 	WinGranularity: 64
+[     4.417] 	WinSize: 64
+[     4.417] 	WinASegment: 0xa000
+[     4.417] 	WinBSegment: 0x0
+[     4.417] 	WinFuncPtr: 0x0
+[     4.417] 	BytesPerScanline: 3840
+[     4.417] 	XResolution: 1920
+[     4.417] 	YResolution: 1440
+[     4.418] 	XCharSize: 0
+[     4.418] 	YCharSize: 0
+[     4.418] 	NumberOfPlanes: 1
+[     4.418] 	BitsPerPixel: 16
+[     4.418] 	NumberOfBanks: 1
+[     4.418] 	MemoryModel: 6
+[     4.418] 	BankSize: 0
+[     4.418] 	NumberOfImages: 0
+[     4.418] 	RedMaskSize: 5
+[     4.418] 	RedFieldPosition: 11
+[     4.418] 	GreenMaskSize: 6
+[     4.418] 	GreenFieldPosition: 5
+[     4.418] 	BlueMaskSize: 5
+[     4.418] 	BlueFieldPosition: 0
+[     4.418] 	RsvdMaskSize: 0
+[     4.418] 	RsvdFieldPosition: 0
+[     4.418] 	DirectColorModeInfo: 2
+[     4.418] 	PhysBasePtr: 0xb0000000
+[     4.418] 	LinBytesPerScanLine: 3840
+[     4.418] 	BnkNumberOfImagePages: 0
+[     4.418] 	LinNumberOfImagePages: 0
+[     4.418] 	LinRedMaskSize: 5
+[     4.418] 	LinRedFieldPosition: 11
+[     4.418] 	LinGreenMaskSize: 6
+[     4.418] 	LinGreenFieldPosition: 5
+[     4.418] 	LinBlueMaskSize: 5
+[     4.418] 	LinBlueFieldPosition: 0
+[     4.418] 	LinRsvdMaskSize: 0
+[     4.418] 	LinRsvdFieldPosition: 0
+[     4.418] 	MaxPixelClock: 250000000
+[     4.418] *Mode: 161 (1920x1440)
+[     4.418] 	ModeAttributes: 0xbb
+[     4.418] 	WinAAttributes: 0x7
+[     4.418] 	WinBAttributes: 0x0
+[     4.418] 	WinGranularity: 64
+[     4.418] 	WinSize: 64
+[     4.418] 	WinASegment: 0xa000
+[     4.418] 	WinBSegment: 0x0
+[     4.418] 	WinFuncPtr: 0x0
+[     4.418] 	BytesPerScanline: 7680
+[     4.418] 	XResolution: 1920
+[     4.418] 	YResolution: 1440
+[     4.418] 	XCharSize: 0
+[     4.418] 	YCharSize: 0
+[     4.418] 	NumberOfPlanes: 1
+[     4.418] 	BitsPerPixel: 32
+[     4.418] 	NumberOfBanks: 1
+[     4.418] 	MemoryModel: 6
+[     4.418] 	BankSize: 0
+[     4.418] 	NumberOfImages: 0
+[     4.418] 	RedMaskSize: 8
+[     4.418] 	RedFieldPosition: 16
+[     4.418] 	GreenMaskSize: 8
+[     4.418] 	GreenFieldPosition: 8
+[     4.418] 	BlueMaskSize: 8
+[     4.418] 	BlueFieldPosition: 0
+[     4.418] 	RsvdMaskSize: 8
+[     4.418] 	RsvdFieldPosition: 24
+[     4.418] 	DirectColorModeInfo: 2
+[     4.418] 	PhysBasePtr: 0xb0000000
+[     4.418] 	LinBytesPerScanLine: 7680
+[     4.418] 	BnkNumberOfImagePages: 0
+[     4.418] 	LinNumberOfImagePages: 0
+[     4.418] 	LinRedMaskSize: 8
+[     4.418] 	LinRedFieldPosition: 16
+[     4.418] 	LinGreenMaskSize: 8
+[     4.418] 	LinGreenFieldPosition: 8
+[     4.418] 	LinBlueMaskSize: 8
+[     4.418] 	LinBlueFieldPosition: 0
+[     4.418] 	LinRsvdMaskSize: 8
+[     4.418] 	LinRsvdFieldPosition: 24
+[     4.418] 	MaxPixelClock: 250000000
+[     4.418] Mode: 162 (2048x1152)
+[     4.418] 	ModeAttributes: 0xbb
+[     4.418] 	WinAAttributes: 0x7
+[     4.418] 	WinBAttributes: 0x0
+[     4.418] 	WinGranularity: 64
+[     4.418] 	WinSize: 64
+[     4.418] 	WinASegment: 0xa000
+[     4.418] 	WinBSegment: 0x0
+[     4.418] 	WinFuncPtr: 0x0
+[     4.418] 	BytesPerScanline: 4096
+[     4.418] 	XResolution: 2048
+[     4.418] 	YResolution: 1152
+[     4.418] 	XCharSize: 0
+[     4.418] 	YCharSize: 0
+[     4.418] 	NumberOfPlanes: 1
+[     4.418] 	BitsPerPixel: 16
+[     4.418] 	NumberOfBanks: 1
+[     4.418] 	MemoryModel: 6
+[     4.418] 	BankSize: 0
+[     4.418] 	NumberOfImages: 0
+[     4.418] 	RedMaskSize: 5
+[     4.418] 	RedFieldPosition: 11
+[     4.418] 	GreenMaskSize: 6
+[     4.418] 	GreenFieldPosition: 5
+[     4.418] 	BlueMaskSize: 5
+[     4.418] 	BlueFieldPosition: 0
+[     4.418] 	RsvdMaskSize: 0
+[     4.418] 	RsvdFieldPosition: 0
+[     4.418] 	DirectColorModeInfo: 2
+[     4.418] 	PhysBasePtr: 0xb0000000
+[     4.418] 	LinBytesPerScanLine: 4096
+[     4.418] 	BnkNumberOfImagePages: 0
+[     4.418] 	LinNumberOfImagePages: 0
+[     4.418] 	LinRedMaskSize: 5
+[     4.418] 	LinRedFieldPosition: 11
+[     4.418] 	LinGreenMaskSize: 6
+[     4.418] 	LinGreenFieldPosition: 5
+[     4.418] 	LinBlueMaskSize: 5
+[     4.418] 	LinBlueFieldPosition: 0
+[     4.418] 	LinRsvdMaskSize: 0
+[     4.418] 	LinRsvdFieldPosition: 0
+[     4.418] 	MaxPixelClock: 250000000
+[     4.418] *Mode: 163 (2048x1152)
+[     4.418] 	ModeAttributes: 0xbb
+[     4.418] 	WinAAttributes: 0x7
+[     4.418] 	WinBAttributes: 0x0
+[     4.418] 	WinGranularity: 64
+[     4.418] 	WinSize: 64
+[     4.418] 	WinASegment: 0xa000
+[     4.418] 	WinBSegment: 0x0
+[     4.418] 	WinFuncPtr: 0x0
+[     4.418] 	BytesPerScanline: 8192
+[     4.418] 	XResolution: 2048
+[     4.418] 	YResolution: 1152
+[     4.418] 	XCharSize: 0
+[     4.418] 	YCharSize: 0
+[     4.418] 	NumberOfPlanes: 1
+[     4.418] 	BitsPerPixel: 32
+[     4.418] 	NumberOfBanks: 1
+[     4.418] 	MemoryModel: 6
+[     4.418] 	BankSize: 0
+[     4.418] 	NumberOfImages: 0
+[     4.418] 	RedMaskSize: 8
+[     4.418] 	RedFieldPosition: 16
+[     4.418] 	GreenMaskSize: 8
+[     4.418] 	GreenFieldPosition: 8
+[     4.418] 	BlueMaskSize: 8
+[     4.418] 	BlueFieldPosition: 0
+[     4.418] 	RsvdMaskSize: 8
+[     4.418] 	RsvdFieldPosition: 24
+[     4.418] 	DirectColorModeInfo: 2
+[     4.418] 	PhysBasePtr: 0xb0000000
+[     4.418] 	LinBytesPerScanLine: 8192
+[     4.418] 	BnkNumberOfImagePages: 0
+[     4.418] 	LinNumberOfImagePages: 0
+[     4.418] 	LinRedMaskSize: 8
+[     4.418] 	LinRedFieldPosition: 16
+[     4.418] 	LinGreenMaskSize: 8
+[     4.418] 	LinGreenFieldPosition: 8
+[     4.418] 	LinBlueMaskSize: 8
+[     4.419] 	LinBlueFieldPosition: 0
+[     4.419] 	LinRsvdMaskSize: 8
+[     4.419] 	LinRsvdFieldPosition: 24
+[     4.419] 	MaxPixelClock: 250000000
+[     4.419] Mode: 164 (1920x1080)
+[     4.419] 	ModeAttributes: 0xbb
+[     4.419] 	WinAAttributes: 0x7
+[     4.419] 	WinBAttributes: 0x0
+[     4.419] 	WinGranularity: 64
+[     4.419] 	WinSize: 64
+[     4.419] 	WinASegment: 0xa000
+[     4.419] 	WinBSegment: 0x0
+[     4.419] 	WinFuncPtr: 0x0
+[     4.419] 	BytesPerScanline: 3840
+[     4.419] 	XResolution: 1920
+[     4.419] 	YResolution: 1080
+[     4.419] 	XCharSize: 0
+[     4.419] 	YCharSize: 0
+[     4.419] 	NumberOfPlanes: 1
+[     4.419] 	BitsPerPixel: 16
+[     4.419] 	NumberOfBanks: 1
+[     4.419] 	MemoryModel: 6
+[     4.419] 	BankSize: 0
+[     4.419] 	NumberOfImages: 0
+[     4.419] 	RedMaskSize: 5
+[     4.419] 	RedFieldPosition: 11
+[     4.419] 	GreenMaskSize: 6
+[     4.419] 	GreenFieldPosition: 5
+[     4.419] 	BlueMaskSize: 5
+[     4.419] 	BlueFieldPosition: 0
+[     4.419] 	RsvdMaskSize: 0
+[     4.419] 	RsvdFieldPosition: 0
+[     4.419] 	DirectColorModeInfo: 2
+[     4.419] 	PhysBasePtr: 0xb0000000
+[     4.419] 	LinBytesPerScanLine: 3840
+[     4.419] 	BnkNumberOfImagePages: 0
+[     4.419] 	LinNumberOfImagePages: 0
+[     4.419] 	LinRedMaskSize: 5
+[     4.419] 	LinRedFieldPosition: 11
+[     4.419] 	LinGreenMaskSize: 6
+[     4.419] 	LinGreenFieldPosition: 5
+[     4.419] 	LinBlueMaskSize: 5
+[     4.419] 	LinBlueFieldPosition: 0
+[     4.419] 	LinRsvdMaskSize: 0
+[     4.419] 	LinRsvdFieldPosition: 0
+[     4.419] 	MaxPixelClock: 250000000
+[     4.419] *Mode: 165 (1920x1080)
+[     4.419] 	ModeAttributes: 0xbb
+[     4.419] 	WinAAttributes: 0x7
+[     4.419] 	WinBAttributes: 0x0
+[     4.419] 	WinGranularity: 64
+[     4.419] 	WinSize: 64
+[     4.419] 	WinASegment: 0xa000
+[     4.419] 	WinBSegment: 0x0
+[     4.419] 	WinFuncPtr: 0x0
+[     4.419] 	BytesPerScanline: 7680
+[     4.419] 	XResolution: 1920
+[     4.419] 	YResolution: 1080
+[     4.419] 	XCharSize: 0
+[     4.419] 	YCharSize: 0
+[     4.419] 	NumberOfPlanes: 1
+[     4.419] 	BitsPerPixel: 32
+[     4.419] 	NumberOfBanks: 1
+[     4.419] 	MemoryModel: 6
+[     4.419] 	BankSize: 0
+[     4.419] 	NumberOfImages: 0
+[     4.419] 	RedMaskSize: 8
+[     4.419] 	RedFieldPosition: 16
+[     4.419] 	GreenMaskSize: 8
+[     4.419] 	GreenFieldPosition: 8
+[     4.419] 	BlueMaskSize: 8
+[     4.419] 	BlueFieldPosition: 0
+[     4.419] 	RsvdMaskSize: 8
+[     4.419] 	RsvdFieldPosition: 24
+[     4.419] 	DirectColorModeInfo: 2
+[     4.419] 	PhysBasePtr: 0xb0000000
+[     4.419] 	LinBytesPerScanLine: 7680
+[     4.419] 	BnkNumberOfImagePages: 0
+[     4.419] 	LinNumberOfImagePages: 0
+[     4.419] 	LinRedMaskSize: 8
+[     4.419] 	LinRedFieldPosition: 16
+[     4.419] 	LinGreenMaskSize: 8
+[     4.419] 	LinGreenFieldPosition: 8
+[     4.419] 	LinBlueMaskSize: 8
+[     4.419] 	LinBlueFieldPosition: 0
+[     4.419] 	LinRsvdMaskSize: 8
+[     4.419] 	LinRsvdFieldPosition: 24
+[     4.419] 	MaxPixelClock: 250000000
+[     4.419] Mode: 166 (848x480)
+[     4.419] 	ModeAttributes: 0xbb
+[     4.419] 	WinAAttributes: 0x7
+[     4.419] 	WinBAttributes: 0x0
+[     4.419] 	WinGranularity: 64
+[     4.419] 	WinSize: 64
+[     4.419] 	WinASegment: 0xa000
+[     4.419] 	WinBSegment: 0x0
+[     4.419] 	WinFuncPtr: 0x0
+[     4.419] 	BytesPerScanline: 1696
+[     4.419] 	XResolution: 848
+[     4.419] 	YResolution: 480
+[     4.419] 	XCharSize: 0
+[     4.419] 	YCharSize: 0
+[     4.419] 	NumberOfPlanes: 1
+[     4.419] 	BitsPerPixel: 16
+[     4.419] 	NumberOfBanks: 1
+[     4.419] 	MemoryModel: 6
+[     4.419] 	BankSize: 0
+[     4.419] 	NumberOfImages: 0
+[     4.419] 	RedMaskSize: 5
+[     4.419] 	RedFieldPosition: 11
+[     4.419] 	GreenMaskSize: 6
+[     4.419] 	GreenFieldPosition: 5
+[     4.419] 	BlueMaskSize: 5
+[     4.419] 	BlueFieldPosition: 0
+[     4.419] 	RsvdMaskSize: 0
+[     4.419] 	RsvdFieldPosition: 0
+[     4.419] 	DirectColorModeInfo: 2
+[     4.419] 	PhysBasePtr: 0xb0000000
+[     4.419] 	LinBytesPerScanLine: 1696
+[     4.419] 	BnkNumberOfImagePages: 0
+[     4.419] 	LinNumberOfImagePages: 0
+[     4.419] 	LinRedMaskSize: 5
+[     4.419] 	LinRedFieldPosition: 11
+[     4.419] 	LinGreenMaskSize: 6
+[     4.419] 	LinGreenFieldPosition: 5
+[     4.419] 	LinBlueMaskSize: 5
+[     4.419] 	LinBlueFieldPosition: 0
+[     4.419] 	LinRsvdMaskSize: 0
+[     4.419] 	LinRsvdFieldPosition: 0
+[     4.419] 	MaxPixelClock: 250000000
+[     4.419] *Mode: 167 (848x480)
+[     4.420] 	ModeAttributes: 0xbb
+[     4.420] 	WinAAttributes: 0x7
+[     4.420] 	WinBAttributes: 0x0
+[     4.420] 	WinGranularity: 64
+[     4.420] 	WinSize: 64
+[     4.420] 	WinASegment: 0xa000
+[     4.420] 	WinBSegment: 0x0
+[     4.420] 	WinFuncPtr: 0x0
+[     4.420] 	BytesPerScanline: 3392
+[     4.420] 	XResolution: 848
+[     4.420] 	YResolution: 480
+[     4.420] 	XCharSize: 0
+[     4.420] 	YCharSize: 0
+[     4.420] 	NumberOfPlanes: 1
+[     4.420] 	BitsPerPixel: 32
+[     4.420] 	NumberOfBanks: 1
+[     4.420] 	MemoryModel: 6
+[     4.420] 	BankSize: 0
+[     4.420] 	NumberOfImages: 0
+[     4.420] 	RedMaskSize: 8
+[     4.420] 	RedFieldPosition: 16
+[     4.420] 	GreenMaskSize: 8
+[     4.420] 	GreenFieldPosition: 8
+[     4.420] 	BlueMaskSize: 8
+[     4.420] 	BlueFieldPosition: 0
+[     4.420] 	RsvdMaskSize: 8
+[     4.420] 	RsvdFieldPosition: 24
+[     4.420] 	DirectColorModeInfo: 2
+[     4.420] 	PhysBasePtr: 0xb0000000
+[     4.420] 	LinBytesPerScanLine: 3392
+[     4.420] 	BnkNumberOfImagePages: 0
+[     4.420] 	LinNumberOfImagePages: 0
+[     4.420] 	LinRedMaskSize: 8
+[     4.420] 	LinRedFieldPosition: 16
+[     4.420] 	LinGreenMaskSize: 8
+[     4.420] 	LinGreenFieldPosition: 8
+[     4.420] 	LinBlueMaskSize: 8
+[     4.420] 	LinBlueFieldPosition: 0
+[     4.420] 	LinRsvdMaskSize: 8
+[     4.420] 	LinRsvdFieldPosition: 24
+[     4.420] 	MaxPixelClock: 250000000
+[     4.420] Mode: 168 (1360x768)
+[     4.420] 	ModeAttributes: 0xbb
+[     4.420] 	WinAAttributes: 0x7
+[     4.420] 	WinBAttributes: 0x0
+[     4.420] 	WinGranularity: 64
+[     4.420] 	WinSize: 64
+[     4.420] 	WinASegment: 0xa000
+[     4.420] 	WinBSegment: 0x0
+[     4.420] 	WinFuncPtr: 0x0
+[     4.420] 	BytesPerScanline: 2720
+[     4.420] 	XResolution: 1360
+[     4.420] 	YResolution: 768
+[     4.420] 	XCharSize: 0
+[     4.420] 	YCharSize: 0
+[     4.420] 	NumberOfPlanes: 1
+[     4.420] 	BitsPerPixel: 16
+[     4.420] 	NumberOfBanks: 1
+[     4.420] 	MemoryModel: 6
+[     4.420] 	BankSize: 0
+[     4.420] 	NumberOfImages: 0
+[     4.420] 	RedMaskSize: 5
+[     4.420] 	RedFieldPosition: 11
+[     4.420] 	GreenMaskSize: 6
+[     4.420] 	GreenFieldPosition: 5
+[     4.420] 	BlueMaskSize: 5
+[     4.420] 	BlueFieldPosition: 0
+[     4.420] 	RsvdMaskSize: 0
+[     4.420] 	RsvdFieldPosition: 0
+[     4.420] 	DirectColorModeInfo: 2
+[     4.420] 	PhysBasePtr: 0xb0000000
+[     4.420] 	LinBytesPerScanLine: 2720
+[     4.420] 	BnkNumberOfImagePages: 0
+[     4.420] 	LinNumberOfImagePages: 0
+[     4.420] 	LinRedMaskSize: 5
+[     4.420] 	LinRedFieldPosition: 11
+[     4.420] 	LinGreenMaskSize: 6
+[     4.420] 	LinGreenFieldPosition: 5
+[     4.420] 	LinBlueMaskSize: 5
+[     4.420] 	LinBlueFieldPosition: 0
+[     4.420] 	LinRsvdMaskSize: 0
+[     4.420] 	LinRsvdFieldPosition: 0
+[     4.420] 	MaxPixelClock: 250000000
+[     4.420] *Mode: 169 (1360x768)
+[     4.420] 	ModeAttributes: 0xbb
+[     4.420] 	WinAAttributes: 0x7
+[     4.420] 	WinBAttributes: 0x0
+[     4.420] 	WinGranularity: 64
+[     4.420] 	WinSize: 64
+[     4.420] 	WinASegment: 0xa000
+[     4.420] 	WinBSegment: 0x0
+[     4.420] 	WinFuncPtr: 0x0
+[     4.420] 	BytesPerScanline: 5440
+[     4.420] 	XResolution: 1360
+[     4.420] 	YResolution: 768
+[     4.420] 	XCharSize: 0
+[     4.420] 	YCharSize: 0
+[     4.420] 	NumberOfPlanes: 1
+[     4.420] 	BitsPerPixel: 32
+[     4.420] 	NumberOfBanks: 1
+[     4.420] 	MemoryModel: 6
+[     4.420] 	BankSize: 0
+[     4.420] 	NumberOfImages: 0
+[     4.420] 	RedMaskSize: 8
+[     4.420] 	RedFieldPosition: 16
+[     4.420] 	GreenMaskSize: 8
+[     4.420] 	GreenFieldPosition: 8
+[     4.420] 	BlueMaskSize: 8
+[     4.420] 	BlueFieldPosition: 0
+[     4.420] 	RsvdMaskSize: 8
+[     4.420] 	RsvdFieldPosition: 24
+[     4.420] 	DirectColorModeInfo: 2
+[     4.420] 	PhysBasePtr: 0xb0000000
+[     4.420] 	LinBytesPerScanLine: 5440
+[     4.420] 	BnkNumberOfImagePages: 0
+[     4.420] 	LinNumberOfImagePages: 0
+[     4.420] 	LinRedMaskSize: 8
+[     4.420] 	LinRedFieldPosition: 16
+[     4.420] 	LinGreenMaskSize: 8
+[     4.420] 	LinGreenFieldPosition: 8
+[     4.420] 	LinBlueMaskSize: 8
+[     4.420] 	LinBlueFieldPosition: 0
+[     4.420] 	LinRsvdMaskSize: 8
+[     4.420] 	LinRsvdFieldPosition: 24
+[     4.420] 	MaxPixelClock: 250000000
+[     4.420] Mode: 16a (960x600)
+[     4.420] 	ModeAttributes: 0xbb
+[     4.420] 	WinAAttributes: 0x7
+[     4.421] 	WinBAttributes: 0x0
+[     4.421] 	WinGranularity: 64
+[     4.421] 	WinSize: 64
+[     4.421] 	WinASegment: 0xa000
+[     4.421] 	WinBSegment: 0x0
+[     4.421] 	WinFuncPtr: 0x0
+[     4.421] 	BytesPerScanline: 1920
+[     4.421] 	XResolution: 960
+[     4.421] 	YResolution: 600
+[     4.421] 	XCharSize: 0
+[     4.421] 	YCharSize: 0
+[     4.421] 	NumberOfPlanes: 1
+[     4.421] 	BitsPerPixel: 16
+[     4.421] 	NumberOfBanks: 1
+[     4.421] 	MemoryModel: 6
+[     4.421] 	BankSize: 0
+[     4.421] 	NumberOfImages: 0
+[     4.421] 	RedMaskSize: 5
+[     4.421] 	RedFieldPosition: 11
+[     4.421] 	GreenMaskSize: 6
+[     4.421] 	GreenFieldPosition: 5
+[     4.421] 	BlueMaskSize: 5
+[     4.421] 	BlueFieldPosition: 0
+[     4.421] 	RsvdMaskSize: 0
+[     4.421] 	RsvdFieldPosition: 0
+[     4.421] 	DirectColorModeInfo: 2
+[     4.421] 	PhysBasePtr: 0xb0000000
+[     4.421] 	LinBytesPerScanLine: 1920
+[     4.421] 	BnkNumberOfImagePages: 0
+[     4.421] 	LinNumberOfImagePages: 0
+[     4.421] 	LinRedMaskSize: 5
+[     4.421] 	LinRedFieldPosition: 11
+[     4.421] 	LinGreenMaskSize: 6
+[     4.421] 	LinGreenFieldPosition: 5
+[     4.421] 	LinBlueMaskSize: 5
+[     4.421] 	LinBlueFieldPosition: 0
+[     4.421] 	LinRsvdMaskSize: 0
+[     4.421] 	LinRsvdFieldPosition: 0
+[     4.421] 	MaxPixelClock: 250000000
+[     4.421] *Mode: 16b (960x600)
+[     4.421] 	ModeAttributes: 0xbb
+[     4.421] 	WinAAttributes: 0x7
+[     4.421] 	WinBAttributes: 0x0
+[     4.421] 	WinGranularity: 64
+[     4.421] 	WinSize: 64
+[     4.421] 	WinASegment: 0xa000
+[     4.421] 	WinBSegment: 0x0
+[     4.421] 	WinFuncPtr: 0x0
+[     4.421] 	BytesPerScanline: 3840
+[     4.421] 	XResolution: 960
+[     4.421] 	YResolution: 600
+[     4.421] 	XCharSize: 0
+[     4.421] 	YCharSize: 0
+[     4.421] 	NumberOfPlanes: 1
+[     4.421] 	BitsPerPixel: 32
+[     4.421] 	NumberOfBanks: 1
+[     4.421] 	MemoryModel: 6
+[     4.421] 	BankSize: 0
+[     4.421] 	NumberOfImages: 0
+[     4.421] 	RedMaskSize: 8
+[     4.421] 	RedFieldPosition: 16
+[     4.421] 	GreenMaskSize: 8
+[     4.421] 	GreenFieldPosition: 8
+[     4.421] 	BlueMaskSize: 8
+[     4.421] 	BlueFieldPosition: 0
+[     4.421] 	RsvdMaskSize: 8
+[     4.421] 	RsvdFieldPosition: 24
+[     4.421] 	DirectColorModeInfo: 2
+[     4.421] 	PhysBasePtr: 0xb0000000
+[     4.421] 	LinBytesPerScanLine: 3840
+[     4.421] 	BnkNumberOfImagePages: 0
+[     4.421] 	LinNumberOfImagePages: 0
+[     4.421] 	LinRedMaskSize: 8
+[     4.421] 	LinRedFieldPosition: 16
+[     4.421] 	LinGreenMaskSize: 8
+[     4.421] 	LinGreenFieldPosition: 8
+[     4.421] 	LinBlueMaskSize: 8
+[     4.421] 	LinBlueFieldPosition: 0
+[     4.421] 	LinRsvdMaskSize: 8
+[     4.421] 	LinRsvdFieldPosition: 24
+[     4.421] 	MaxPixelClock: 250000000
+[     4.421] Mode: 16c (800x500)
+[     4.421] 	ModeAttributes: 0xbb
+[     4.421] 	WinAAttributes: 0x7
+[     4.421] 	WinBAttributes: 0x0
+[     4.421] 	WinGranularity: 64
+[     4.421] 	WinSize: 64
+[     4.421] 	WinASegment: 0xa000
+[     4.421] 	WinBSegment: 0x0
+[     4.421] 	WinFuncPtr: 0x0
+[     4.421] 	BytesPerScanline: 1600
+[     4.421] 	XResolution: 800
+[     4.421] 	YResolution: 500
+[     4.421] 	XCharSize: 0
+[     4.421] 	YCharSize: 0
+[     4.421] 	NumberOfPlanes: 1
+[     4.421] 	BitsPerPixel: 16
+[     4.421] 	NumberOfBanks: 1
+[     4.421] 	MemoryModel: 6
+[     4.421] 	BankSize: 0
+[     4.421] 	NumberOfImages: 0
+[     4.421] 	RedMaskSize: 5
+[     4.421] 	RedFieldPosition: 11
+[     4.421] 	GreenMaskSize: 6
+[     4.421] 	GreenFieldPosition: 5
+[     4.421] 	BlueMaskSize: 5
+[     4.421] 	BlueFieldPosition: 0
+[     4.421] 	RsvdMaskSize: 0
+[     4.421] 	RsvdFieldPosition: 0
+[     4.421] 	DirectColorModeInfo: 2
+[     4.421] 	PhysBasePtr: 0xb0000000
+[     4.421] 	LinBytesPerScanLine: 1600
+[     4.421] 	BnkNumberOfImagePages: 0
+[     4.421] 	LinNumberOfImagePages: 0
+[     4.421] 	LinRedMaskSize: 5
+[     4.421] 	LinRedFieldPosition: 11
+[     4.421] 	LinGreenMaskSize: 6
+[     4.421] 	LinGreenFieldPosition: 5
+[     4.421] 	LinBlueMaskSize: 5
+[     4.421] 	LinBlueFieldPosition: 0
+[     4.421] 	LinRsvdMaskSize: 0
+[     4.421] 	LinRsvdFieldPosition: 0
+[     4.421] 	MaxPixelClock: 250000000
+[     4.421] *Mode: 16d (800x500)
+[     4.421] 	ModeAttributes: 0xbb
+[     4.421] 	WinAAttributes: 0x7
+[     4.421] 	WinBAttributes: 0x0
+[     4.421] 	WinGranularity: 64
+[     4.421] 	WinSize: 64
+[     4.421] 	WinASegment: 0xa000
+[     4.421] 	WinBSegment: 0x0
+[     4.421] 	WinFuncPtr: 0x0
+[     4.421] 	BytesPerScanline: 3200
+[     4.421] 	XResolution: 800
+[     4.421] 	YResolution: 500
+[     4.422] 	XCharSize: 0
+[     4.422] 	YCharSize: 0
+[     4.422] 	NumberOfPlanes: 1
+[     4.422] 	BitsPerPixel: 32
+[     4.422] 	NumberOfBanks: 1
+[     4.422] 	MemoryModel: 6
+[     4.422] 	BankSize: 0
+[     4.422] 	NumberOfImages: 0
+[     4.422] 	RedMaskSize: 8
+[     4.422] 	RedFieldPosition: 16
+[     4.422] 	GreenMaskSize: 8
+[     4.422] 	GreenFieldPosition: 8
+[     4.422] 	BlueMaskSize: 8
+[     4.422] 	BlueFieldPosition: 0
+[     4.422] 	RsvdMaskSize: 8
+[     4.422] 	RsvdFieldPosition: 24
+[     4.422] 	DirectColorModeInfo: 2
+[     4.422] 	PhysBasePtr: 0xb0000000
+[     4.422] 	LinBytesPerScanLine: 3200
+[     4.422] 	BnkNumberOfImagePages: 0
+[     4.422] 	LinNumberOfImagePages: 0
+[     4.422] 	LinRedMaskSize: 8
+[     4.422] 	LinRedFieldPosition: 16
+[     4.422] 	LinGreenMaskSize: 8
+[     4.422] 	LinGreenFieldPosition: 8
+[     4.422] 	LinBlueMaskSize: 8
+[     4.422] 	LinBlueFieldPosition: 0
+[     4.422] 	LinRsvdMaskSize: 8
+[     4.422] 	LinRsvdFieldPosition: 24
+[     4.422] 	MaxPixelClock: 250000000
+[     4.422] Mode: 16e (1024x640)
+[     4.422] 	ModeAttributes: 0xbb
+[     4.422] 	WinAAttributes: 0x7
+[     4.422] 	WinBAttributes: 0x0
+[     4.422] 	WinGranularity: 64
+[     4.422] 	WinSize: 64
+[     4.422] 	WinASegment: 0xa000
+[     4.422] 	WinBSegment: 0x0
+[     4.422] 	WinFuncPtr: 0x0
+[     4.422] 	BytesPerScanline: 2048
+[     4.422] 	XResolution: 1024
+[     4.422] 	YResolution: 640
+[     4.422] 	XCharSize: 0
+[     4.422] 	YCharSize: 0
+[     4.422] 	NumberOfPlanes: 1
+[     4.422] 	BitsPerPixel: 16
+[     4.422] 	NumberOfBanks: 1
+[     4.422] 	MemoryModel: 6
+[     4.422] 	BankSize: 0
+[     4.422] 	NumberOfImages: 0
+[     4.422] 	RedMaskSize: 5
+[     4.422] 	RedFieldPosition: 11
+[     4.422] 	GreenMaskSize: 6
+[     4.422] 	GreenFieldPosition: 5
+[     4.422] 	BlueMaskSize: 5
+[     4.422] 	BlueFieldPosition: 0
+[     4.422] 	RsvdMaskSize: 0
+[     4.422] 	RsvdFieldPosition: 0
+[     4.422] 	DirectColorModeInfo: 2
+[     4.422] 	PhysBasePtr: 0xb0000000
+[     4.422] 	LinBytesPerScanLine: 2048
+[     4.422] 	BnkNumberOfImagePages: 0
+[     4.422] 	LinNumberOfImagePages: 0
+[     4.422] 	LinRedMaskSize: 5
+[     4.422] 	LinRedFieldPosition: 11
+[     4.422] 	LinGreenMaskSize: 6
+[     4.422] 	LinGreenFieldPosition: 5
+[     4.422] 	LinBlueMaskSize: 5
+[     4.422] 	LinBlueFieldPosition: 0
+[     4.422] 	LinRsvdMaskSize: 0
+[     4.422] 	LinRsvdFieldPosition: 0
+[     4.422] 	MaxPixelClock: 250000000
+[     4.422] *Mode: 16f (1024x640)
+[     4.422] 	ModeAttributes: 0xbb
+[     4.422] 	WinAAttributes: 0x7
+[     4.422] 	WinBAttributes: 0x0
+[     4.422] 	WinGranularity: 64
+[     4.422] 	WinSize: 64
+[     4.422] 	WinASegment: 0xa000
+[     4.422] 	WinBSegment: 0x0
+[     4.422] 	WinFuncPtr: 0x0
+[     4.422] 	BytesPerScanline: 4096
+[     4.422] 	XResolution: 1024
+[     4.422] 	YResolution: 640
+[     4.422] 	XCharSize: 0
+[     4.422] 	YCharSize: 0
+[     4.422] 	NumberOfPlanes: 1
+[     4.422] 	BitsPerPixel: 32
+[     4.422] 	NumberOfBanks: 1
+[     4.422] 	MemoryModel: 6
+[     4.422] 	BankSize: 0
+[     4.422] 	NumberOfImages: 0
+[     4.422] 	RedMaskSize: 8
+[     4.422] 	RedFieldPosition: 16
+[     4.422] 	GreenMaskSize: 8
+[     4.422] 	GreenFieldPosition: 8
+[     4.422] 	BlueMaskSize: 8
+[     4.422] 	BlueFieldPosition: 0
+[     4.422] 	RsvdMaskSize: 8
+[     4.422] 	RsvdFieldPosition: 24
+[     4.422] 	DirectColorModeInfo: 2
+[     4.422] 	PhysBasePtr: 0xb0000000
+[     4.422] 	LinBytesPerScanLine: 4096
+[     4.422] 	BnkNumberOfImagePages: 0
+[     4.422] 	LinNumberOfImagePages: 0
+[     4.422] 	LinRedMaskSize: 8
+[     4.422] 	LinRedFieldPosition: 16
+[     4.422] 	LinGreenMaskSize: 8
+[     4.422] 	LinGreenFieldPosition: 8
+[     4.422] 	LinBlueMaskSize: 8
+[     4.422] 	LinBlueFieldPosition: 0
+[     4.422] 	LinRsvdMaskSize: 8
+[     4.422] 	LinRsvdFieldPosition: 24
+[     4.422] 	MaxPixelClock: 250000000
+[     4.422] Mode: 170 (1344x840)
+[     4.422] 	ModeAttributes: 0xbb
+[     4.422] 	WinAAttributes: 0x7
+[     4.422] 	WinBAttributes: 0x0
+[     4.422] 	WinGranularity: 64
+[     4.422] 	WinSize: 64
+[     4.422] 	WinASegment: 0xa000
+[     4.422] 	WinBSegment: 0x0
+[     4.422] 	WinFuncPtr: 0x0
+[     4.422] 	BytesPerScanline: 2688
+[     4.422] 	XResolution: 1344
+[     4.422] 	YResolution: 840
+[     4.422] 	XCharSize: 0
+[     4.422] 	YCharSize: 0
+[     4.422] 	NumberOfPlanes: 1
+[     4.422] 	BitsPerPixel: 16
+[     4.422] 	NumberOfBanks: 1
+[     4.422] 	MemoryModel: 6
+[     4.422] 	BankSize: 0
+[     4.422] 	NumberOfImages: 0
+[     4.422] 	RedMaskSize: 5
+[     4.422] 	RedFieldPosition: 11
+[     4.422] 	GreenMaskSize: 6
+[     4.422] 	GreenFieldPosition: 5
+[     4.422] 	BlueMaskSize: 5
+[     4.422] 	BlueFieldPosition: 0
+[     4.422] 	RsvdMaskSize: 0
+[     4.422] 	RsvdFieldPosition: 0
+[     4.422] 	DirectColorModeInfo: 2
+[     4.422] 	PhysBasePtr: 0xb0000000
+[     4.422] 	LinBytesPerScanLine: 2688
+[     4.422] 	BnkNumberOfImagePages: 0
+[     4.422] 	LinNumberOfImagePages: 0
+[     4.423] 	LinRedMaskSize: 5
+[     4.423] 	LinRedFieldPosition: 11
+[     4.423] 	LinGreenMaskSize: 6
+[     4.423] 	LinGreenFieldPosition: 5
+[     4.423] 	LinBlueMaskSize: 5
+[     4.423] 	LinBlueFieldPosition: 0
+[     4.423] 	LinRsvdMaskSize: 0
+[     4.423] 	LinRsvdFieldPosition: 0
+[     4.423] 	MaxPixelClock: 250000000
+[     4.423] *Mode: 171 (1344x840)
+[     4.423] 	ModeAttributes: 0xbb
+[     4.423] 	WinAAttributes: 0x7
+[     4.423] 	WinBAttributes: 0x0
+[     4.423] 	WinGranularity: 64
+[     4.423] 	WinSize: 64
+[     4.423] 	WinASegment: 0xa000
+[     4.423] 	WinBSegment: 0x0
+[     4.423] 	WinFuncPtr: 0x0
+[     4.423] 	BytesPerScanline: 5376
+[     4.423] 	XResolution: 1344
+[     4.423] 	YResolution: 840
+[     4.423] 	XCharSize: 0
+[     4.423] 	YCharSize: 0
+[     4.423] 	NumberOfPlanes: 1
+[     4.423] 	BitsPerPixel: 32
+[     4.423] 	NumberOfBanks: 1
+[     4.423] 	MemoryModel: 6
+[     4.423] 	BankSize: 0
+[     4.423] 	NumberOfImages: 0
+[     4.423] 	RedMaskSize: 8
+[     4.423] 	RedFieldPosition: 16
+[     4.423] 	GreenMaskSize: 8
+[     4.423] 	GreenFieldPosition: 8
+[     4.423] 	BlueMaskSize: 8
+[     4.423] 	BlueFieldPosition: 0
+[     4.423] 	RsvdMaskSize: 8
+[     4.423] 	RsvdFieldPosition: 24
+[     4.423] 	DirectColorModeInfo: 2
+[     4.423] 	PhysBasePtr: 0xb0000000
+[     4.423] 	LinBytesPerScanLine: 5376
+[     4.423] 	BnkNumberOfImagePages: 0
+[     4.423] 	LinNumberOfImagePages: 0
+[     4.423] 	LinRedMaskSize: 8
+[     4.423] 	LinRedFieldPosition: 16
+[     4.423] 	LinGreenMaskSize: 8
+[     4.423] 	LinGreenFieldPosition: 8
+[     4.423] 	LinBlueMaskSize: 8
+[     4.423] 	LinBlueFieldPosition: 0
+[     4.423] 	LinRsvdMaskSize: 8
+[     4.423] 	LinRsvdFieldPosition: 24
+[     4.423] 	MaxPixelClock: 250000000
+[     4.423] Mode: 172 (1600x1000)
+[     4.423] 	ModeAttributes: 0xbb
+[     4.423] 	WinAAttributes: 0x7
+[     4.423] 	WinBAttributes: 0x0
+[     4.423] 	WinGranularity: 64
+[     4.423] 	WinSize: 64
+[     4.423] 	WinASegment: 0xa000
+[     4.423] 	WinBSegment: 0x0
+[     4.423] 	WinFuncPtr: 0x0
+[     4.423] 	BytesPerScanline: 3200
+[     4.423] 	XResolution: 1600
+[     4.423] 	YResolution: 1000
+[     4.423] 	XCharSize: 0
+[     4.423] 	YCharSize: 0
+[     4.423] 	NumberOfPlanes: 1
+[     4.423] 	BitsPerPixel: 16
+[     4.423] 	NumberOfBanks: 1
+[     4.423] 	MemoryModel: 6
+[     4.423] 	BankSize: 0
+[     4.423] 	NumberOfImages: 0
+[     4.423] 	RedMaskSize: 5
+[     4.423] 	RedFieldPosition: 11
+[     4.423] 	GreenMaskSize: 6
+[     4.423] 	GreenFieldPosition: 5
+[     4.423] 	BlueMaskSize: 5
+[     4.423] 	BlueFieldPosition: 0
+[     4.423] 	RsvdMaskSize: 0
+[     4.423] 	RsvdFieldPosition: 0
+[     4.423] 	DirectColorModeInfo: 2
+[     4.423] 	PhysBasePtr: 0xb0000000
+[     4.423] 	LinBytesPerScanLine: 3200
+[     4.423] 	BnkNumberOfImagePages: 0
+[     4.423] 	LinNumberOfImagePages: 0
+[     4.423] 	LinRedMaskSize: 5
+[     4.423] 	LinRedFieldPosition: 11
+[     4.423] 	LinGreenMaskSize: 6
+[     4.423] 	LinGreenFieldPosition: 5
+[     4.423] 	LinBlueMaskSize: 5
+[     4.423] 	LinBlueFieldPosition: 0
+[     4.423] 	LinRsvdMaskSize: 0
+[     4.423] 	LinRsvdFieldPosition: 0
+[     4.423] 	MaxPixelClock: 250000000
+[     4.423] *Mode: 173 (1600x1000)
+[     4.423] 	ModeAttributes: 0xbb
+[     4.423] 	WinAAttributes: 0x7
+[     4.423] 	WinBAttributes: 0x0
+[     4.423] 	WinGranularity: 64
+[     4.423] 	WinSize: 64
+[     4.423] 	WinASegment: 0xa000
+[     4.423] 	WinBSegment: 0x0
+[     4.423] 	WinFuncPtr: 0x0
+[     4.423] 	BytesPerScanline: 6400
+[     4.423] 	XResolution: 1600
+[     4.423] 	YResolution: 1000
+[     4.423] 	XCharSize: 0
+[     4.423] 	YCharSize: 0
+[     4.423] 	NumberOfPlanes: 1
+[     4.423] 	BitsPerPixel: 32
+[     4.423] 	NumberOfBanks: 1
+[     4.423] 	MemoryModel: 6
+[     4.423] 	BankSize: 0
+[     4.423] 	NumberOfImages: 0
+[     4.423] 	RedMaskSize: 8
+[     4.423] 	RedFieldPosition: 16
+[     4.423] 	GreenMaskSize: 8
+[     4.423] 	GreenFieldPosition: 8
+[     4.423] 	BlueMaskSize: 8
+[     4.423] 	BlueFieldPosition: 0
+[     4.423] 	RsvdMaskSize: 8
+[     4.423] 	RsvdFieldPosition: 24
+[     4.423] 	DirectColorModeInfo: 2
+[     4.423] 	PhysBasePtr: 0xb0000000
+[     4.423] 	LinBytesPerScanLine: 6400
+[     4.423] 	BnkNumberOfImagePages: 0
+[     4.423] 	LinNumberOfImagePages: 0
+[     4.423] 	LinRedMaskSize: 8
+[     4.423] 	LinRedFieldPosition: 16
+[     4.423] 	LinGreenMaskSize: 8
+[     4.423] 	LinGreenFieldPosition: 8
+[     4.423] 	LinBlueMaskSize: 8
+[     4.423] 	LinBlueFieldPosition: 0
+[     4.423] 	LinRsvdMaskSize: 8
+[     4.423] 	LinRsvdFieldPosition: 24
+[     4.423] 	MaxPixelClock: 250000000
+[     4.424] Mode: 174 (720x480)
+[     4.424] 	ModeAttributes: 0xbb
+[     4.424] 	WinAAttributes: 0x7
+[     4.424] 	WinBAttributes: 0x0
+[     4.424] 	WinGranularity: 64
+[     4.424] 	WinSize: 64
+[     4.424] 	WinASegment: 0xa000
+[     4.424] 	WinBSegment: 0x0
+[     4.424] 	WinFuncPtr: 0x0
+[     4.424] 	BytesPerScanline: 1440
+[     4.424] 	XResolution: 720
+[     4.424] 	YResolution: 480
+[     4.424] 	XCharSize: 0
+[     4.424] 	YCharSize: 0
+[     4.424] 	NumberOfPlanes: 1
+[     4.424] 	BitsPerPixel: 16
+[     4.424] 	NumberOfBanks: 1
+[     4.424] 	MemoryModel: 6
+[     4.424] 	BankSize: 0
+[     4.424] 	NumberOfImages: 0
+[     4.424] 	RedMaskSize: 5
+[     4.424] 	RedFieldPosition: 11
+[     4.424] 	GreenMaskSize: 6
+[     4.424] 	GreenFieldPosition: 5
+[     4.424] 	BlueMaskSize: 5
+[     4.424] 	BlueFieldPosition: 0
+[     4.424] 	RsvdMaskSize: 0
+[     4.424] 	RsvdFieldPosition: 0
+[     4.424] 	DirectColorModeInfo: 2
+[     4.424] 	PhysBasePtr: 0xb0000000
+[     4.424] 	LinBytesPerScanLine: 1440
+[     4.424] 	BnkNumberOfImagePages: 0
+[     4.424] 	LinNumberOfImagePages: 0
+[     4.424] 	LinRedMaskSize: 5
+[     4.424] 	LinRedFieldPosition: 11
+[     4.424] 	LinGreenMaskSize: 6
+[     4.424] 	LinGreenFieldPosition: 5
+[     4.424] 	LinBlueMaskSize: 5
+[     4.424] 	LinBlueFieldPosition: 0
+[     4.424] 	LinRsvdMaskSize: 0
+[     4.424] 	LinRsvdFieldPosition: 0
+[     4.424] 	MaxPixelClock: 250000000
+[     4.424] *Mode: 175 (720x480)
+[     4.424] 	ModeAttributes: 0xbb
+[     4.424] 	WinAAttributes: 0x7
+[     4.424] 	WinBAttributes: 0x0
+[     4.424] 	WinGranularity: 64
+[     4.424] 	WinSize: 64
+[     4.424] 	WinASegment: 0xa000
+[     4.424] 	WinBSegment: 0x0
+[     4.424] 	WinFuncPtr: 0x0
+[     4.424] 	BytesPerScanline: 2880
+[     4.424] 	XResolution: 720
+[     4.424] 	YResolution: 480
+[     4.424] 	XCharSize: 0
+[     4.424] 	YCharSize: 0
+[     4.424] 	NumberOfPlanes: 1
+[     4.424] 	BitsPerPixel: 32
+[     4.424] 	NumberOfBanks: 1
+[     4.424] 	MemoryModel: 6
+[     4.424] 	BankSize: 0
+[     4.424] 	NumberOfImages: 0
+[     4.424] 	RedMaskSize: 8
+[     4.424] 	RedFieldPosition: 16
+[     4.424] 	GreenMaskSize: 8
+[     4.424] 	GreenFieldPosition: 8
+[     4.424] 	BlueMaskSize: 8
+[     4.424] 	BlueFieldPosition: 0
+[     4.424] 	RsvdMaskSize: 8
+[     4.424] 	RsvdFieldPosition: 24
+[     4.424] 	DirectColorModeInfo: 2
+[     4.424] 	PhysBasePtr: 0xb0000000
+[     4.424] 	LinBytesPerScanLine: 2880
+[     4.424] 	BnkNumberOfImagePages: 0
+[     4.424] 	LinNumberOfImagePages: 0
+[     4.424] 	LinRedMaskSize: 8
+[     4.424] 	LinRedFieldPosition: 16
+[     4.424] 	LinGreenMaskSize: 8
+[     4.424] 	LinGreenFieldPosition: 8
+[     4.424] 	LinBlueMaskSize: 8
+[     4.424] 	LinBlueFieldPosition: 0
+[     4.424] 	LinRsvdMaskSize: 8
+[     4.424] 	LinRsvdFieldPosition: 24
+[     4.424] 	MaxPixelClock: 250000000
+[     4.424] Mode: 176 (720x576)
+[     4.424] 	ModeAttributes: 0xbb
+[     4.424] 	WinAAttributes: 0x7
+[     4.424] 	WinBAttributes: 0x0
+[     4.424] 	WinGranularity: 64
+[     4.424] 	WinSize: 64
+[     4.424] 	WinASegment: 0xa000
+[     4.424] 	WinBSegment: 0x0
+[     4.424] 	WinFuncPtr: 0x0
+[     4.424] 	BytesPerScanline: 1440
+[     4.424] 	XResolution: 720
+[     4.424] 	YResolution: 576
+[     4.424] 	XCharSize: 0
+[     4.424] 	YCharSize: 0
+[     4.424] 	NumberOfPlanes: 1
+[     4.424] 	BitsPerPixel: 16
+[     4.424] 	NumberOfBanks: 1
+[     4.424] 	MemoryModel: 6
+[     4.424] 	BankSize: 0
+[     4.424] 	NumberOfImages: 0
+[     4.424] 	RedMaskSize: 5
+[     4.424] 	RedFieldPosition: 11
+[     4.424] 	GreenMaskSize: 6
+[     4.424] 	GreenFieldPosition: 5
+[     4.424] 	BlueMaskSize: 5
+[     4.424] 	BlueFieldPosition: 0
+[     4.424] 	RsvdMaskSize: 0
+[     4.424] 	RsvdFieldPosition: 0
+[     4.424] 	DirectColorModeInfo: 2
+[     4.424] 	PhysBasePtr: 0xb0000000
+[     4.424] 	LinBytesPerScanLine: 1440
+[     4.424] 	BnkNumberOfImagePages: 0
+[     4.425] 	LinNumberOfImagePages: 0
+[     4.425] 	LinRedMaskSize: 5
+[     4.425] 	LinRedFieldPosition: 11
+[     4.425] 	LinGreenMaskSize: 6
+[     4.425] 	LinGreenFieldPosition: 5
+[     4.425] 	LinBlueMaskSize: 5
+[     4.425] 	LinBlueFieldPosition: 0
+[     4.425] 	LinRsvdMaskSize: 0
+[     4.425] 	LinRsvdFieldPosition: 0
+[     4.425] 	MaxPixelClock: 250000000
+[     4.425] *Mode: 177 (720x576)
+[     4.425] 	ModeAttributes: 0xbb
+[     4.425] 	WinAAttributes: 0x7
+[     4.425] 	WinBAttributes: 0x0
+[     4.425] 	WinGranularity: 64
+[     4.425] 	WinSize: 64
+[     4.425] 	WinASegment: 0xa000
+[     4.425] 	WinBSegment: 0x0
+[     4.425] 	WinFuncPtr: 0x0
+[     4.425] 	BytesPerScanline: 2880
+[     4.425] 	XResolution: 720
+[     4.425] 	YResolution: 576
+[     4.425] 	XCharSize: 0
+[     4.425] 	YCharSize: 0
+[     4.425] 	NumberOfPlanes: 1
+[     4.425] 	BitsPerPixel: 32
+[     4.425] 	NumberOfBanks: 1
+[     4.425] 	MemoryModel: 6
+[     4.425] 	BankSize: 0
+[     4.425] 	NumberOfImages: 0
+[     4.425] 	RedMaskSize: 8
+[     4.425] 	RedFieldPosition: 16
+[     4.425] 	GreenMaskSize: 8
+[     4.425] 	GreenFieldPosition: 8
+[     4.425] 	BlueMaskSize: 8
+[     4.425] 	BlueFieldPosition: 0
+[     4.425] 	RsvdMaskSize: 8
+[     4.425] 	RsvdFieldPosition: 24
+[     4.425] 	DirectColorModeInfo: 2
+[     4.425] 	PhysBasePtr: 0xb0000000
+[     4.425] 	LinBytesPerScanLine: 2880
+[     4.425] 	BnkNumberOfImagePages: 0
+[     4.425] 	LinNumberOfImagePages: 0
+[     4.425] 	LinRedMaskSize: 8
+[     4.425] 	LinRedFieldPosition: 16
+[     4.425] 	LinGreenMaskSize: 8
+[     4.425] 	LinGreenFieldPosition: 8
+[     4.425] 	LinBlueMaskSize: 8
+[     4.425] 	LinBlueFieldPosition: 0
+[     4.425] 	LinRsvdMaskSize: 8
+[     4.425] 	LinRsvdFieldPosition: 24
+[     4.425] 	MaxPixelClock: 250000000
+[     4.425] Mode: 178 (1366x768)
+[     4.425] 	ModeAttributes: 0xbb
+[     4.425] 	WinAAttributes: 0x7
+[     4.425] 	WinBAttributes: 0x0
+[     4.425] 	WinGranularity: 64
+[     4.425] 	WinSize: 64
+[     4.425] 	WinASegment: 0xa000
+[     4.425] 	WinBSegment: 0x0
+[     4.425] 	WinFuncPtr: 0x0
+[     4.425] 	BytesPerScanline: 2732
+[     4.425] 	XResolution: 1366
+[     4.425] 	YResolution: 768
+[     4.425] 	XCharSize: 0
+[     4.425] 	YCharSize: 0
+[     4.425] 	NumberOfPlanes: 1
+[     4.425] 	BitsPerPixel: 16
+[     4.425] 	NumberOfBanks: 1
+[     4.425] 	MemoryModel: 6
+[     4.425] 	BankSize: 0
+[     4.425] 	NumberOfImages: 0
+[     4.425] 	RedMaskSize: 5
+[     4.425] 	RedFieldPosition: 11
+[     4.425] 	GreenMaskSize: 6
+[     4.425] 	GreenFieldPosition: 5
+[     4.425] 	BlueMaskSize: 5
+[     4.425] 	BlueFieldPosition: 0
+[     4.425] 	RsvdMaskSize: 0
+[     4.425] 	RsvdFieldPosition: 0
+[     4.425] 	DirectColorModeInfo: 2
+[     4.425] 	PhysBasePtr: 0xb0000000
+[     4.425] 	LinBytesPerScanLine: 2732
+[     4.425] 	BnkNumberOfImagePages: 0
+[     4.425] 	LinNumberOfImagePages: 0
+[     4.425] 	LinRedMaskSize: 5
+[     4.425] 	LinRedFieldPosition: 11
+[     4.425] 	LinGreenMaskSize: 6
+[     4.425] 	LinGreenFieldPosition: 5
+[     4.425] 	LinBlueMaskSize: 5
+[     4.425] 	LinBlueFieldPosition: 0
+[     4.425] 	LinRsvdMaskSize: 0
+[     4.425] 	LinRsvdFieldPosition: 0
+[     4.425] 	MaxPixelClock: 250000000
+[     4.425] *Mode: 179 (1366x768)
+[     4.425] 	ModeAttributes: 0xbb
+[     4.425] 	WinAAttributes: 0x7
+[     4.425] 	WinBAttributes: 0x0
+[     4.425] 	WinGranularity: 64
+[     4.425] 	WinSize: 64
+[     4.425] 	WinASegment: 0xa000
+[     4.425] 	WinBSegment: 0x0
+[     4.425] 	WinFuncPtr: 0x0
+[     4.425] 	BytesPerScanline: 5464
+[     4.425] 	XResolution: 1366
+[     4.425] 	YResolution: 768
+[     4.425] 	XCharSize: 0
+[     4.425] 	YCharSize: 0
+[     4.425] 	NumberOfPlanes: 1
+[     4.425] 	BitsPerPixel: 32
+[     4.425] 	NumberOfBanks: 1
+[     4.425] 	MemoryModel: 6
+[     4.425] 	BankSize: 0
+[     4.425] 	NumberOfImages: 0
+[     4.425] 	RedMaskSize: 8
+[     4.425] 	RedFieldPosition: 16
+[     4.425] 	GreenMaskSize: 8
+[     4.425] 	GreenFieldPosition: 8
+[     4.425] 	BlueMaskSize: 8
+[     4.425] 	BlueFieldPosition: 0
+[     4.425] 	RsvdMaskSize: 8
+[     4.425] 	RsvdFieldPosition: 24
+[     4.425] 	DirectColorModeInfo: 2
+[     4.425] 	PhysBasePtr: 0xb0000000
+[     4.425] 	LinBytesPerScanLine: 5464
+[     4.425] 	BnkNumberOfImagePages: 0
+[     4.425] 	LinNumberOfImagePages: 0
+[     4.425] 	LinRedMaskSize: 8
+[     4.425] 	LinRedFieldPosition: 16
+[     4.425] 	LinGreenMaskSize: 8
+[     4.425] 	LinGreenFieldPosition: 8
+[     4.425] 	LinBlueMaskSize: 8
+[     4.425] 	LinBlueFieldPosition: 0
+[     4.425] 	LinRsvdMaskSize: 8
+[     4.425] 	LinRsvdFieldPosition: 24
+[     4.425] 	MaxPixelClock: 250000000
+[     4.425] 
+[     4.425] (II) VESA(0): Total Memory: 512 64KB banks (32768kB)
+[     4.426] (II) VESA(0): <default monitor>: Using hsync range of 0.00-250.00 kHz
+[     4.426] (II) VESA(0): <default monitor>: Using vrefresh range of 56.00-64.00 Hz
+[     4.426] (II) VESA(0): <default monitor>: Using maximum pixel clock of 255.00 MHz
+[     4.426] (WW) VESA(0): Unable to estimate virtual size
+[     4.426] (II) VESA(0): Not using built-in mode "2560x1600" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "2560x1440" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "2048x1536" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "1920x1440" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "2048x1152" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "1920x1080" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "1600x1000" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "1600x900" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "1344x1008" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "1344x840" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "1366x768" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "1360x768" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "1344x756" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "1280x720" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "1024x640" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "1024x576" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "960x600" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "720x576" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "848x480" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "800x500" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "720x480" (no mode of this name)
+[     4.426] (II) VESA(0): Not using built-in mode "640x400" (no mode of this name)
+[     4.426] (--) VESA(0): Virtual size is 1920x1200 (pitch 1920)
+[     4.426] (**) VESA(0): *Built-in mode "1920x1200"
+[     4.426] (**) VESA(0): *Built-in mode "1600x1200"
+[     4.426] (**) VESA(0): *Built-in mode "1680x1050"
+[     4.426] (**) VESA(0): *Built-in mode "1400x1050"
+[     4.426] (**) VESA(0): *Built-in mode "1280x1024"
+[     4.426] (**) VESA(0): *Built-in mode "1440x900"
+[     4.426] (**) VESA(0): *Built-in mode "1280x960"
+[     4.426] (**) VESA(0): *Built-in mode "1280x800"
+[     4.426] (**) VESA(0): *Built-in mode "1024x768"
+[     4.426] (**) VESA(0): *Built-in mode "800x600"
+[     4.427] (**) VESA(0): *Built-in mode "640x480"
+[     4.427] (==) VESA(0): DPI set to (96, 96)
+[     4.427] (**) VESA(0): Using "Shadow Framebuffer"
+[     4.427] (II) Loading sub module "shadow"
+[     4.427] (II) LoadModule: "shadow"
+[     4.427] (II) Loading /usr/lib/xorg/modules/libshadow.so
+[     4.428] (II) Module shadow: vendor="X.Org Foundation"
+[     4.428] 	compiled for 1.13.3, module version = 1.1.0
+[     4.428] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[     4.428] (II) Loading sub module "fb"
+[     4.428] (II) LoadModule: "fb"
+[     4.429] (II) Loading /usr/lib/xorg/modules/libfb.so
+[     4.432] (II) Module fb: vendor="X.Org Foundation"
+[     4.432] 	compiled for 1.13.3, module version = 1.0.0
+[     4.432] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[     4.432] (II) UnloadModule: "modesetting"
+[     4.432] (II) Unloading modesetting
+[     4.432] (II) UnloadModule: "fbdev"
+[     4.432] (II) Unloading fbdev
+[     4.432] (II) UnloadSubModule: "fbdevhw"
+[     4.432] (II) Unloading fbdevhw
+[     4.432] (==) Depth 24 pixmap format is 32 bpp
+[     4.432] (II) Loading sub module "int10"
+[     4.432] (II) LoadModule: "int10"
+[     4.432] (II) Loading /usr/lib/xorg/modules/libint10.so
+[     4.432] (II) Module int10: vendor="X.Org Foundation"
+[     4.432] 	compiled for 1.13.3, module version = 1.0.0
+[     4.432] 	ABI class: X.Org Video Driver, version 13.1
+[     4.432] (II) VESA(0): initializing int10
+[     4.432] (II) VESA(0): Primary V_BIOS segment is: 0xc000
+[     4.433] (II) VESA(0): VESA BIOS detected
+[     4.433] (II) VESA(0): VESA VBE Version 3.0
+[     4.433] (II) VESA(0): VESA VBE Total Mem: 32768 kB
+[     4.433] (II) VESA(0): VESA VBE OEM: Parallels(R) VESA BIOS Version 3.0.2111.89721
+[     4.433] (II) VESA(0): VESA VBE OEM Software Rev: 3.0
+[     4.433] (II) VESA(0): VESA VBE OEM Vendor: Parallels Software International, Inc.
+[     4.433] (II) VESA(0): VESA VBE OEM Product: Parallels Video Adapter
+[     4.433] (II) VESA(0): VESA VBE OEM Product Rev: 3.0.2111.89721
+[     4.433] (II) VESA(0): virtual address = 0x7fd1e9211000,
+	physical address = 0xb0000000, size = 33554432
+[     4.434] (II) VESA(0): Setting up VESA Mode 0x14B (1920x1200)
+[     4.440] (==) VESA(0): Default visual is TrueColor
+[     4.441] (==) VESA(0): Backing store disabled
+[     4.442] (==) VESA(0): DPMS enabled
+[     4.442] (==) RandR enabled
+[     4.446] (II) SELinux: Disabled on system
+[     4.447] (II) AIGLX: Screen 0 is not DRI2 capable
+[     4.447] (II) AIGLX: Screen 0 is not DRI capable
+[     4.509] (II) AIGLX: Loaded and initialized swrast
+[     4.509] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[     4.549] (II) XKB: reuse xkmfile /var/lib/xkb/server-B20D7FC79C7F597315E3E501AEF10E0D866E8E92.xkm
+[     4.554] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[     4.554] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[     4.554] (II) LoadModule: "evdev"
+[     4.554] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[     4.556] (II) Module evdev: vendor="X.Org Foundation"
+[     4.556] 	compiled for 1.13.3, module version = 2.7.3
+[     4.556] 	Module class: X.Org XInput Driver
+[     4.556] 	ABI class: X.Org XInput driver, version 18.0
+[     4.556] (II) Using input driver 'evdev' for 'Power Button'
+[     4.556] (**) Power Button: always reports core events
+[     4.556] (**) evdev: Power Button: Device: "/dev/input/event0"
+[     4.556] (--) evdev: Power Button: Vendor 0 Product 0x1
+[     4.556] (--) evdev: Power Button: Found keys
+[     4.556] (II) evdev: Power Button: Configuring as keyboard
+[     4.556] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0"
+[     4.556] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[     4.556] (**) Option "xkb_rules" "evdev"
+[     4.556] (**) Option "xkb_model" "pc105"
+[     4.556] (**) Option "xkb_layout" "us"
+[     4.557] (II) config/udev: Adding input device Sleep Button (/dev/input/event1)
+[     4.557] (**) Sleep Button: Applying InputClass "evdev keyboard catchall"
+[     4.557] (II) Using input driver 'evdev' for 'Sleep Button'
+[     4.557] (**) Sleep Button: always reports core events
+[     4.557] (**) evdev: Sleep Button: Device: "/dev/input/event1"
+[     4.557] (--) evdev: Sleep Button: Vendor 0 Product 0x3
+[     4.557] (--) evdev: Sleep Button: Found keys
+[     4.557] (II) evdev: Sleep Button: Configuring as keyboard
+[     4.557] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSLPBN:00/input/input1/event1"
+[     4.557] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 7)
+[     4.557] (**) Option "xkb_rules" "evdev"
+[     4.557] (**) Option "xkb_model" "pc105"
+[     4.557] (**) Option "xkb_layout" "us"
+[     4.557] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+[     4.557] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[     4.557] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[     4.557] (**) AT Translated Set 2 keyboard: always reports core events
+[     4.558] (**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event2"
+[     4.558] (--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+[     4.558] (--) evdev: AT Translated Set 2 keyboard: Found keys
+[     4.558] (II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[     4.558] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input2/event2"
+[     4.558] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 8)
+[     4.558] (**) Option "xkb_rules" "evdev"
+[     4.558] (**) Option "xkb_model" "pc105"
+[     4.558] (**) Option "xkb_layout" "us"
+[     4.659] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+[     4.660] (II) No input driver specified, ignoring this device.
+[     4.660] (II) This device may have been added with another device file.
+[     4.661] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event3)
+[     4.661] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "evdev pointer catchall"
+[     4.661] (II) Using input driver 'evdev' for 'ImExPS/2 Generic Explorer Mouse'
+[     4.661] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[     4.661] (**) evdev: ImExPS/2 Generic Explorer Mouse: Device: "/dev/input/event3"
+[     4.661] (--) evdev: ImExPS/2 Generic Explorer Mouse: Vendor 0x2 Product 0x6
+[     4.661] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found 9 mouse buttons
+[     4.661] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found scroll wheel(s)
+[     4.661] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found relative axes
+[     4.661] (--) evdev: ImExPS/2 Generic Explorer Mouse: Found x and y relative axes
+[     4.661] (II) evdev: ImExPS/2 Generic Explorer Mouse: Configuring as mouse
+[     4.661] (II) evdev: ImExPS/2 Generic Explorer Mouse: Adding scrollwheel support
+[     4.661] (**) evdev: ImExPS/2 Generic Explorer Mouse: YAxisMapping: buttons 4 and 5
+[     4.661] (**) evdev: ImExPS/2 Generic Explorer Mouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[     4.661] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event3"
+[     4.661] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 9)
+[     4.661] (II) evdev: ImExPS/2 Generic Explorer Mouse: initialized for relative axes.
+[     4.661] (**) ImExPS/2 Generic Explorer Mouse: (accel) keeping acceleration scheme 1
+[     4.661] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration profile 0
+[     4.661] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[     4.661] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[     7.047] (II) XKB: reuse xkmfile /var/lib/xkb/server-8C3648A5FD728529D869F46730BE1BC287DB231C.xkm

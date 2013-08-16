@@ -1,0 +1,13 @@
+localhost - - [11/Jul/2013:09:52:02 -0400] "POST / HTTP/1.1" 200 176 Create-Printer-Subscription successful-ok
+localhost - - [11/Jul/2013:10:06:02 -0400] "POST / HTTP/1.1" 401 186 Renew-Subscription successful-ok
+localhost - fstakem [11/Jul/2013:10:06:02 -0400] "POST / HTTP/1.1" 200 186 Renew-Subscription successful-ok
+localhost - fstakem [11/Jul/2013:10:25:56 -0400] "POST / HTTP/1.1" 200 186 Renew-Subscription client-error-not-found
+localhost - fstakem [11/Jul/2013:10:25:56 -0400] "POST / HTTP/1.1" 200 176 Create-Printer-Subscription successful-ok
+localhost - fstakem [11/Jul/2013:11:14:32 -0400] "POST / HTTP/1.1" 200 186 Renew-Subscription client-error-not-found
+localhost - fstakem [11/Jul/2013:11:14:32 -0400] "POST / HTTP/1.1" 200 176 Create-Printer-Subscription successful-ok
+localhost - fstakem [11/Jul/2013:11:28:32 -0400] "POST / HTTP/1.1" 200 186 Renew-Subscription successful-ok
+localhost - - [11/Jul/2013:11:36:28 -0400] "POST / HTTP/1.1" 200 4684801 CUPS-Get-PPDs -
+localhost - - [11/Jul/2013:11:38:00 -0400] "POST / HTTP/1.1" 200 176 Create-Printer-Subscription successful-ok
+localhost - - [11/Jul/2013:11:51:59 -0400] "POST / HTTP/1.1" 401 186 Renew-Subscription successful-ok
+localhost - fstakem [11/Jul/2013:11:51:59 -0400] "POST / HTTP/1.1" 200 186 Renew-Subscription successful-ok
+localhost - fstakem [11/Jul/2013:12:05:59 -0400] "POST / HTTP/1.1" 200 186 Renew-Subscription successful-ok
