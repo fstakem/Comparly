@@ -14,9 +14,11 @@ from datetime import datetime
 # User defined
 from Globals import *
 from Utilities import *
-from Main import Field
-from Main import Event
-from Main import UnorderedDiff
+
+from Corely import Field
+from Corely import Event
+
+from Comparly import UnorderedDiff
 
 #Main
 class UnorderedDiffTest(unittest.TestCase):

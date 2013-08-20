@@ -8,12 +8,13 @@
 
 
 # Libs
-from Globals import *
+# None
 
 # User defined
+from Globals import *
 from Utilities import *
-from EventMatch import EventMatch
-from Field import Field
+from Corely import EventMatch
+from Corely import Field
 
 # Main
 class UnorderedDiff(object):
