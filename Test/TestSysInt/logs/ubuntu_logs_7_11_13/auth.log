@@ -1,0 +1,69 @@
+Jul 11 09:51:56 ubuntu lightdm: pam_unix(lightdm-autologin:session): session opened for user fstakem by (uid=0)
+Jul 11 09:51:56 ubuntu lightdm: pam_ck_connector(lightdm-autologin:session): nox11 mode, ignoring PAM_TTY :0
+Jul 11 09:51:58 ubuntu dbus[501]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.31" (uid=0 pid=1566 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=887 comm="NetworkManager ")
+Jul 11 09:51:58 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session1 (system bus name :1.34 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 11 09:52:02 ubuntu dbus[501]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.41" (uid=1000 pid=1995 comm="/usr/lib/indicator-session/indicator-session-servi") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.15" (uid=0 pid=1225 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Jul 11 09:52:02  dbus[501]: last message repeated 5 times
+Jul 11 09:52:02 ubuntu dbus[501]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.44" (uid=1000 pid=1989 comm="/usr/lib/x86_64-linux-gnu/indicator-datetime-servi") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.15" (uid=0 pid=1225 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Jul 11 09:53:03 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 11 09:53:03 ubuntu pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 11 09:53:03 ubuntu pkexec[2273]: fstakem: Executing command [USER=root] [TTY=unknown] [CWD=/home/fstakem] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 11 10:00:22 ubuntu pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jul 11 10:00:22 ubuntu pkexec: pam_ck_connector(polkit-1:session): cannot determine display-device
+Jul 11 10:00:22 ubuntu pkexec[2508]: fstakem: Executing command [USER=root] [TTY=unknown] [CWD=/home/fstakem] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jul 11 10:00:44 ubuntu gnome-keyring-daemon[1421]: keyring alias directory: /home/fstakem/.local/share/keyrings
+Jul 11 10:06:49 ubuntu dbus[501]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.31" (uid=0 pid=1566 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=887 comm="NetworkManager ")
+Jul 11 10:06:57 ubuntu dbus[501]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.31" (uid=0 pid=1566 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=887 comm="NetworkManager ")
+Jul 11 10:17:01 ubuntu CRON[2843]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 11 10:17:01 ubuntu CRON[2843]: pam_unix(cron:session): session closed for user root
+Jul 11 10:25:15 ubuntu gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Jul 11 10:37:55 ubuntu dbus[501]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.31" (uid=0 pid=1566 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=887 comm="NetworkManager ")
+Jul 11 10:38:30 ubuntu dbus[501]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.31" (uid=0 pid=1566 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.6" (uid=0 pid=887 comm="NetworkManager ")
+Jul 11 11:13:21 ubuntu gnome-keyring-daemon[1421]: couldn't initialize slot with master password: The password or PIN is incorrect
+Jul 11 11:13:21 ubuntu gnome-screensaver-dialog: gkr-pam: unlocked login keyring
+Jul 11 11:17:01 ubuntu CRON[3055]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 11 11:17:01 ubuntu CRON[3055]: pam_unix(cron:session): session closed for user root
+Jul 11 11:21:45 ubuntu sudo:  fstakem : TTY=pts/2 ; PWD=/home/fstakem ; USER=root ; COMMAND=/usr/bin/apt-get install chkconfig
+Jul 11 11:21:45 ubuntu sudo: pam_unix(sudo:session): session opened for user root by fstakem(uid=0)
+Jul 11 11:21:46 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 11 11:22:58 ubuntu polkitd(authority=local): Operator of unix-session:/org/freedesktop/ConsoleKit/Session1 successfully authenticated as unix-user:fstakem to gain TEMPORARY authorization for action org.debian.apt.install-or-remove-packages for system-bus-name::1.51 [/usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map] (owned by unix-user:fstakem)
+Jul 11 11:29:37 ubuntu sudo:  fstakem : TTY=pts/2 ; PWD=/home/fstakem ; USER=root ; COMMAND=/sbin/initctl list
+Jul 11 11:29:37 ubuntu sudo: pam_unix(sudo:session): session opened for user root by fstakem(uid=0)
+Jul 11 11:29:37 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 11 11:29:48 ubuntu sudo:  fstakem : TTY=pts/2 ; PWD=/home/fstakem ; USER=root ; COMMAND=/sbin/initctl list
+Jul 11 11:29:48 ubuntu sudo: pam_unix(sudo:session): session opened for user root by fstakem(uid=0)
+Jul 11 11:29:48 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 11 11:30:03 ubuntu sudo:  fstakem : TTY=pts/2 ; PWD=/home/fstakem ; USER=root ; COMMAND=/usr/bin/apt-get install ssh
+Jul 11 11:30:03 ubuntu sudo: pam_unix(sudo:session): session opened for user root by fstakem(uid=0)
+Jul 11 11:30:03 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 11 11:37:34 ubuntu polkitd(authority=local): Unregistered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session1 (system bus name :1.34, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Jul 11 11:37:56 ubuntu lightdm: pam_unix(lightdm-autologin:session): session opened for user fstakem by (uid=0)
+Jul 11 11:37:56 ubuntu lightdm: pam_ck_connector(lightdm-autologin:session): nox11 mode, ignoring PAM_TTY :0
+Jul 11 11:37:57 ubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:/org/freedesktop/ConsoleKit/Session1 (system bus name :1.34 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 11 11:37:58 ubuntu dbus[543]: [system] Rejected send message, 7 matched rules; type="method_return", sender=":1.36" (uid=0 pid=1613 comm="/usr/sbin/dnsmasq --no-resolv --keep-in-foreground") interface="(unset)" member="(unset)" error name="(unset)" requested_reply="0" destination=":1.7" (uid=0 pid=891 comm="NetworkManager ")
+Jul 11 11:38:00 ubuntu dbus[543]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.42" (uid=1000 pid=1819 comm="/usr/lib/indicator-session/indicator-session-servi") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.16" (uid=0 pid=1235 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Jul 11 11:38:01  dbus[543]: last message repeated 5 times
+Jul 11 11:38:01 ubuntu dbus[543]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.45" (uid=1000 pid=1816 comm="/usr/lib/x86_64-linux-gnu/indicator-datetime-servi") interface="org.freedesktop.DBus.Properties" member="GetAll" error name="(unset)" requested_reply="0" destination=":1.16" (uid=0 pid=1235 comm="/usr/sbin/console-kit-daemon --no-daemon ")
+Jul 11 11:40:25 ubuntu sudo:  fstakem : TTY=pts/2 ; PWD=/home/fstakem ; USER=root ; COMMAND=/usr/bin/apt-get install ssh
+Jul 11 11:40:25 ubuntu sudo: pam_unix(sudo:session): session opened for user root by fstakem(uid=0)
+Jul 11 11:41:02 ubuntu useradd[2717]: new user: name=sshd, UID=116, GID=65534, home=/var/run/sshd, shell=/usr/sbin/nologin
+Jul 11 11:41:02 ubuntu usermod[2722]: change user 'sshd' password
+Jul 11 11:41:02 ubuntu chage[2727]: changed password expiry for sshd
+Jul 11 11:41:02 ubuntu sshd[2738]: Server listening on 0.0.0.0 port 22.
+Jul 11 11:41:02 ubuntu sshd[2738]: Server listening on :: port 22.
+Jul 11 11:41:06 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 11 11:41:33 ubuntu gnome-keyring-daemon[1388]: keyring alias directory: /home/fstakem/.local/share/keyrings
+Jul 11 11:41:45 ubuntu sudo:  fstakem : TTY=pts/2 ; PWD=/home/fstakem ; USER=root ; COMMAND=/usr/bin/apt-get install ftp
+Jul 11 11:41:45 ubuntu sudo: pam_unix(sudo:session): session opened for user root by fstakem(uid=0)
+Jul 11 11:41:46 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 11 11:42:26 ubuntu sudo:  fstakem : TTY=pts/2 ; PWD=/home/fstakem ; USER=root ; COMMAND=/sbin/initctl list
+Jul 11 11:42:26 ubuntu sudo: pam_unix(sudo:session): session opened for user root by fstakem(uid=0)
+Jul 11 11:42:26 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Jul 11 11:43:11 ubuntu sshd[2811]: Accepted password for fstakem from 10.211.55.2 port 49661 ssh2
+Jul 11 11:43:11 ubuntu sshd[2811]: pam_unix(sshd:session): session opened for user fstakem by (uid=0)
+Jul 11 11:57:07 ubuntu sshd[3032]: Accepted password for fstakem from 10.211.55.2 port 50042 ssh2
+Jul 11 11:57:07 ubuntu sshd[3032]: pam_unix(sshd:session): session opened for user fstakem by (uid=0)
+Jul 11 11:57:07 ubuntu sshd[3147]: Received disconnect from 10.211.55.2: 11: disconnected by user
+Jul 11 11:57:07 ubuntu sshd[3032]: pam_unix(sshd:session): session closed for user fstakem
+Jul 11 11:58:26 ubuntu sshd[3153]: Accepted password for fstakem from 10.211.55.2 port 50051 ssh2
+Jul 11 11:58:26 ubuntu sshd[3153]: pam_unix(sshd:session): session opened for user fstakem by (uid=0)
